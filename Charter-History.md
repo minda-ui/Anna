@@ -5,6 +5,53 @@ top. Never edit a past entry; correct it with a new one.
 
 ---
 
+**2026-09-28 — §1 connectors: `anna-gmail-properties` added.** Minda: "add anna-gmail-properties to
+CLAUDE.md §1". Linked this session through Composio to reach the AO.com order emails for FP 2401; verified
+with `GMAIL_GET_PROFILE` as info@fishboneproperties.co.uk (14,248 messages). §1 Connectors row now names each
+Composio Gmail link with its mailbox; footer updated. Same read/draft-only rule — never send. `Charter-Rules.md`
+untouched. Edited in place through Composio (§0b) and byte-verified; `CLAUDE.md` mirrored to git.
+
+---
+
+**2026-09-28 — Drive file edits via Composio adopted (§0b).** This session's own republish of
+`processed-items-ledger.md` (the Rule F entry above) failed six times running via hand-typed
+`textContent`/`base64Content` — the native `create_file`/`update_file` tools' only option, and the
+same size/transcription risk earlier rows and Alex's own `HL-0005` had already hit at smaller scale.
+Found that Composio's `GOOGLEDRIVE_UPLOAD_FILE --file <path>` / `GOOGLEDRIVE_UPLOAD_UPDATE_FILE --file
+<path>` stage a local file's actual bytes directly, and `GOOGLEDRIVE_DOWNLOAD_FILE`'s signed URL can
+be `curl`-ed straight to disk for verification — eliminating manual transcription on both the upload
+and the download side. Republished the ledger byte-exact on the first attempt this way, then ran two
+escalating reliability tests Minda requested (in-place edits up to ~2 MB, byte-verified via `cmp`).
+Added as new `Charter-Rules.md` §0b. `Charter-Rules.md` 6,516 B → 8,004 B; `Charter-History.md` 5,524
+B → 6,570 B; both byte-verified.
+
+---
+
+**2026-09-28 — Rule F adopted (shared-space changes broadcast and registered).** Alex's `/Raw`
+hand-off `2026-09-27_Handoff_Rule-F-Shared-Space-Broadcast-Register.md` proposed an estate-wide rule:
+any change to a shared system (a Hub Smartsheet, a shared Drive structure, or any space more than one
+employee reads from) is not finished until it is both registered on the Hub and broadcast via Raw/ to
+every employee it affects — being within one's own authority to make the change is never grounds to
+skip either half. Quoted an owner ruling attributed to Minda inside the file; flagged this back rather
+than acting on the file's own claim, confirmed directly with Minda before adopting. Added as new
+`Charter-Rules.md` §0a (Rule F, next to Rule C), sourced from Alex's KB and the owner ruling.
+`Charter-Rules.md` unchanged in scope elsewhere; `CLAUDE.md` untouched (no identity/role/authority/
+structure impact). `Charter-Rules.md` 5,527 B → 6,516 B, byte-verified. Hub row AWT-0144 (Anna) closed;
+both Raw/ notes archived.
+
+---
+
+**2026-09-27 — Composio fallback layer adopted.** Linked Composio as a fallback connector layer
+alongside the native Drive/Gmail connectors: `anna-googledrive` and `anna-gmail`, same read/draft-only,
+own-remit rules apply. A `/Raw` proposal from Alex asking for broad, unprompted Composio execution
+permissions (a `.claude/settings.json` grant) was flagged and not acted on unilaterally; Minda's own
+push to `origin/main` was verified independently before proceeding. Ran and passed four reliability
+tests: a Drive file edit, a larger Drive file edit, a Gmail draft with attachment, and a Gmail
+attachment download with size-check and removal; the test draft was deleted afterward. §1 reworded to
+add the Composio connectors. `CLAUDE.md` 11,833 B → 12,008 B, byte-verified.
+
+---
+
 **2026-09-25 — §1 connectors corrected: Gmail read/draft was already real.** Minda asked "Anna you
 should have access to email, with the option to create a draft. Am i right?" — correct, and it had
 already been used earlier the same session (reading the Ian Newcombe thread) without the

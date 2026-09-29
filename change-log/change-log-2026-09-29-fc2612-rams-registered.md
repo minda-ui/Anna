@@ -2,6 +2,10 @@
 
 Newest notes at the top. Append-only.
 
+## 17:45 — FC0000044 Rev 1 issued; PR #8 merged
+- Minda sent Rev 1 to Michelle only at 17:38. FC0000044 → Issued; Hub AWT-0209 updated; addendum to Rachel and Peter.
+- minda-ui/Anna#8 merged; main byte-identical to Drive. Ledger row 70.
+
 ## 17:40 — FC0000044 Rev 1; draft to Michelle only
 - Minda: register Rev 1 under FC0000044; send the update to Michelle only.
 - Rev 1 footer now `FC0000044 Rev 1`; filed and source copies updated in place (byte-verified). Rev 0 kept, renamed `(superseded by Rev 1)`.

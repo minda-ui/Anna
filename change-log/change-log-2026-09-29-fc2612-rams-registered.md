@@ -2,6 +2,13 @@
 
 Newest notes at the top. Append-only.
 
+## 16:50 — Afternoon email check; project drawings rule (§0d)
+- Email: six new Macdonald / Bullring emails (copies in info@ and ops@). **Correction:** I first told Minda ops@ had nothing today — Composio had stored the result in a file and I read the empty wrapper. Same emails as info@; nothing extra.
+- FC2612: new Merry Hill permit **#694111** replaces #693953; may need fire-system isolation; call Control Room 01384 487952 before dusty work. RAMS FC0000044 and the site checklist still cite the old number — for Minda.
+- FC2611: MJL steel drawing Rev A (fabricator pricing, not an engineer's design — §3); delivery Mon 5 Oct 20:00; deliveries via Michelle, 2 days' notice; waste via Nationwide Services Group.
+- **New rule §0d** (Minda): drawings into `Drawings/` per project, `Archive/` inside, superseded revisions moved there. Charter-Rules + Charter-History, byte-verified.
+- Applied: FC2611 `Drawings/` (4 drawings), FC2612 `Drawings/` (1). Rule F: Hub AWT-0207; notes to Victoria and Peter. Ledger row 65.
+
 ## Later — Operative Competence Register created (09:50–09:56 UTC)
 - Minda asked for a Smartsheet register and a Drive folder for CSCS cards and similar. Choices asked first: restricted folder in minda@'s own Drive (not Collaboration Space `FC Personnel` — AQ-11 share list); Fishbone Construction Ltd workspace; operatives and subcontractors; all four document types.
 - Drive `FC Operative Competence` (minda@ only, checked) with subfolders for operatives, subcontractors, archive. Smartsheet `Operative Competence Register` (sheet 461912032806788), calculated expiry status; right to work / ID / medical record the check only.

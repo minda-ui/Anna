@@ -6,10 +6,12 @@
 #    Composio connections (anna-gmail, anna-gmail-properties, anna-gmail-ops,
 #    anna-googledrive) without a browser.
 #
-# Sign-in reads COMPOSIO_API_KEY from the cloud environment's variables (set
-# by Minda in the Anna environment's settings). The key is never written to
-# this repo or printed. No key -> CLI installed but not signed in; the
-# session falls back to the native connectors.
+# COMPOSIO_API_KEY comes from the Anna environment's variables (set by
+# Minda); it is never written to this repo or printed.
+#   ck_...  consumer key -> used by the Composio Connect MCP server declared
+#           in .mcp.json; the CLI stays signed out (expected).
+#   uak_... user key     -> the CLI signs in with it (fallback path).
+#   unset   -> CLI installed but not signed in; native connectors only.
 #
 # Idempotent, non-interactive, web/remote sessions only. Never aborts the
 # session.
@@ -49,6 +51,10 @@ else
   # --- Composio sign-in from the environment's API key (no browser) ---
   if "$COMPOSIO_BIN" whoami 2>/dev/null | grep -q '"email"'; then
     :  # already signed in
+  elif [ "${COMPOSIO_API_KEY:0:3}" = "ck_" ]; then
+    # Consumer key: used by the Composio Connect MCP server in .mcp.json
+    # (x-consumer-api-key header), not for CLI sign-in. Nothing to do here.
+    :
   elif [ -n "${COMPOSIO_API_KEY:-}" ]; then
     "$COMPOSIO_BIN" login --user-api-key "$COMPOSIO_API_KEY" --org "$COMPOSIO_ORG" \
       -y --no-skill-install >/dev/null 2>&1 || true

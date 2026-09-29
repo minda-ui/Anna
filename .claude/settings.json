@@ -29,5 +29,8 @@
       "Bash(composio execute GOOGLEDRIVE_DELETE_*)",
       "Bash(composio execute GOOGLEDRIVE_GOOGLE_DRIVE_DELETE_FOLDER_OR_FILE_ACTION*)"
     ]
-  }
+  },
+  "enabledMcpjsonServers": [
+    "composio"
+  ]
 }

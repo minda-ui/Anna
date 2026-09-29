@@ -5,6 +5,13 @@ top. Never edit a past entry; correct it with a new one.
 
 ---
 
+**2026-09-29 — §0d: every drawing registered.** Minda: "Yes" to adding the Drawing Register to the drawings
+rule. §0d now says each drawing revision gets a Drawing Register row (status `Current`), and a superseded one is marked
+`Superseded` with `Superseded by` when its file moves to `Archive/`. Edited in place through Composio (§0b) and
+byte-verified; mirrored to git.
+
+---
+
 **2026-09-29 — Replacing email drafts (§0e); `CLAUDE.md` §5 exception.** Minda: "If you need to delete
 draft, because you need it to replace, then delete it and create new." Prompted by two Merry Hill drafts in one
 thread: the PO-only one was sent, the one carrying RAMS Rev 1 was discarded. New `Charter-Rules.md` §0e: Anna

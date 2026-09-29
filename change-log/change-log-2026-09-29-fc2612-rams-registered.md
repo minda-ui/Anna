@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 17:20 — §0d: every drawing registered
+- Minda: yes. §0d now requires a Drawing Register row per revision; superseded rows marked and linked. Ledger row 68.
+
 ## 17:05 — RAMS Rev 1, Drawing Register, draft rule (§0e)
 - **FC2612 RAMS Rev 1** (permit #694111, Control Room call before/after dusty work) signed off by Minda; filed in FC2612 `Documents/`. Register number awaiting Minda.
 - **Site checklist** artifact v6: #694111; Control Room items added.

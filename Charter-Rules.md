@@ -70,6 +70,9 @@ folders the first time a project gets a drawing.
   stays visible. A copy also goes to Anna's `Raw/` as the source.
 - **Only the current revision stays in `Drawings/`.** As soon as a new revision arrives, the old one is
   moved to `Drawings/Archive/` (a move, never a delete).
+- **Register every drawing** in the Drawing Register (Smartsheet, Fishbone Construction Ltd workspace):
+  one row per revision, `DR-` number, status `Current`; when a newer revision arrives, the old row becomes
+  `Superseded` with `Superseded by` filled in, and its file moves to `Archive/`.
 - **Drawings only.** Quotes, RAMS, permits and booking forms go to `Documents/`; photos and survey images
   are not drawings.
 - A drawing is not a design sign-off. Structural, fire or other §3 decisions still go to the named professional.

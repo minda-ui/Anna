@@ -5,6 +5,14 @@ top. Never edit a past entry; correct it with a new one.
 
 ---
 
+**2026-09-29 — "Good night" starts the end-of-day skill.** Minda: "as soon as i write you 'good night' can we
+trigger skill 'Have you documented today's work?'". New repo skill `.claude/skills/end-of-day/SKILL.md`: checks the
+day's record (ledger, change-log, current-state, Rule F, registers, Drive = git), lists what is still open, then
+brings the §0f skill proposals; read-only until Minda approves. §0f now names "good night" as the trigger and the
+skill as the way it runs. Edited in place through Composio (§0b) and byte-verified; mirrored to git.
+
+---
+
 **2026-09-29 — §0f: updating skills, not only adding.** Minda: "Or updating skills with new learn things."
 §0f's second option now reads "update an existing skill — add, correct or remove a step"; a skill always shows the
 current way, with earlier wording kept in git history. Edited in place through Composio (§0b) and byte-verified;

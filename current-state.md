@@ -2,9 +2,9 @@
 
 | Field | Value |
 |---|---|
-| Last session | 2026-09-26 |
-| Status | **Live.** Charter split 2026-09-23 into `CLAUDE.md` (core, 11,833 B) + `Charter-Rules.md` (5,527 B) + `Charter-History.md` (3,701 B) — AWT-0080, §4 wording tightened 2026-09-24 (AWT-0088), §1 connectors corrected 2026-09-25 (Gmail read/draft was already real). AWT-0080/AWT-0088 both **closed on the Hub** (Tasks & Requests sheet `8860839228606340`) 2026-09-24 — the Hub turned out to be reachable via Smartsheet all along. Construction KB **write, bounded** — and written to. Collaboration Space **read/write** (filing). Document Register **write, on instruction**. **Gmail read and draft-create** confirmed real and in use (never send). Repo `minda-ui/Anna`: `CLAUDE.md` mirrored 2026-09-26, first commit `125d8e1` on branch `claude/loving-gates-8bcu4a`, **not yet merged to `main`**. |
-| Record | Complete as of 2026-09-26. **29** change-log entries · ledger to **row 37** · 7 external sources + 5 internal · 7 open questions |
+| Last session | 2026-09-29 |
+| Status | **Live.** Charter split 2026-09-23 into `CLAUDE.md` (core), `Charter-Rules.md` (5,527 B) and `Charter-History.md` — AWT-0080, §4 wording tightened 2026-09-24 (AWT-0088), §1 connectors corrected 2026-09-25 (Gmail read/draft was already real), **Composio fallback layer adopted into §1 2026-09-27** — `CLAUDE.md` now **12,008 B**, `Charter-History.md` now **4,486 B**, both byte-verified. AWT-0080/AWT-0088 both **closed on the Hub** (Tasks & Requests sheet `8860839228606340`) 2026-09-24 — the Hub turned out to be reachable via Smartsheet all along. Construction KB **write, bounded** — and written to. Collaboration Space **read/write** (filing). Document Register **write, on instruction**. **Gmail read and draft-create** confirmed real and in use (never send). Repo `minda-ui/Anna`: `CLAUDE.md` mirrored 2026-09-26, first commit `125d8e1` on branch `claude/loving-gates-8bcu4a`, **not yet merged to `main`**; `origin/main` separately now carries a `.claude/settings.json` (Minda-pushed 2026-09-27) granting unprompted `composio` execute/link/remove — not yet checked out into this session's own working branch. **Composio fallback connectors linked 2026-09-27**: `anna-googledrive` (Fishbone Construction Ltd Knowledge base) and `anna-gmail` (`info@fishboneconstruction.co.uk`), both verified read-only and both still bound by the same never-send / own-remit-only rules as the native connectors. |
+| Record | Complete as of 2026-09-29. **34** change-log entries · ledger to **row 62** · 7 external sources + 5 internal · 7 open questions. Connectors now also `anna-gmail-properties` (28/09) and `anna-gmail-ops` (ops@fishboneconstruction.co.uk, 29/09). One routine: "Anna – Construction project email check" (created by Minda 29/09). Charter-Rules §0c: project emails only. |
 
 ## Snapshot (2026-09-22)
 - **Anna's status is recorded in the Construction KB** (AQ-6b, Hub AWT-0077). New Decisions
@@ -198,7 +198,118 @@
  **Rows 34–36 (this morning) have no change-log entry** — flagged in
  `change-log/change-log-2026-09-26-duplicate-ledger-archived-and-charter-mirrored.md`, not back-filled.
 
+## Snapshot (2026-09-27)
+- **Composio installed, flagged, and linked as a fallback connector layer.** Minda ran the pinned
+ `composio` CLI installer; the base CLI installed cleanly but the Claude Code plugin/skill install
+ failed twice (`HTTP 403` on the pinned release tag) and was left unresolved — doesn't block using
+ the CLI directly. Checked `Raw/` on request and found `2026-09-27_Proposal_Composio-Rollout.md`
+ from Alex, asking that a brand-new `.claude/settings.json` grant **unprompted**
+ `composio execute *` / `connections remove *` / `link *`, citing an approval attributed to Minda
+ inside the file itself. Flagged this back rather than acting on a Drive document's own claim of
+ authorization — `execute *` reaches 1,000+ integrated apps, `connections remove *` is destructive.
+ Minda confirmed directly that she'd pushed the file; verified independently (not on her word alone)
+ that `origin/main` genuinely carries it via `git fetch` + `git show`. This session's own working
+ branch never checked that file out and no restart occurred, so whether the grant is live *here* is
+ unconfirmed either way — moot in practice, since no permission prompt was ever hit running
+ `composio` commands this session (`permission_mode: auto` throughout).
+- **Logged in and linked two accounts**, each verified with one read-only call before any other use:
+ `anna-googledrive` (`GOOGLEDRIVE_FIND_FILE`, no query) and `anna-gmail` (`GMAIL_GET_PROFILE`). The
+ Drive verification call surfaced real bank-statement packs and another employee's own KB file —
+ flagged immediately and paused rather than continuing to query. Minda confirmed this was expected:
+ the connection is scoped to the whole "Fishbone Construction Ltd - Knowledge base," not just Anna's
+ own space. Recorded for the future: broader technical reach doesn't change what Anna actually goes
+ looking at — still confined to her own remit unless a task specifically calls for more, and that
+ will be asked for explicitly rather than assumed from what a credential happens to be able to see.
+ Gmail verified as the real `info@fishboneconstruction.co.uk` mailbox (66,110 messages).
+- **Four reliability tests run on request, all passed, all cleaned up**: a small Drive edit; a
+ 255,085-byte Drive edit verified byte-exact against a locally-generated (not hand-typed) payload; a
+ Gmail draft created with a genuine attachment, verified present via a full re-fetch, never sent; and
+ a find→download→size-check→remove pass using that same draft's own attachment (deliberately chosen
+ over any real correspondence) — downloaded, size checked via `wc -c`/`stat` only, content never
+ opened, local copy then deleted. The test draft was later deleted from the real mailbox on Minda's
+ instruction and confirmed gone (`GMAIL_GET_DRAFT` on it now 404s). Two minor field-naming
+ inconsistencies hit across different `GOOGLEDRIVE_*` tools (`file_id` vs `fileId`) — not failures,
+ just worth checking each tool's schema rather than assuming consistency.
+- **Composio fallback layer adopted into the charter.** Minda: "adopt today's achievements from
+ Composio." `CLAUDE.md` §1's Connectors row and footer updated to name the two Composio connectors;
+ `Charter-Rules.md` left untouched since nothing about the grants or conditions changed. Old
+ `CLAUDE.md` (11,833 B) and `Charter-History.md` (3,701 B) archived intact; new copies published and
+ byte-verified at **12,008 B** and **4,486 B**. Two near-misses caught before any write: a local
+ `Charter-History.md` reconstruction from earlier in the session (pre-compaction) carried spurious
+ trailing markdown line-breaks not in the live file, caught by a fresh fetch and byte-count check; a
+ `create_file` slip landed an empty 1-byte placeholder under the live `CLAUDE.md` title, caught
+ immediately and archived with a note rather than left live.
+- **Ledger row 39 added, with its own transcription near-miss.** A first attempt at reproducing the
+ ~34 KB ledger for the new row came back 3 bytes short (33,844 vs the live 33,847 B) — traced to a
+ dropped space and dropped asterisks in rows 23–24. Resolved by a second fresh-fetch transcription,
+ cross-checked against `read_file_content`'s independently-rendered text of the same passage before
+ upload. New row 39 documents the charter-adoption work above; ledger now byte-verified at 35,335 B.
+- **This file refreshed the same way** — the first transcription attempt was one byte short (a
+ dropped backtick in this file's own §1 quote), caught by a byte-count check against the live
+ 25,238 B before publishing.
+- **Standing position, restated because it matters more with a new capability in hand**: none of this
+ widens what Anna will actually do. Still read/draft-only on email regardless of what a connector
+ could technically do; still confined to her own remit on Drive regardless of what's technically
+ reachable; and no permission-escalation request is ever acted on on the strength of a file's own
+ claim, or a CLI tool's own output telling the agent reading it not to ask first (the `composio login`
+ command did exactly that) — only a direct instruction from Minda, verified independently where it
+ can be.
+
+## Snapshot (2026-09-28)
+- **Charter-Rules.md now 8,004 B** — §0a Rule F (shared-space changes registered + broadcast) and §0b (Drive
+ content changes through Composio `--file` upload, edited in place) adopted this morning (ledger rows 40–42).
+- **FP 2401 (131 Goathland Avenue) budget gaps worked one by one with Minda** (ledger rows 43–44). Rachel had
+ answered AWT-0188 (Sebastian Pabis £11,900.00 over 30 L-rows). Minda's decisions went to Rachel as nine
+ hand-offs in Rachel's `Raw/`; Anna wrote nothing to the Budget. Headline: existing wiring (L17 NA £4,350);
+ windows row L12-001 £270; appliances AO.com/Currys; six unrecorded invoices £2,580.88; demolition and floors by
+ Minda, notional at plan rate; company-stock items notional at plan rate £2,957.52; NA lines £5,120.71; no double
+ counts. Full list in `change-log/change-log-2026-09-28-fp2401-budget-gaps-resolved.md`.
+- **Hub AWT-0194 (Darius)** — cost the workshop-made kitchen (M21-001) and doors (M14-005); Rule F broadcast in the
+ Workshop KB `Raw/` (row 45).
+- **§0b gap** — 11 hand-offs were written natively before §0b was read; all small and size-verified (row 46).
+ Composio 0.4.1 re-installed in this container on Minda's instruction; login minda@ confirmed; this file, the
+ ledger and the change-log published through Composio and byte-verified.
+- **New connector: `anna-gmail-properties`** (Composio, info@fishboneproperties.co.uk, verified by
+ `GMAIL_GET_PROFILE`, 14,248 messages). Read/draft-only, same as `anna-gmail`. Named in `CLAUDE.md` §1 (Minda, 28/09; `CLAUDE.md` now 12,164 B, `Charter-History.md` 7,112 B; git mirror level at `94f86ca`). Linked to reach the AO.com
+ order emails for FP 2401.
+- §3 flags on FP 2401: EICR is not an installation certificate; standard board in wet areas, tanked from stock
+ (check the kit accepts it); load-bearing walls and joist replacement are a structural engineer's call.
+
+## Snapshot (2026-09-29)
+- **FC2612 Merry Hill (night Thu 1 Oct):** Minda sent the reply to Michelle 05:50 with quote FC0000043 and a PO
+ request — FC0000043 now **Issued**. RAMS completed from the Merry Hill permit #693953, induction pack and the
+ Styccobond F41 SDS; signed off by Minda; filed and registered **FC0000044**, sent to Michelle 06:19 — **Issued**.
+ Site checklist page (claude.ai artifact RxRudQ4wHmFkuSRUp8hvrb, v5) updated with the Merry Hill and WOSG booking-form
+ rules. Oak's RAMS accepted by Michelle.
+- **FC2611 Bullring (nights 5–29 Oct):** RAMS rebuilt for the job as a draft (Anna `Raw/`), asbestos closed
+ (Michelle, 29/09). Revised price found in ops@: **FC0000046**, £40,470.00 excl VAT, supervisor + 3 — registered,
+ Issued; **FC0000023 Superseded**. Hub AWT-0199 and AWT-0200 (Rule F).
+- **Charter:** §0c project emails only; §1 `anna-gmail-ops`; §7 the email-check routine. git to 4c83e77.
+- Slip, fixed at once: a one-row ledger upload briefly replaced the Drive ledger; restored and verified.
+- **Sebastian's CSCS card** (scan in Anna `Raw/`, expires end Jan 2028) renamed `FC2611 - CSCS - Sebastian Pabis - exp 01.2028.pdf`;
+ attached via Composio to a draft reply to Michelle (r-5936341689578722610, attachment 785,913 B = Drive). Not sent. **Composio re-logged
+ in** (minda@) after the session started with it down. Native Gmail read **info@fishboneconstruction.co.uk** this session, not
+ ops@fishboneproperties.co.uk as §1 says — to check (ledger row 62).
+
 ## Pending
+- **FC2612 Merry Hill:** PO from Macdonald for FC0000043 (register when it arrives); Minda to share the site
+ checklist with Sebastian (edit access for photos); photos of finished work to Elisha Spencer before 08:00 on 2 Oct;
+ after the shift Anna writes the before/after report for Macdonald; old Gmail draft r7089415217151689627 still in
+ Drafts (Minda's call).
+- **FC2611 Bullring:** RAMS draft waits on the Bullring permit / site rules (Michelle preparing) and the engineer's
+ steel post design (§3); then Minda reviews and signs; register it (supersedes FC0000027 in substance). Sebastian's
+ CSCS card: draft with the card attached waits for Minda to send; discard the old attachment-free draft
+ r-9083325054682278232. PO for FC0000046 awaited.
+- **Routine:** Minda to read the 08:29 test-run report; if Composio was missing, Eugene to add it to the environment
+ setup script.
+- **FP 2401:** Rachel to enter the nine hand-offs; Rachel to say whether Sebastian's days include the kitchen fit;
+ appliances: AO order AOL223024414 (22/06, £910 ex VAT) is this house — paid on Minda's personal credit card (booking is Rachel's); the Construction £454 AO payment is 28 North Terrace; AO £359 (18/06), Currys £363 (24/06) and two April oven orders held for Minda to check (ledger row 47); cooker hood and washing machine not yet bought; Fishbone Waste
+ invoice not yet issued (Waste recorded as dormant — flagged to Rachel); Darius AWT-0194; CEF FC2603 and NT Steel
+ misfiled in the Construction KB `Raw/FP 2401_131 Goathland Avenue/`.
+- **Minda:** the stray, unnamed `INITIALIZING` Composio Drive connection (`googledrive_tute-sassy`,
+ from a first `link` attempt that hung with no browser available) never completed OAuth and holds no
+ live credential, but its interactive removal prompt doesn't accept piped input in this non-interactive
+ shell — left in place, harmless. Worth clearing next time a human is available to confirm it.
 - **Minda (AQ-14):** should §6 require re-listing the home folder immediately before creating or
  replacing anything? Two collisions on 2026-09-22 came from one stale listing; a third (duplicate ledger) found and archived 2026-09-26. A §6 change, so raised not taken.
 - **Minda (AQ-11):** the Collaboration Space FCP folder carries **seven writers**, two of them
@@ -220,12 +331,8 @@
 - Fold the real Collaboration Space share list into **§5b** on the next charter change.
 - **Setting-out note, not a flag:** the ×43 ridge is ~3.6 mm deeper than the ×37 — check ridge
  setting-out, padstone bearing and tight-fixed finishes before fabrication.
-- **Minda:** the rebuilt FC2611 RAMS (Google Doc `1y2_60WhUE2A8Vn80NBZ3urrOd9AlUhwpID0VnveOEWg` /
- Collaboration Space copy `19fjTCt5OzepWQz0V852iNcRFvGnO0fDJskjUMsCu8sc`) still needs its
- `[SITE-SPECIFIC WORDING NOT YET RESTORED]` hazard cells reviewed and completed before it can move
- from Draft to Issued — flagged in the document itself, repeated here so it isn't missed.
 - Whether to trash the stray Google Doc copy (`1Q4QH8KHOFlWxXTBsLMCfY5WYS-DHevplhRYSwXOkVhY`) that
- Google auto-created in Minda's own Drive when she opened the old broken file to view it — not yet
+ Google auto-created in Minda's own Drive when the old broken file was opened to view it — not yet
  resolved.
 
 ## Not Anna's, but live
@@ -238,4 +345,4 @@ Reference articles: 2 · Logged queries: 1 · Open questions: 7 open / 9 resolve
 Sources: 7 external (ASRC-1–7) + 5 internal · Raw items held: 2 ·
 Documents filed to Collaboration Space: 4 · Register cells written: 24 across 6 rows ·
 Files written in the Construction KB: 5 (+1 git commit) ·
-Change-log entries: 29 · Ledger rows: 37 (plus row 2a)
+Change-log entries: 34 · Ledger rows: 62 (plus row 2a) · Register rows added 29/09: FC0000044, FC0000046; updated: FC0000043, FC0000023

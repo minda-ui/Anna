@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 18:00 — Project-admin skill
+- Minda: yes to a skill for today's project work. Written as `.claude/skills/project-admin/SKILL.md` in the repo (procedures only; charter wins). Composio GMAIL_DELETE_* is denied by settings — §0e uses native delete_draft. Charter-History entry. Ledger row 71.
+
 ## 17:45 — FC0000044 Rev 1 issued; PR #8 merged
 - Minda sent Rev 1 to Michelle only at 17:38. FC0000044 → Issued; Hub AWT-0209 updated; addendum to Rachel and Peter.
 - minda-ui/Anna#8 merged; main byte-identical to Drive. Ledger row 70.

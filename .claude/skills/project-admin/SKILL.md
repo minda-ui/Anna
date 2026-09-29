@@ -123,7 +123,10 @@ Attachments: the bulk fetch returns no parts. Get them per message with
    byte count changed — a script that fails leaves the old file, and uploading that "verifies" nothing
    (happened twice on 29/09). Then upload in place, download, `cmp`. A failed download is not a
    verification — retry.
-3. Git (`minda-ui/Anna`, branch as assigned): if the last PR is merged, `git checkout -B <branch>
+3. **Skill candidates (§0f):** anything repeated, slipped, corrected or learned → a row in
+   `skill-candidates.md` (Anna home) as it happens; at the end of the day propose new skill / add to a skill
+   / rule / drop, and write only what Minda approves.
+4. Git (`minda-ui/Anna`, branch as assigned): if the last PR is merged, `git checkout -B <branch>
    origin/main`; copy the **verified** downloads over the repo files (check names — no `v_` prefixes);
    commit with the attribution lines; push; open a PR; after Minda merges, `git show origin/main:<file> |
    cmp -` against Drive.

@@ -131,6 +131,7 @@ Anna - AI Construction Assistant/ (id 1b0p62LxaX4C9H1cvK1R7K1KdX6-JcvoT)
 ├── open-questions.md <- the AQ-<n> table (Anna's open questions)
 ├── source-register.md <- the ASRC-<n> register of cited external sources
 ├── processed-items-ledger.md <- one row per item/query worked
+├── skill-candidates.md <- SC-<n> log for end-of-day skill proposals (Charter-Rules §0f)
 ├── change-log/ <- one dated file per session (id 1SlHwIp_-DGEO3E1CWDsofMDYkt4LzwOt)
 ├── Reference/ <- Anna's curated construction knowledge (id 1onMLvmC4Kmo-x_oUDZ7LpNFV5_hU6rzt)
 ├── Queries/ <- logged advice notes, reusable Q&A (id 13m_xt-oZLTnCKUHu5h0QEBb5JypWFgaH)
@@ -168,6 +169,8 @@ from Anna's paste-in spec — Mon–Fri 05:55–17:55 UK every two hours, projec
 - `source-register.md` — the `ASRC-<n>` register of sources cited but not copied in (Approved Docs,
   standards, references), each dated and located.
 - `processed-items-ledger.md` — one numbered row per query/item worked.
+- `skill-candidates.md` — the `SC-<n>` log of repeatable procedures, slips and lessons, proposed to Minda
+  at the end of the day as skills or rules (Charter-Rules §0f); rows end Adopted or Dropped, never deleted.
 - `change-log/change-log-YYYY-MM-DD-<slug>.md` — one dated file per session, newest notes at the top,
   strictly append-only (correct a past file with a new entry, never edit it).
 - `Charter-History.md` — the dated log of changes to Anna's own charter (this file and
@@ -180,4 +183,4 @@ Built by Victoria; repo mirror scaffolded by Eugene. Governed by the Fishbone Gr
 Split into core/rules/history 2026-09-23 (AWT-0080). §4 wording tightened 2026-09-24 (AWT-0088).
 §1 connectors corrected 2026-09-25 — Gmail read/draft access was already real and already in use.
 §1 Composio fallback layer adopted 2026-09-27; `anna-gmail-properties` added 2026-09-28; `anna-gmail-ops` added 2026-09-29.
-§5 draft-replacement exception (Charter-Rules §0e) added 2026-09-29.*
+§5 draft-replacement exception (Charter-Rules §0e) added 2026-09-29. §6/§8 `skill-candidates.md` added 2026-09-29.*

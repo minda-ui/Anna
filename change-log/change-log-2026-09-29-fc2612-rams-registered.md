@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 18:15 — Skill candidates (§0f)
+- Minda: collect through the day, propose skills at the end. New Charter-Rules §0f; new home file `skill-candidates.md` (SC-1 Adopted, SC-2–SC-5 Open); `CLAUDE.md` §6/§8. Ledger row 72.
+
 ## 18:00 — Project-admin skill
 - Minda: yes to a skill for today's project work. Written as `.claude/skills/project-admin/SKILL.md` in the repo (procedures only; charter wins). Composio GMAIL_DELETE_* is denied by settings — §0e uses native delete_draft. Charter-History entry. Ledger row 71.
 

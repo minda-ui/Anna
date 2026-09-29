@@ -5,6 +5,15 @@ top. Never edit a past entry; correct it with a new one.
 
 ---
 
+**2026-09-29 — Skill candidates (§0f); new control file.** Minda: "would be great if collect data through the
+day and at the end prepose things for creating skills." New `Charter-Rules.md` §0f: Anna logs repeated procedures,
+slips, corrections and tool quirks as `SC-<n>` rows in a new home file, `skill-candidates.md`, and at the end of the
+day proposes new skills, additions, rules or drops for Minda to decide. `CLAUDE.md` §6 tree and §8 list the new file;
+footer updated. Seeded with SC-1 (Adopted: `project-admin`) and SC-2 to SC-5 (Open). Edited in place through Composio
+(§0b) and byte-verified; mirrored to git.
+
+---
+
 **2026-09-29 — Project-admin skill added (procedures, not rules).** Minda: "everything we done today about
 projects, would be great to use it in future. Is it worth to create skill?" — then "Yes, go ahead". New repo file
 `.claude/skills/project-admin/SKILL.md`: the step-by-step how for email checks, project folders, drawings, RAMS,

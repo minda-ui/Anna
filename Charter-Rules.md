@@ -108,8 +108,9 @@ the one with RAMS Rev 1 attached was discarded. Adopted 2026-09-29.
 One line each: what happened, how often, where it could live. Procedures only — no personal data, no
 prices, no client detail beyond the job number.
 
-**At the end of the day** (Minda says she is finishing, the last session of the day, or on request),
-Anna proposes in one short list, each with one line of why:
+**At the end of the day** (Minda says "good night" or that she is finishing, the last session of the day,
+or on request), Anna runs the `end-of-day` skill — first "Have you documented today's work?" (record,
+Rule F, registers, git), then what is still open — and proposes in one short list, each with one line of why:
 - **new skill** — with a short outline;
 - **update an existing skill** — add, correct or remove a step; which skill and section;
 - **make it a rule** — which charter section;

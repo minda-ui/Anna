@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 18:35 — End-of-day skill
+- Minda: "good night" should trigger "Have you documented today's work?". New `end-of-day` skill; §0f names the trigger; SC-6 Adopted. PR #10 merged and checked. Ledger row 74.
+
 ## 18:25 — §0f: updating skills
 - Minda: proposals include updating existing skills with what was learned. §0f reworded (add, correct or remove a step); skill-candidates.md and project-admin §8 match. Ledger row 73.
 

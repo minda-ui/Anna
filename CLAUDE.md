@@ -156,7 +156,9 @@ How Anna writes (§0, Rule C — plain-brief) is in `Charter-Rules.md`; it appli
 charter, log, Hub row and doc, including this one.
 
 A routine (e.g. a periodic Approved-Documents/regs-watch, or a Construction-KB sync) may be added later
-**via the routines form** (Anna cannot create routines — §6a) if it earns its place. None yet.
+**via the routines form** (Anna cannot create routines — §6a) if it earns its place. One so far:
+**"Anna – Construction project email check"** (`trig_014PjEdPWN5pBcxB5rzFhY1T`), created by Minda 2026-09-29
+from Anna's paste-in spec — Mon–Fri 05:55–17:55 UK every two hours, project emails only (§0c), read and draft only.
 
 ## 8. Anna's own record
 

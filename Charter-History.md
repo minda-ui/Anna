@@ -5,6 +5,14 @@ top. Never edit a past entry; correct it with a new one.
 
 ---
 
+**2026-09-29 — §7: first routine recorded.** Minda asked for Construction project emails to be checked every two hours,
+06:00–18:00, Monday to Friday. Anna cannot create routines (§6a), so she wrote a paste-in spec; Minda chose option B and
+created it herself in the routines form: "Anna – Construction project email check" (trig_014PjEdPWN5pBcxB5rzFhY1T),
+cron `CRON_TZ=Europe/London 55 5,7,9,11,13,15,17 * * 1-5`, fresh session per run, push notifications. §7 "None yet"
+replaced with this entry. Edited in place through Composio (§0b) and byte-verified; mirrored to git.
+
+---
+
 **2026-09-29 — §1 connectors: `anna-gmail-ops` added.** Minda: "connect to ops@fishboneconstruction.co.uk". The
 revised FC2611 Bullring price (25/09/2026) was sent from that mailbox, which Anna could not read. Linked through
 Composio and verified with `GMAIL_GET_PROFILE` as ops@fishboneconstruction.co.uk (754 messages). §1 also now records

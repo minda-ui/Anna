@@ -78,6 +78,22 @@ Source: Minda, 2026-09-29: "Let's make it as rule. Download all drawings for pro
 under project. Create Archive folder inside, as soon new revision of drawings arrived, old one needs to be
 moved to archive." Adopted 2026-09-29.
 
+## 0e. Email drafts: replace, don't pile up (added 2026-09-29)
+
+When Anna has to change a draft she made — a new attachment, new wording, a combined email — she
+creates the new draft and **deletes the old one**, so only one version waits to be sent.
+
+- **Only Anna's own unsent drafts.** Never a sent or received email, and never a draft someone else wrote.
+- **New first, then delete.** Create the new draft, check it (recipients, thread, attachment), then delete
+  the old one. Never leave the thread with no draft in between.
+- **Say it.** Tell Minda both draft ids, and log them in the ledger.
+- This is the one exception to `CLAUDE.md` §5 "delete or trash anything (archive instead)". Everything
+  else is still archived, never deleted.
+
+Source: Minda, 2026-09-29: "If you need to delete draft, because you need it to replace, then delete it
+and create new." Prompted by two Merry Hill drafts in one thread, where the PO-only draft was sent and
+the one with RAMS Rev 1 attached was discarded. Adopted 2026-09-29.
+
 ## 5a. Construction KB — read and write (granted 2026-09-22, Minda; Hub AWT-0077)
 
 Minda granted Anna **read and write** on the `Fishbone Construction Ltd - Knowledge Base`

@@ -4,7 +4,7 @@
 |---|---|
 | Last session | 2026-09-29 |
 | Status | **Live.** Charter split 2026-09-23 into `CLAUDE.md` (core), `Charter-Rules.md` (5,527 B) and `Charter-History.md` — AWT-0080, §4 wording tightened 2026-09-24 (AWT-0088), §1 connectors corrected 2026-09-25 (Gmail read/draft was already real), **Composio fallback layer adopted into §1 2026-09-27** — `CLAUDE.md` now **12,008 B**, `Charter-History.md` now **4,486 B**, both byte-verified. AWT-0080/AWT-0088 both **closed on the Hub** (Tasks & Requests sheet `8860839228606340`) 2026-09-24 — the Hub turned out to be reachable via Smartsheet all along. Construction KB **write, bounded** — and written to. Collaboration Space **read/write** (filing). Document Register **write, on instruction**. **Gmail read and draft-create** confirmed real and in use (never send). Repo `minda-ui/Anna`: `CLAUDE.md` mirrored 2026-09-26, first commit `125d8e1` on branch `claude/loving-gates-8bcu4a`, **not yet merged to `main`**; `origin/main` separately now carries a `.claude/settings.json` (Minda-pushed 2026-09-27) granting unprompted `composio` execute/link/remove — not yet checked out into this session's own working branch. **Composio fallback connectors linked 2026-09-27**: `anna-googledrive` (Fishbone Construction Ltd Knowledge base) and `anna-gmail` (`info@fishboneconstruction.co.uk`), both verified read-only and both still bound by the same never-send / own-remit-only rules as the native connectors. |
-| Record | Complete as of 2026-09-29. **34** change-log entries · ledger to **row 65** · 7 external sources + 5 internal · 7 open questions. Connectors now also `anna-gmail-properties` (28/09) and `anna-gmail-ops` (ops@fishboneconstruction.co.uk, 29/09). One routine: "Anna – Construction project email check" (created by Minda 29/09). Charter-Rules §0c: project emails only. |
+| Record | Complete as of 2026-09-29. **34** change-log entries · ledger to **row 67** · 7 external sources + 5 internal · 7 open questions. Connectors now also `anna-gmail-properties` (28/09) and `anna-gmail-ops` (ops@fishboneconstruction.co.uk, 29/09). One routine: "Anna – Construction project email check" (created by Minda 29/09). Charter-Rules §0c: project emails only. |
 
 ## Snapshot (2026-09-22)
 - **Anna's status is recorded in the Construction KB** (AQ-6b, Hub AWT-0077). New Decisions
@@ -295,16 +295,19 @@
  Rule F notes to Victoria and Peter. Personal data — never to git, Collaboration Space or the Financial Archive (row 64).
 - **Charter-Rules §0d — project drawings** (Minda): `Drawings/` + `Drawings/Archive/` in each Collaboration Space project folder;
  superseded revisions moved to Archive. Applied to FC2611 (4) and FC2612 (1). Hub AWT-0207 (row 65).
+- **Drawing Register** (Smartsheet sheet 8400729582733188, Fishbone Construction Ltd workspace): DR-0001–DR-0005. **Charter-Rules §0e**:
+ Anna replaces her own unsent draft (new first, then delete); `CLAUDE.md` §5 exception. FC2612 RAMS Rev 1 signed and filed. Hub AWT-0208 (row 66). **FC2609** (Merry Hill Rolex Pre Owned) folder + 7 drawings, DR-0006–DR-0012 (row 67).
 
 ## Pending
-- **FC2612 Merry Hill:** **new permit #694111** replaces #693953 (fire-system isolation possible; call Control Room 01384 487952
- before dusty work) — RAMS FC0000044 and the site checklist still cite #693953: Minda to decide on reissue. PO from Macdonald for FC0000043 (register when it arrives); Minda to share the site
+- **FC2612 Merry Hill:** RAMS **Rev 1** (permit #694111, Control Room call) signed and filed, **not yet sent to Macdonald** — the
+ draft carrying it was discarded; register number (FC0000044 Rev 1 or new) awaiting Minda. Site checklist v6 updated. PO chased 16:58. PO from Macdonald for FC0000043 (register when it arrives); Minda to share the site
  checklist with Sebastian (edit access for photos); photos of finished work to Elisha Spencer before 08:00 on 2 Oct;
  after the shift Anna writes the before/after report for Macdonald; old Gmail draft r7089415217151689627 still in
  Drafts (Minda's call).
 - **FC2611 Bullring:** RAMS draft waits on the Bullring permit / site rules (Michelle preparing) and the engineer's
  steel post design (§3 — MJL Steels Rev A received 29/09 is a fabrication drawing, not an engineer's design; Rolex to confirm location); then Minda reviews and signs; register it (supersedes FC0000027 in substance). Sebastian's
  CSCS card sent to Michelle 29/09. PO for FC0000046 awaited.
+- **Drawing Register:** originators of the FC2609 set (designer job 4599) and the WoS A2 pack's source to verify; Tissot GA revision date to read.
 - **Operative Competence Register:** check OC-0001 (Sebastian, reg. 2519687) on CSCS Go Smart; add the other three
  operatives' cards (Mindaugas, Andrejus, Dainius) when Minda has them.
 - **Routine:** Minda to read the 08:29 test-run report; if Composio was missing, Eugene to add it to the environment
@@ -352,4 +355,4 @@ Reference articles: 2 · Logged queries: 1 · Open questions: 7 open / 9 resolve
 Sources: 7 external (ASRC-1–7) + 5 internal · Raw items held: 2 ·
 Documents filed to Collaboration Space: 4 · Register cells written: 24 across 6 rows ·
 Files written in the Construction KB: 5 (+1 git commit) ·
-Change-log entries: 34 · Ledger rows: 65 (plus row 2a) · Register rows added 29/09: FC0000044, FC0000046; updated: FC0000043, FC0000023
+Change-log entries: 34 · Ledger rows: 67 (plus row 2a) · Register rows added 29/09: FC0000044, FC0000046; updated: FC0000043, FC0000023

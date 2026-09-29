@@ -2,6 +2,13 @@
 
 Newest notes at the top. Append-only.
 
+## Later — Operative Competence Register created (09:50–09:56 UTC)
+- Minda asked for a Smartsheet register and a Drive folder for CSCS cards and similar. Choices asked first: restricted folder in minda@'s own Drive (not Collaboration Space `FC Personnel` — AQ-11 share list); Fishbone Construction Ltd workspace; operatives and subcontractors; all four document types.
+- Drive `FC Operative Competence` (minda@ only, checked) with subfolders for operatives, subcontractors, archive. Smartsheet `Operative Competence Register` (sheet 461912032806788), calculated expiry status; right to work / ID / medical record the check only.
+- OC-0001: Sebastian Pabis CSCS, exp 31/01/2028, Current. Not yet checked on CSCS Go Smart.
+- Rule F: Hub AWT-0203; notes in Victoria's and Peter's `Raw/`. Slip, fixed at once: AWT-0203 request text first had a garbled folder id.
+- The register and the cards are personal data: not mirrored to git. Ledger row 64.
+
 ## 10:00 — CSCS email sent; git synced
 - Minda sent the reply to Michelle 09:39 UTC with Sebastian's CSCS card attached (785,913 B = Drive); old draft discarded by Minda.
 - Git mirror synced to Drive and merged to `main` (minda-ui/Anna#4, c1bad61): current-state, ledger to row 62, change-logs 27–29/09 — byte-identical after merge.

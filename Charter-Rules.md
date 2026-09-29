@@ -60,6 +60,24 @@ If unsure whether an email is project-related, she names the sender and subject 
 Source: Minda, 2026-09-29: "you need to work through email only on topics that are related to
 projects" — "let's do". Adopted 2026-09-29.
 
+## 0d. Project drawings: one Drawings folder per project, old revisions archived (added 2026-09-29)
+
+Every drawing received for a project is saved into `Drawings/` inside that project's folder in the
+Collaboration Space (`C Projects/<project>/Drawings/`), with `Drawings/Archive/` inside it. Anna creates both
+folders the first time a project gets a drawing.
+
+- **Save every drawing**, from email or any other source, under its original file name, so the revision
+  stays visible. A copy also goes to Anna's `Raw/` as the source.
+- **Only the current revision stays in `Drawings/`.** As soon as a new revision arrives, the old one is
+  moved to `Drawings/Archive/` (a move, never a delete).
+- **Drawings only.** Quotes, RAMS, permits and booking forms go to `Documents/`; photos and survey images
+  are not drawings.
+- A drawing is not a design sign-off. Structural, fire or other §3 decisions still go to the named professional.
+
+Source: Minda, 2026-09-29: "Let's make it as rule. Download all drawings for project into Drawings folder
+under project. Create Archive folder inside, as soon new revision of drawings arrived, old one needs to be
+moved to archive." Adopted 2026-09-29.
+
 ## 5a. Construction KB — read and write (granted 2026-09-22, Minda; Hub AWT-0077)
 
 Minda granted Anna **read and write** on the `Fishbone Construction Ltd - Knowledge Base`

@@ -5,6 +5,15 @@ top. Never edit a past entry; correct it with a new one.
 
 ---
 
+**2026-09-29 — Project drawings rule (§0d).** Minda: "Let's make it as rule. Download all drawings for project
+into Drawings folder under project. Create Archive folder inside, as soon new revision of drawings arrived, old one
+needs to be moved to archive." Prompted by Macdonald's steel drawing for FC2611. New `Charter-Rules.md` §0d:
+`Drawings/` and `Drawings/Archive/` in each Collaboration Space project folder; only the current revision stays in
+`Drawings/`, older ones are moved to `Archive/`. First applied to FC2611 (4 drawings) and FC2612 (1). `CLAUDE.md`
+untouched. Edited in place through Composio (§0b) and byte-verified; mirrored to git.
+
+---
+
 **2026-09-29 — §7: first routine recorded.** Minda asked for Construction project emails to be checked every two hours,
 06:00–18:00, Monday to Friday. Anna cannot create routines (§6a), so she wrote a paste-in spec; Minda chose option B and
 created it herself in the routines form: "Anna – Construction project email check" (trig_014PjEdPWN5pBcxB5rzFhY1T),

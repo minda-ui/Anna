@@ -2,6 +2,10 @@
 
 Newest notes at the top. Append-only.
 
+## 18:45 — End of day; SC-2 and SC-4 adopted
+- First `end-of-day` run on "Good Night, Anna": record complete, Drive = git, no drafts waiting; open list given.
+- Minda: yes to SC-2 and SC-4 — `project-admin` gains §4a (site checklist page) and a start-of-session check in §0. Ledger rows 75–76.
+
 ## 18:35 — End-of-day skill
 - Minda: "good night" should trigger "Have you documented today's work?". New `end-of-day` skill; §0f names the trigger; SC-6 Adopted. PR #10 merged and checked. Ledger row 74.
 

@@ -28,6 +28,12 @@ Habits, every time:
 3. **Never transcribe.** Build files with scripts (python-docx, Python string edits with `assert
    s.count(old)==1`), attach with `--file`. No hand-typed base64 or long `textContent`.
 
+**Start of session** (before the first job — 29/09 began with Composio down):
+1. `composio whoami` shows minda@; one read, e.g. `GMAIL_GET_PROFILE` on `anna-gmail`. Not signed in or
+   the Composio MCP failed → `composio login`, give Minda the link, then `composio login --poll`.
+2. `python3 -c "import docx"` — missing → `pip install -q python-docx`.
+3. `git fetch`; note any open PR and whether `main` matches Drive.
+
 ## 1. Project email check (§0c)
 
 1. Native `search_threads` on info@: `after:<epoch of last check> -in:draft`.
@@ -81,6 +87,18 @@ Attachments: the bulk fetch returns no parts. Get them per message with
   .docx in this container.
 - **File:** source in Anna `Raw/`; copy in project `Documents/` named `<FC doc no> Rev n - Project-RAMS -
   … - signed dd.mm.yy.docx`; rename the previous rev `… (superseded by Rev n)` — keep it.
+
+## 4a. Site checklist page (Artifact)
+
+Per-job checklist pages (e.g. FC2612: `https://claude.ai/artifact/RxRudQ4wHmFkuSRUp8hvrb`) keep ticks,
+notes and photos in the page's own database, keyed by each item's id.
+1. `Artifact read` the url (no `path`) — this counts as viewing the live version; then `read` with
+   `path: "index.html"` to save the file.
+2. Edit the saved file by script (`assert` each old string). **Never rename or reuse an item id** — the
+   saved ticks hang on it. New items get new ids (e.g. `d0`, `a5b`).
+3. Republish to the **same url**; check the version number went up. Capabilities carry forward — don't pass
+   `capabilities`.
+4. Only Minda can share it (Share menu); tell her who needs edit access (operatives adding photos).
 
 ## 5. Email drafts (never send — §5, §0e)
 

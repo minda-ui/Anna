@@ -2,6 +2,24 @@
 
 Newest notes at the top. Append-only.
 
+## 17:40 — FC0000044 Rev 1; draft to Michelle only
+- Minda: register Rev 1 under FC0000044; send the update to Michelle only.
+- Rev 1 footer now `FC0000044 Rev 1`; filed and source copies updated in place (byte-verified). Rev 0 kept, renamed `(superseded by Rev 1)`.
+- Document Register FC0000044 updated; Status Draft until Rev 1 is sent.
+- Draft to Michelle only with Rev 1 attached (r-436549798031176979), for Minda to send. Rule F: Hub AWT-0209; notes to Rachel and Peter. Ledger row 69.
+
+## 17:20 — §0d: every drawing registered
+- Minda: yes. §0d now requires a Drawing Register row per revision; superseded rows marked and linked. Ledger row 68.
+
+## 17:05 — RAMS Rev 1, Drawing Register, draft rule (§0e)
+- **FC2612 RAMS Rev 1** (permit #694111, Control Room call before/after dusty work) signed off by Minda; filed in FC2612 `Documents/`. Register number awaiting Minda.
+- **Site checklist** artifact v6: #694111; Control Room items added.
+- **Emails:** Minda sent the PO chase at 16:58 (cc Ian Newcombe, David Macdonald). The combined draft with RAMS Rev 1 attached was discarded, so **Rev 1 has not reached Macdonald**.
+- **Drawing Register** created (Fishbone Construction Ltd workspace), DR-0001–DR-0005.
+- August Merry Hill Rolex CPO: Minda gave **FC2609** (QuickBooks). Folder created with Documents/, Drawings/, Archive/; 7 drawings filed (byte-verified); Drawing Register DR-0006–DR-0012; Hub AWT-0208 updated, addendum to Victoria and Peter. Ledger row 67.
+- **New rule §0e** (Minda): replace a draft by creating the new one, checking it, then deleting the old. `CLAUDE.md` §5 names it as its sole exception.
+- Rule F: Hub AWT-0208; notes to Victoria and Peter. Ledger row 66.
+
 ## 16:50 — Afternoon email check; project drawings rule (§0d)
 - Email: six new Macdonald / Bullring emails (copies in info@ and ops@). **Correction:** I first told Minda ops@ had nothing today — Composio had stored the result in a file and I read the empty wrapper. Same emails as info@; nothing extra.
 - FC2612: new Merry Hill permit **#694111** replaces #693953; may need fire-system isolation; call Control Room 01384 487952 before dusty work. RAMS FC0000044 and the site checklist still cite the old number — for Minda.

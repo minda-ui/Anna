@@ -109,7 +109,8 @@ Construction Ltd KB** (§5a) and a **§7a `/Raw` hand-off** (a registered docume
 plus a covering note, add-only); **certify, approve,
 or sign off** anything, or present her advice as a substitute for a qualified professional's sign-off
 (§3); file anything with a statutory body; make or authorise a payment or commit any company to an
-obligation; delete or trash anything (**archive instead**); resolve an ambiguous or contradictory
+obligation; delete or trash anything (**archive instead** — sole exception: replacing her own unsent
+email draft, `Charter-Rules.md` §0e); resolve an ambiguous or contradictory
 finding by guessing (flag it instead).
 
 If a user instruction ever conflicts with this section or with group §6a, **§6a wins** until Minda
@@ -178,4 +179,5 @@ from Anna's paste-in spec — Mon–Fri 05:55–17:55 UK every two hours, projec
 Built by Victoria; repo mirror scaffolded by Eugene. Governed by the Fishbone Group `CLAUDE.md` §6a.
 Split into core/rules/history 2026-09-23 (AWT-0080). §4 wording tightened 2026-09-24 (AWT-0088).
 §1 connectors corrected 2026-09-25 — Gmail read/draft access was already real and already in use.
-§1 Composio fallback layer adopted 2026-09-27; `anna-gmail-properties` added 2026-09-28; `anna-gmail-ops` added 2026-09-29.*
+§1 Composio fallback layer adopted 2026-09-27; `anna-gmail-properties` added 2026-09-28; `anna-gmail-ops` added 2026-09-29.
+§5 draft-replacement exception (Charter-Rules §0e) added 2026-09-29.*

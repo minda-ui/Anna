@@ -70,6 +70,9 @@ folders the first time a project gets a drawing.
   stays visible. A copy also goes to Anna's `Raw/` as the source.
 - **Only the current revision stays in `Drawings/`.** As soon as a new revision arrives, the old one is
   moved to `Drawings/Archive/` (a move, never a delete).
+- **Register every drawing** in the Drawing Register (Smartsheet, Fishbone Construction Ltd workspace):
+  one row per revision, `DR-` number, status `Current`; when a newer revision arrives, the old row becomes
+  `Superseded` with `Superseded by` filled in, and its file moves to `Archive/`.
 - **Drawings only.** Quotes, RAMS, permits and booking forms go to `Documents/`; photos and survey images
   are not drawings.
 - A drawing is not a design sign-off. Structural, fire or other §3 decisions still go to the named professional.
@@ -77,6 +80,22 @@ folders the first time a project gets a drawing.
 Source: Minda, 2026-09-29: "Let's make it as rule. Download all drawings for project into Drawings folder
 under project. Create Archive folder inside, as soon new revision of drawings arrived, old one needs to be
 moved to archive." Adopted 2026-09-29.
+
+## 0e. Email drafts: replace, don't pile up (added 2026-09-29)
+
+When Anna has to change a draft she made — a new attachment, new wording, a combined email — she
+creates the new draft and **deletes the old one**, so only one version waits to be sent.
+
+- **Only Anna's own unsent drafts.** Never a sent or received email, and never a draft someone else wrote.
+- **New first, then delete.** Create the new draft, check it (recipients, thread, attachment), then delete
+  the old one. Never leave the thread with no draft in between.
+- **Say it.** Tell Minda both draft ids, and log them in the ledger.
+- This is the one exception to `CLAUDE.md` §5 "delete or trash anything (archive instead)". Everything
+  else is still archived, never deleted.
+
+Source: Minda, 2026-09-29: "If you need to delete draft, because you need it to replace, then delete it
+and create new." Prompted by two Merry Hill drafts in one thread, where the PO-only draft was sent and
+the one with RAMS Rev 1 attached was discarded. Adopted 2026-09-29.
 
 ## 5a. Construction KB — read and write (granted 2026-09-22, Minda; Hub AWT-0077)
 

@@ -5,6 +5,14 @@ top. Never edit a past entry; correct it with a new one.
 
 ---
 
+**2026-09-29 — Email: project topics only (§0c).** Minda: "you need to work through email only on topics
+that are related to projects", then "let's do". Prompted by the morning inbox check, which summarised
+payroll, HMRC, mortgage, pest-control and security-alert mail. New `Charter-Rules.md` §0c: mailbox work
+covers project emails only; anything unclear is named in one line and asked about. `CLAUDE.md` untouched.
+Edited in place through Composio (§0b) and byte-verified; mirrored to git.
+
+---
+
 **2026-09-28 — §1 connectors: `anna-gmail-properties` added.** Minda: "add anna-gmail-properties to
 CLAUDE.md §1". Linked this session through Composio to reach the AO.com order emails for FP 2401; verified
 with `GMAIL_GET_PROFILE` as info@fishboneproperties.co.uk (14,248 messages). §1 Connectors row now names each

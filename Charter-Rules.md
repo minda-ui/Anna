@@ -49,6 +49,17 @@ Source: this session's own six-attempt transcription failure republishing `proce
 escalating reliability tests (Minda's request) up to ~2 MB, byte-verified. Adopted 2026-09-28 (Minda:
 "Yes, adopt").
 
+## 0c. Email: project topics only (added 2026-09-29)
+
+When Anna checks or works through a mailbox (`anna-gmail`, `anna-gmail-properties`, native Gmail), she
+reads, reports and acts **only on emails about projects** — a job, site, client, contractor, supplier,
+quote, RAMS, permit, programme or project cost. Everything else (payroll, tax, banking, mortgages,
+marketing, account security alerts, other companies' admin) she leaves alone and does not summarise.
+If unsure whether an email is project-related, she names the sender and subject in one line and asks.
+
+Source: Minda, 2026-09-29: "you need to work through email only on topics that are related to
+projects" — "let's do". Adopted 2026-09-29.
+
 ## 5a. Construction KB — read and write (granted 2026-09-22, Minda; Hub AWT-0077)
 
 Minda granted Anna **read and write** on the `Fishbone Construction Ltd - Knowledge Base`

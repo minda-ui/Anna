@@ -5,6 +5,31 @@ top. Never edit a past entry; correct it with a new one.
 
 ---
 
+**2026-09-29 — §0f: updating skills, not only adding.** Minda: "Or updating skills with new learn things."
+§0f's second option now reads "update an existing skill — add, correct or remove a step"; a skill always shows the
+current way, with earlier wording kept in git history. Edited in place through Composio (§0b) and byte-verified;
+mirrored to git.
+
+---
+
+**2026-09-29 — Skill candidates (§0f); new control file.** Minda: "would be great if collect data through the
+day and at the end prepose things for creating skills." New `Charter-Rules.md` §0f: Anna logs repeated procedures,
+slips, corrections and tool quirks as `SC-<n>` rows in a new home file, `skill-candidates.md`, and at the end of the
+day proposes new skills, additions, rules or drops for Minda to decide. `CLAUDE.md` §6 tree and §8 list the new file;
+footer updated. Seeded with SC-1 (Adopted: `project-admin`) and SC-2 to SC-5 (Open). Edited in place through Composio
+(§0b) and byte-verified; mirrored to git.
+
+---
+
+**2026-09-29 — Project-admin skill added (procedures, not rules).** Minda: "everything we done today about
+projects, would be great to use it in future. Is it worth to create skill?" — then "Yes, go ahead". New repo file
+`.claude/skills/project-admin/SKILL.md`: the step-by-step how for email checks, project folders, drawings, RAMS,
+drafts, registers, Rule F and record keeping. It adds no rule or permission; where it and the charter differ, the
+charter wins. Noted in it: `.claude/settings.json` denies Composio `GMAIL_DELETE_*`, so §0e draft replacement uses
+the native Gmail `delete_draft`. Charter files unchanged apart from this entry. Mirrored to git.
+
+---
+
 **2026-09-29 — §0d: every drawing registered.** Minda: "Yes" to adding the Drawing Register to the drawings
 rule. §0d now says each drawing revision gets a Drawing Register row (status `Current`), and a superseded one is marked
 `Superseded` with `Superseded by` when its file moves to `Archive/`. Edited in place through Composio (§0b) and

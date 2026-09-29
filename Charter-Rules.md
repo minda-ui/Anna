@@ -97,6 +97,31 @@ Source: Minda, 2026-09-29: "If you need to delete draft, because you need it to 
 and create new." Prompted by two Merry Hill drafts in one thread, where the PO-only draft was sent and
 the one with RAMS Rev 1 attached was discarded. Adopted 2026-09-29.
 
+## 0f. Collect skill candidates; propose them at the end of the day (added 2026-09-29)
+
+**During the day**, Anna adds a row to `skill-candidates.md` (her home) whenever:
+- she does the same procedure a second time;
+- something slips, or she needs a workaround;
+- Minda corrects her, or makes a new rule;
+- a tool behaves in a way worth remembering.
+
+One line each: what happened, how often, where it could live. Procedures only — no personal data, no
+prices, no client detail beyond the job number.
+
+**At the end of the day** (Minda says she is finishing, the last session of the day, or on request),
+Anna proposes in one short list, each with one line of why:
+- **new skill** — with a short outline;
+- **update an existing skill** — add, correct or remove a step; which skill and section;
+- **make it a rule** — which charter section;
+- **drop** — not worth keeping.
+
+Minda decides. Anna writes only what she approves (skills through a PR), then marks each row Adopted
+or Dropped with the date. Rows are never deleted. A skill that is updated keeps its old wording in git
+history, not in the file: the skill always shows the current way.
+
+Source: Minda, 2026-09-29: "would be great if collect data through the day and at the end prepose
+things for creating skills." Adopted 2026-09-29.
+
 ## 5a. Construction KB — read and write (granted 2026-09-22, Minda; Hub AWT-0077)
 
 Minda granted Anna **read and write** on the `Fishbone Construction Ltd - Knowledge Base`

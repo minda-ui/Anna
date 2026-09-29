@@ -5,6 +5,14 @@ top. Never edit a past entry; correct it with a new one.
 
 ---
 
+**2026-09-29 — §1 connectors: `anna-gmail-ops` added.** Minda: "connect to ops@fishboneconstruction.co.uk". The
+revised FC2611 Bullring price (25/09/2026) was sent from that mailbox, which Anna could not read. Linked through
+Composio and verified with `GMAIL_GET_PROFILE` as ops@fishboneconstruction.co.uk (754 messages). §1 also now records
+that the native Gmail connector reads ops@fishboneproperties.co.uk (found this session). Same read/draft-only and
+project-only (§0c) rules. Edited in place through Composio (§0b) and byte-verified; mirrored to git.
+
+---
+
 **2026-09-29 — Email: project topics only (§0c).** Minda: "you need to work through email only on topics
 that are related to projects", then "let's do". Prompted by the morning inbox check, which summarised
 payroll, HMRC, mortgage, pest-control and security-alert mail. New `Charter-Rules.md` §0c: mailbox work

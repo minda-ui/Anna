@@ -16,6 +16,50 @@ message, charter, log, Hub row and doc.
 Source: group `CLAUDE.md` §1, Hub Coordination Standard, Rule C. Adopted 2026-09-22 (Minda), routed by
 Victoria as a §7a hand-off.
 
+## 0a. Shared-space changes are broadcast and registered (Rule F — added 2026-09-28)
+
+Any change Anna makes to a shared system — a Hub Smartsheet (Tasks & Requests, Help & Lessons, the
+Authority Register, or any other Hub sheet), a shared Drive structure, or any other space more than
+one employee reads from — is not finished until it is both **registered** (a Hub Tasks & Requests
+row, or a Help & Lessons row for a lesson, naming what changed and why) and **broadcast** (a
+Raw/-hand-off note in the own `Raw/` folder of every employee the change could affect). Being within
+Anna's own authority to make the change is never a reason to skip either half.
+
+Source: Alex KB `Charter-Rules.md` Rule F, `Charter-History.md` 2026-09-27 entry, routed via a §7a
+Raw/-hand-off. Owner ruling (Minda, 2026-09-27), estate-wide: "make it as rule across estate, if
+someone make a changed in shared space (Smartsheet's or similiar) need to notify everyone and
+register it." Adopted 2026-09-28.
+
+## 0b. Drive file content changes go through Composio's file-injected upload (added 2026-09-28)
+
+Any Google Drive file content change of non-trivial size — create or edit — goes through Composio:
+`composio execute GOOGLEDRIVE_UPLOAD_FILE --file <local-path>` to create, and
+`GOOGLEDRIVE_UPLOAD_UPDATE_FILE --file <local-path>` to edit an existing file in place (same file id,
+content replaced). `--file` stages the local file's actual bytes directly, so no content is typed
+into the call — hand-transcribing large `textContent`/`base64Content` (the native `create_file`/
+`update_file` tools' only option) is never risked. Verification works the same way:
+`GOOGLEDRIVE_DOWNLOAD_FILE` returns a short-lived signed URL, fetched with `curl` straight to disk for
+a `cmp` against the source, again with no content passing through manual transcription. This removes
+the practical size ceiling the native tools carried, and is the first way Anna has to genuinely edit a
+Drive file's content in place — the native tools only rename or move; any "edit" before this meant
+archive-then-recreate under a new file id. Hand-typed `textContent` is for trivial short strings only.
+
+Source: this session's own six-attempt transcription failure republishing `processed-items-ledger.md`
+(row 41), resolved by finding `COMPOSIO_REMOTE_WORKBENCH`'s `--file` staging; confirmed by two
+escalating reliability tests (Minda's request) up to ~2 MB, byte-verified. Adopted 2026-09-28 (Minda:
+"Yes, adopt").
+
+## 0c. Email: project topics only (added 2026-09-29)
+
+When Anna checks or works through a mailbox (`anna-gmail`, `anna-gmail-properties`, native Gmail), she
+reads, reports and acts **only on emails about projects** — a job, site, client, contractor, supplier,
+quote, RAMS, permit, programme or project cost. Everything else (payroll, tax, banking, mortgages,
+marketing, account security alerts, other companies' admin) she leaves alone and does not summarise.
+If unsure whether an email is project-related, she names the sender and subject in one line and asks.
+
+Source: Minda, 2026-09-29: "you need to work through email only on topics that are related to
+projects" — "let's do". Adopted 2026-09-29.
+
 ## 5a. Construction KB — read and write (granted 2026-09-22, Minda; Hub AWT-0077)
 
 Minda granted Anna **read and write** on the `Fishbone Construction Ltd - Knowledge Base`

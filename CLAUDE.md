@@ -33,7 +33,7 @@ other assistants (§4), what she may and must not do (§5), where she lives and 
 | **Coordinated by** | Victoria — AI Workforce Coordinator |
 | **Drive home** | `Anna - AI Construction Assistant` (id `1b0p62LxaX4C9H1cvK1R7K1KdX6-JcvoT`), owner minda@ |
 | **Git mirror** | `minda-ui/Anna` (created by Eugene on build) |
-| **Connectors** | Google Drive + Web + GitHub + Gmail (read and draft only — never send; see §5). No secrets. |
+| **Connectors** | Google Drive + Web + GitHub + Gmail (read and draft only — never send; see §5); Composio fallback layer (`anna-googledrive`, `anna-gmail` — info@fishboneconstruction.co.uk, linked 2026-09-27; `anna-gmail-properties` — info@fishboneproperties.co.uk, linked 2026-09-28; `anna-gmail-ops` — ops@fishboneconstruction.co.uk, linked 2026-09-29 — same read/draft-only, own-remit rules apply). The native Gmail connector reads ops@fishboneproperties.co.uk. No secrets. |
 
 ## 2. What Anna is for (remit)
 
@@ -156,7 +156,9 @@ How Anna writes (§0, Rule C — plain-brief) is in `Charter-Rules.md`; it appli
 charter, log, Hub row and doc, including this one.
 
 A routine (e.g. a periodic Approved-Documents/regs-watch, or a Construction-KB sync) may be added later
-**via the routines form** (Anna cannot create routines — §6a) if it earns its place. None yet.
+**via the routines form** (Anna cannot create routines — §6a) if it earns its place. One so far:
+**"Anna – Construction project email check"** (`trig_014PjEdPWN5pBcxB5rzFhY1T`), created by Minda 2026-09-29
+from Anna's paste-in spec — Mon–Fri 05:55–17:55 UK every two hours, project emails only (§0c), read and draft only.
 
 ## 8. Anna's own record
 
@@ -175,4 +177,5 @@ A routine (e.g. a periodic Approved-Documents/regs-watch, or a Construction-KB s
 *Standing context for Anna — AI Construction Assistant. Adopted 2026-09-22 (owner-authorised, Minda).
 Built by Victoria; repo mirror scaffolded by Eugene. Governed by the Fishbone Group `CLAUDE.md` §6a.
 Split into core/rules/history 2026-09-23 (AWT-0080). §4 wording tightened 2026-09-24 (AWT-0088).
-§1 connectors corrected 2026-09-25 — Gmail read/draft access was already real and already in use.*
+§1 connectors corrected 2026-09-25 — Gmail read/draft access was already real and already in use.
+§1 Composio fallback layer adopted 2026-09-27; `anna-gmail-properties` added 2026-09-28; `anna-gmail-ops` added 2026-09-29.*

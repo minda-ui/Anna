@@ -2,6 +2,12 @@
 
 Newest notes at the top. Append-only.
 
+## 17:40 — FC0000044 Rev 1; draft to Michelle only
+- Minda: register Rev 1 under FC0000044; send the update to Michelle only.
+- Rev 1 footer now `FC0000044 Rev 1`; filed and source copies updated in place (byte-verified). Rev 0 kept, renamed `(superseded by Rev 1)`.
+- Document Register FC0000044 updated; Status Draft until Rev 1 is sent.
+- Draft to Michelle only with Rev 1 attached (r-436549798031176979), for Minda to send. Rule F: Hub AWT-0209; notes to Rachel and Peter. Ledger row 69.
+
 ## 17:20 — §0d: every drawing registered
 - Minda: yes. §0d now requires a Drawing Register row per revision; superseded rows marked and linked. Ledger row 68.
 

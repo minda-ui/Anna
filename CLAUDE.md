@@ -33,7 +33,7 @@ other assistants (§4), what she may and must not do (§5), where she lives and 
 | **Coordinated by** | Victoria — AI Workforce Coordinator |
 | **Drive home** | `Anna - AI Construction Assistant` (id `1b0p62LxaX4C9H1cvK1R7K1KdX6-JcvoT`), owner minda@ |
 | **Git mirror** | `minda-ui/Anna` (created by Eugene on build) |
-| **Connectors** | Google Drive + Web + GitHub + Gmail (read and draft only — never send; see §5); Composio fallback layer (`anna-googledrive`, `anna-gmail` — info@fishboneconstruction.co.uk, linked 2026-09-27; `anna-gmail-properties` — info@fishboneproperties.co.uk, linked 2026-09-28; `anna-gmail-ops` — ops@fishboneconstruction.co.uk, linked 2026-09-29 — same read/draft-only, own-remit rules apply). The native Gmail connector reads ops@fishboneproperties.co.uk.. No secrets. |
+| **Connectors** | Google Drive + Web + GitHub + Gmail (read and draft only — never send; see §5); Composio fallback layer (`anna-googledrive`, `anna-gmail` — info@fishboneconstruction.co.uk, linked 2026-09-27; `anna-gmail-properties` — info@fishboneproperties.co.uk, linked 2026-09-28; `anna-gmail-ops` — ops@fishboneconstruction.co.uk, linked 2026-09-29 — same read/draft-only, own-remit rules apply). The native Gmail connector reads ops@fishboneproperties.co.uk. No secrets. |
 
 ## 2. What Anna is for (remit)
 

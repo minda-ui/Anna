@@ -4,7 +4,7 @@
 |---|---|
 | Last session | 2026-09-29 |
 | Status | **Live.** Charter split 2026-09-23 into `CLAUDE.md` (core), `Charter-Rules.md` (5,527 B) and `Charter-History.md` — AWT-0080, §4 wording tightened 2026-09-24 (AWT-0088), §1 connectors corrected 2026-09-25 (Gmail read/draft was already real), **Composio fallback layer adopted into §1 2026-09-27** — `CLAUDE.md` now **12,008 B**, `Charter-History.md` now **4,486 B**, both byte-verified. AWT-0080/AWT-0088 both **closed on the Hub** (Tasks & Requests sheet `8860839228606340`) 2026-09-24 — the Hub turned out to be reachable via Smartsheet all along. Construction KB **write, bounded** — and written to. Collaboration Space **read/write** (filing). Document Register **write, on instruction**. **Gmail read and draft-create** confirmed real and in use (never send). Repo `minda-ui/Anna`: `CLAUDE.md` mirrored 2026-09-26, first commit `125d8e1` on branch `claude/loving-gates-8bcu4a`, **not yet merged to `main`**; `origin/main` separately now carries a `.claude/settings.json` (Minda-pushed 2026-09-27) granting unprompted `composio` execute/link/remove — not yet checked out into this session's own working branch. **Composio fallback connectors linked 2026-09-27**: `anna-googledrive` (Fishbone Construction Ltd Knowledge base) and `anna-gmail` (`info@fishboneconstruction.co.uk`), both verified read-only and both still bound by the same never-send / own-remit-only rules as the native connectors. |
-| Record | Complete as of 2026-09-29. **34** change-log entries · ledger to **row 62** · 7 external sources + 5 internal · 7 open questions. Connectors now also `anna-gmail-properties` (28/09) and `anna-gmail-ops` (ops@fishboneconstruction.co.uk, 29/09). One routine: "Anna – Construction project email check" (created by Minda 29/09). Charter-Rules §0c: project emails only. |
+| Record | Complete as of 2026-09-29. **34** change-log entries · ledger to **row 63** · 7 external sources + 5 internal · 7 open questions. Connectors now also `anna-gmail-properties` (28/09) and `anna-gmail-ops` (ops@fishboneconstruction.co.uk, 29/09). One routine: "Anna – Construction project email check" (created by Minda 29/09). Charter-Rules §0c: project emails only. |
 
 ## Snapshot (2026-09-22)
 - **Anna's status is recorded in the Construction KB** (AQ-6b, Hub AWT-0077). New Decisions
@@ -284,10 +284,10 @@
 - **FC2611 Bullring (nights 5–29 Oct):** RAMS rebuilt for the job as a draft (Anna `Raw/`), asbestos closed
  (Michelle, 29/09). Revised price found in ops@: **FC0000046**, £40,470.00 excl VAT, supervisor + 3 — registered,
  Issued; **FC0000023 Superseded**. Hub AWT-0199 and AWT-0200 (Rule F).
-- **Charter:** §0c project emails only; §1 `anna-gmail-ops`; §7 the email-check routine. git to 4c83e77.
+- **Charter:** §0c project emails only; §1 `anna-gmail-ops`; §7 the email-check routine. git to 4c83e77; control files and change-logs synced to `main` via minda-ui/Anna#4 (c1bad61).
 - Slip, fixed at once: a one-row ledger upload briefly replaced the Drive ledger; restored and verified.
 - **Sebastian's CSCS card** (scan in Anna `Raw/`, expires end Jan 2028) renamed `FC2611 - CSCS - Sebastian Pabis - exp 01.2028.pdf`;
- attached via Composio to a draft reply to Michelle (r-5936341689578722610, attachment 785,913 B = Drive). Not sent. **Composio re-logged
+ attached via Composio to a draft reply to Michelle (r-5936341689578722610, attachment 785,913 B = Drive); **sent by Minda 09:39 UTC**. **Composio re-logged
  in** (minda@) after the session started with it down. Native Gmail read **info@fishboneconstruction.co.uk** this session, not
  ops@fishboneproperties.co.uk as §1 says — to check (ledger row 62).
 
@@ -298,8 +298,7 @@
  Drafts (Minda's call).
 - **FC2611 Bullring:** RAMS draft waits on the Bullring permit / site rules (Michelle preparing) and the engineer's
  steel post design (§3); then Minda reviews and signs; register it (supersedes FC0000027 in substance). Sebastian's
- CSCS card: draft with the card attached waits for Minda to send; discard the old attachment-free draft
- r-9083325054682278232. PO for FC0000046 awaited.
+ CSCS card sent to Michelle 29/09. PO for FC0000046 awaited.
 - **Routine:** Minda to read the 08:29 test-run report; if Composio was missing, Eugene to add it to the environment
  setup script.
 - **FP 2401:** Rachel to enter the nine hand-offs; Rachel to say whether Sebastian's days include the kitchen fit;
@@ -345,4 +344,4 @@ Reference articles: 2 · Logged queries: 1 · Open questions: 7 open / 9 resolve
 Sources: 7 external (ASRC-1–7) + 5 internal · Raw items held: 2 ·
 Documents filed to Collaboration Space: 4 · Register cells written: 24 across 6 rows ·
 Files written in the Construction KB: 5 (+1 git commit) ·
-Change-log entries: 34 · Ledger rows: 62 (plus row 2a) · Register rows added 29/09: FC0000044, FC0000046; updated: FC0000043, FC0000023
+Change-log entries: 34 · Ledger rows: 63 (plus row 2a) · Register rows added 29/09: FC0000044, FC0000046; updated: FC0000043, FC0000023

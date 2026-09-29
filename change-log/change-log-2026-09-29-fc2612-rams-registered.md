@@ -2,6 +2,11 @@
 
 Newest notes at the top. Append-only.
 
+## 10:00 — CSCS email sent; git synced
+- Minda sent the reply to Michelle 09:39 UTC with Sebastian's CSCS card attached (785,913 B = Drive); old draft discarded by Minda.
+- Git mirror synced to Drive and merged to `main` (minda-ui/Anna#4, c1bad61): current-state, ledger to row 62, change-logs 27–29/09 — byte-identical after merge.
+- Ledger row 63.
+
 ## 09:50 — CSCS card for Michelle; Composio login (09:30–09:50 UTC)
 - Project email check (info@): nothing new since the summary below. Sensio / KBBConnect catalogue email: asked Minda if project-related (§0c).
 - **Connector note:** native Gmail read **info@fishboneconstruction.co.uk** this session — not ops@fishboneproperties.co.uk as recorded above and in `CLAUDE.md` §1. To check before any charter change.

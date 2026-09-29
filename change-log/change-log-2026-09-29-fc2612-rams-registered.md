@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 18:25 — §0f: updating skills
+- Minda: proposals include updating existing skills with what was learned. §0f reworded (add, correct or remove a step); skill-candidates.md and project-admin §8 match. Ledger row 73.
+
 ## 18:15 — Skill candidates (§0f)
 - Minda: collect through the day, propose skills at the end. New Charter-Rules §0f; new home file `skill-candidates.md` (SC-1 Adopted, SC-2–SC-5 Open); `CLAUDE.md` §6/§8. Ledger row 72.
 

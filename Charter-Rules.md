@@ -111,12 +111,13 @@ prices, no client detail beyond the job number.
 **At the end of the day** (Minda says she is finishing, the last session of the day, or on request),
 Anna proposes in one short list, each with one line of why:
 - **new skill** — with a short outline;
-- **add to an existing skill** — which section;
+- **update an existing skill** — add, correct or remove a step; which skill and section;
 - **make it a rule** — which charter section;
 - **drop** — not worth keeping.
 
 Minda decides. Anna writes only what she approves (skills through a PR), then marks each row Adopted
-or Dropped with the date. Rows are never deleted.
+or Dropped with the date. Rows are never deleted. A skill that is updated keeps its old wording in git
+history, not in the file: the skill always shows the current way.
 
 Source: Minda, 2026-09-29: "would be great if collect data through the day and at the end prepose
 things for creating skills." Adopted 2026-09-29.

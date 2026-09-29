@@ -5,6 +5,13 @@ top. Never edit a past entry; correct it with a new one.
 
 ---
 
+**2026-09-29 — §0f: updating skills, not only adding.** Minda: "Or updating skills with new learn things."
+§0f's second option now reads "update an existing skill — add, correct or remove a step"; a skill always shows the
+current way, with earlier wording kept in git history. Edited in place through Composio (§0b) and byte-verified;
+mirrored to git.
+
+---
+
 **2026-09-29 — Skill candidates (§0f); new control file.** Minda: "would be great if collect data through the
 day and at the end prepose things for creating skills." New `Charter-Rules.md` §0f: Anna logs repeated procedures,
 slips, corrections and tool quirks as `SC-<n>` rows in a new home file, `skill-candidates.md`, and at the end of the

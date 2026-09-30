@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 18:15 — Nearest A&E; RAMS rev e
+- Not in the Bullring papers. Queen Elizabeth Hospital Birmingham (24-hour adult ED, UHB website) put in RAMS rev e on Minda's word, 'confirm at induction'. No open items left in the RAMS. ASRC-8. Ledger row 95.
+
 ## 17:57 — Steel posts: install only
 - Minda: Fishbone installs the steel posts; their manufacture and design are not Fishbone's. RAMS rev d closes open item 3; DR-0004 note updated. Only the nearest A&E left open. SC-10 logged. Ledger row 94.
 

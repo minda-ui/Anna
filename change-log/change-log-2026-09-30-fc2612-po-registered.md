@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 17:57 — Steel posts: install only
+- Minda: Fishbone installs the steel posts; their manufacture and design are not Fishbone's. RAMS rev d closes open item 3; DR-0004 note updated. Only the nearest A&E left open. SC-10 logged. Ledger row 94.
+
 ## 17:50 — Skips were in the pack
 - Minda corrected Anna: the pre-start pack names the skip supplier (AWS Nationwide, Keith Parton); Minda, as site manager, calls them for exchanges. RAMS rev c; 24 h booking with Bullring Technical and banksman included. Ledger row 93.
 

@@ -4,7 +4,7 @@
 |---|---|
 | Last session | 2026-09-30 |
 | Status | **Live.** Charter split 2026-09-23 into `CLAUDE.md` (core), `Charter-Rules.md` (5,527 B) and `Charter-History.md` — AWT-0080, §4 wording tightened 2026-09-24 (AWT-0088), §1 connectors corrected 2026-09-25 (Gmail read/draft was already real), **Composio fallback layer adopted into §1 2026-09-27** — `CLAUDE.md` now **12,008 B**, `Charter-History.md` now **4,486 B**, both byte-verified. AWT-0080/AWT-0088 both **closed on the Hub** (Tasks & Requests sheet `8860839228606340`) 2026-09-24 — the Hub turned out to be reachable via Smartsheet all along. Construction KB **write, bounded** — and written to. Collaboration Space **read/write** (filing). Document Register **write, on instruction**. **Gmail read and draft-create** confirmed real and in use (never send). Repo `minda-ui/Anna`: `CLAUDE.md` mirrored 2026-09-26, first commit `125d8e1` on branch `claude/loving-gates-8bcu4a`, **not yet merged to `main`**; `origin/main` separately now carries a `.claude/settings.json` (Minda-pushed 2026-09-27) granting unprompted `composio` execute/link/remove — not yet checked out into this session's own working branch. **Composio fallback connectors linked 2026-09-27**: `anna-googledrive` (Fishbone Construction Ltd Knowledge base) and `anna-gmail` (`info@fishboneconstruction.co.uk`), both verified read-only and both still bound by the same never-send / own-remit-only rules as the native connectors. |
-| Record | Complete as of 2026-09-30. **35** change-log entries · ledger to **row 85** · 7 external sources + 5 internal · 7 open questions. Connectors now also `anna-gmail-properties` (28/09) and `anna-gmail-ops` (ops@fishboneconstruction.co.uk, 29/09). One routine: "Anna – Construction project email check" (created by Minda 29/09). Charter-Rules §0c: project emails only. |
+| Record | Complete as of 2026-09-30. **35** change-log entries · ledger to **row 86** · 7 external sources + 5 internal · 7 open questions. Connectors now also `anna-gmail-properties` (28/09) and `anna-gmail-ops` (ops@fishboneconstruction.co.uk, 29/09). One routine: "Anna – Construction project email check" (created by Minda 29/09). Charter-Rules §0c: project emails only. |
 
 ## Snapshot (2026-09-22)
 - **Anna's status is recorded in the Construction KB** (AQ-6b, Hub AWT-0077). New Decisions
@@ -310,6 +310,7 @@
  added to the FC2612 checklist (v7, row 84) and the Bullring RAMS.
 - **FC2611 drawings:** DR-0013 WoS DD-Set V1 (Current), DR-0014 MJL hoarding Rev A (Superseded by Rev C). Hub AWT-0222 (row 83).
 - **FC2611 RAMS DRAFT 30.09.26** (Anna `Raw/`): site rules from the pre-start pack; open items: skips, A&E, steel design (§3), **hoarding fire rating (§3, new item 4)** (row 85).
+- **Charter-Rules §0g** (Minda): every project email gets a reply draft, to the sender only. Drafts to David: 'Re: Merryhill', 'Re: Bullring' (row 86).
 
 ## Pending
 - **FC2612 Merry Hill:** RAMS **FC0000044 Rev 1** (permit #694111, Control Room call) signed, filed and **Issued** — sent to Michelle
@@ -372,4 +373,4 @@ Reference articles: 2 · Logged queries: 1 · Open questions: 7 open / 9 resolve
 Sources: 7 external (ASRC-1–7) + 5 internal · Raw items held: 2 ·
 Documents filed to Collaboration Space: 4 · Register cells written: 24 across 6 rows ·
 Files written in the Construction KB: 5 (+1 git commit) ·
-Change-log entries: 35 · Ledger rows: 85 (plus row 2a) · Register rows added 30/09: FC0000047; updated: FC0000043 · Register rows added 29/09: FC0000044, FC0000046; updated: FC0000043, FC0000023
+Change-log entries: 35 · Ledger rows: 86 (plus row 2a) · Register rows added 30/09: FC0000047; updated: FC0000043 · Register rows added 29/09: FC0000044, FC0000046; updated: FC0000043, FC0000023

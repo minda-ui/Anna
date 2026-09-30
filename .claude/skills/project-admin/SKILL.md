@@ -5,7 +5,7 @@ description: Anna's step-by-step procedures for Fishbone Construction project ad
 
 # Anna — project admin procedures
 
-The **how**. The **rules** are in `Charter-Rules.md` (§0–§0e, §5a, §5b) and `CLAUDE.md` §3/§5 — read them
+The **how**. The **rules** are in `Charter-Rules.md` (§0–§0g, §5a, §5b) and `CLAUDE.md` §3/§5 — read them
 first; if this file and the charter ever differ, the charter wins. Learned on 2026-09-29 (FC2609, FC2611,
 FC2612). Plain-brief (Rule C) in every message.
 
@@ -102,6 +102,8 @@ notes and photos in the page's own database, keyed by each item's id.
 
 ## 5. Email drafts (never send — §5, §0e)
 
+0. **Every project email gets a reply draft (§0g)**, even one with only a file — to the **sender only**
+   (no reply-all or cc unless the email asks for it or Minda does). Say what arrived and what needs them.
 1. `GMAIL_CREATE_EMAIL_DRAFT` on `anna-gmail`: `thread_id`, `recipient_email`, `cc` only if Minda wants
    it, `body` plain text, attachment via `--file` (the file name is what the recipient sees).
 2. Verify with `GMAIL_GET_DRAFT`: To, Cc, Subject, threadId, attachment filename and size.

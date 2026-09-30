@@ -2,6 +2,10 @@
 
 Newest notes at the top. Append-only.
 
+## 14:25 — Replies to David; rule §0g
+- Two reply drafts to David Macdonald, sender only: 'Re: Merryhill' (received, matches ours) and 'Re: Bullring' (confirm hoarding Rev C; fire rating to be confirmed in writing with Bullring Technical).
+- Minda's new rule, Charter-Rules §0g: reply to everyone who writes to us, to the sender only. Charter-History entry; project-admin §5. Ledger row 86.
+
 ## 14:10 — Drawings, checklist v7, Bullring RAMS draft 30.09
 - Email: two Macdonald drawing emails. Tissot GA Rev B already on file (identical). DR-0013 WoS DD-Set V1 (Current), DR-0014 MJL hoarding Rev A (older than Rev C → Superseded, Archive). Hub AWT-0222; notes to Victoria and Peter. Row 83.
 - Checklist v7: Macdonald site rules added (PAT, access kit, sign Macdonald RAMS/induction/rules, phones). Row 84.

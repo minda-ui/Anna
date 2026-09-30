@@ -87,15 +87,21 @@ When Anna has to change a draft she made — a new attachment, new wording, a co
 creates the new draft and **deletes the old one**, so only one version waits to be sent.
 
 - **Only Anna's own unsent drafts.** Never a sent or received email, and never a draft someone else wrote.
-- **New first, then delete.** Create the new draft, check it (recipients, thread, attachment), then delete
-  the old one. Never leave the thread with no draft in between.
+- **Never repair a draft** (Minda, 2026-09-30): no editing or updating a draft in place — always a new
+  draft, and the old one deleted.
+- **Order: delete the old one first, then create the new one** when the draft is a reply in a thread.
+  Composio quotes the last message in the thread, drafts included, so a new draft made while the old one
+  is still there carries the old text underneath (30/09: both versions ended up in one email). The
+  wording and files are kept on disk, so nothing is lost in between. Check the new draft (recipients,
+  thread, attachments, and that it quotes only the email being answered).
 - **Say it.** Tell Minda both draft ids, and log them in the ledger.
 - This is the one exception to `CLAUDE.md` §5 "delete or trash anything (archive instead)". Everything
   else is still archived, never deleted.
 
 Source: Minda, 2026-09-29: "If you need to delete draft, because you need it to replace, then delete it
 and create new." Prompted by two Merry Hill drafts in one thread, where the PO-only draft was sent and
-the one with RAMS Rev 1 attached was discarded. Adopted 2026-09-29.
+the one with RAMS Rev 1 attached was discarded. Adopted 2026-09-29. Amended 2026-09-30 (Minda: "don't
+repair drafts, create new ones and deleted old ones"): never repair; delete the old one first.
 
 ## 0f. Collect skill candidates; propose them at the end of the day (added 2026-09-29)
 

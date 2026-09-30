@@ -105,10 +105,13 @@ notes and photos in the page's own database, keyed by each item's id.
 0. **Every project email gets a reply draft (§0g)**, even one with only a file — to the **sender only**
    (no reply-all or cc unless the email asks for it or Minda does). Say what arrived and what needs them.
 1. `GMAIL_CREATE_EMAIL_DRAFT` on `anna-gmail`: `thread_id`, `recipient_email`, `cc` only if Minda wants
-   it, `body` plain text, attachment via `--file` (the file name is what the recipient sees).
+   it, `body` plain text, attachment via `--file` (the file name is what the recipient sees). Several files:
+   `"attachment": ["/abs/a.pdf", "/abs/b.pdf"]` in the `-d @file.json` payload (under 25 MB in total).
 2. Verify with `GMAIL_GET_DRAFT`: To, Cc, Subject, threadId, attachment filename and size.
-3. **Replacing a draft (§0e):** create and verify the new one, then delete the old with the **native**
-   Gmail `delete_draft` (Composio `GMAIL_DELETE_*` is denied in `.claude/settings.json`). Report both ids.
+3. **Replacing a draft (§0e): never repair one.** Delete the old draft first with the **native** Gmail
+   `delete_draft` (Composio `GMAIL_DELETE_*` is denied in `.claude/settings.json`), then create the new one —
+   Composio quotes the thread's last message, drafts included. Check the new draft quotes only the email
+   being answered (native `get_draft`). Report both ids.
 4. Minda sends. Then check the thread (`get_thread`): sent time, recipients, size ≈ attachment present.
 
 ## 6. Registers

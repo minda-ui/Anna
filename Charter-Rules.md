@@ -123,6 +123,22 @@ history, not in the file: the skill always shows the current way.
 Source: Minda, 2026-09-29: "would be great if collect data through the day and at the end prepose
 things for creating skills." Adopted 2026-09-29.
 
+## 0g. Email replies: answer everyone who writes to us — the sender only (added 2026-09-30)
+
+Every project email that comes to us gets a reply draft, even one with no message and only a drawing
+or file, so the sender knows it arrived.
+
+- **To the sender only.** The reply goes to the person who sent it to us: no reply-all, no cc — unless
+  the email itself asks us to send to someone else (e.g. "send them back to me and David Burke"), or
+  Minda asks for someone to be copied.
+- **Short.** What arrived, and anything that needs the sender: a question, a conflict, a missing item.
+- **Draft only.** Minda sends (`CLAUDE.md` §5). Replacing a draft follows §0e.
+- Unsure whether an email needs a reply → one line to Minda instead of a draft.
+
+Source: Minda, 2026-09-30: "Create draft replies to David. Make it as rule, we need to reply to everyone
+who coming to us only". Prompted by David Macdonald's two drawing emails of 30/09 with no message.
+Adopted 2026-09-30.
+
 ## 5a. Construction KB — read and write (granted 2026-09-22, Minda; Hub AWT-0077)
 
 Minda granted Anna **read and write** on the `Fishbone Construction Ltd - Knowledge Base`

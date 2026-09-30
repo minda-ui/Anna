@@ -5,6 +5,14 @@ top. Never edit a past entry; correct it with a new one.
 
 ---
 
+**2026-09-30 — §0g: reply to everyone who writes to us, sender only.** Minda: "Create draft replies to David.
+Make it as rule, we need to reply to everyone who coming to us only". New `Charter-Rules.md` §0g: every project
+email gets a reply draft, addressed to its sender only — no reply-all or cc unless the email asks for it or Minda
+does; short; Minda sends. `project-admin` skill §5 gains the step. Edited in place through Composio (§0b) and
+byte-verified; mirrored to git.
+
+---
+
 **2026-09-29 — "Good night" starts the end-of-day skill.** Minda: "as soon as i write you 'good night' can we
 trigger skill 'Have you documented today's work?'". New repo skill `.claude/skills/end-of-day/SKILL.md`: checks the
 day's record (ledger, change-log, current-state, Rule F, registers, Drive = git), lists what is still open, then

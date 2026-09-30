@@ -4,7 +4,7 @@
 |---|---|
 | Last session | 2026-09-30 |
 | Status | **Live.** Charter split 2026-09-23 into `CLAUDE.md` (core), `Charter-Rules.md` (5,527 B) and `Charter-History.md` — AWT-0080, §4 wording tightened 2026-09-24 (AWT-0088), §1 connectors corrected 2026-09-25 (Gmail read/draft was already real), **Composio fallback layer adopted into §1 2026-09-27** — `CLAUDE.md` now **12,008 B**, `Charter-History.md` now **4,486 B**, both byte-verified. AWT-0080/AWT-0088 both **closed on the Hub** (Tasks & Requests sheet `8860839228606340`) 2026-09-24 — the Hub turned out to be reachable via Smartsheet all along. Construction KB **write, bounded** — and written to. Collaboration Space **read/write** (filing). Document Register **write, on instruction**. **Gmail read and draft-create** confirmed real and in use (never send). Repo `minda-ui/Anna`: `CLAUDE.md` mirrored 2026-09-26, first commit `125d8e1` on branch `claude/loving-gates-8bcu4a`, **not yet merged to `main`**; `origin/main` separately now carries a `.claude/settings.json` (Minda-pushed 2026-09-27) granting unprompted `composio` execute/link/remove — not yet checked out into this session's own working branch. **Composio fallback connectors linked 2026-09-27**: `anna-googledrive` (Fishbone Construction Ltd Knowledge base) and `anna-gmail` (`info@fishboneconstruction.co.uk`), both verified read-only and both still bound by the same never-send / own-remit-only rules as the native connectors. |
-| Record | Complete as of 2026-09-30. **35** change-log entries · ledger to **row 91** · 7 external sources + 5 internal · 7 open questions. Connectors now also `anna-gmail-properties` (28/09) and `anna-gmail-ops` (ops@fishboneconstruction.co.uk, 29/09). One routine: "Anna – Construction project email check" (created by Minda 29/09). Charter-Rules §0c: project emails only. |
+| Record | Complete as of 2026-09-30. **35** change-log entries · ledger to **row 92** · 7 external sources + 5 internal · 7 open questions. Connectors now also `anna-gmail-properties` (28/09) and `anna-gmail-ops` (ops@fishboneconstruction.co.uk, 29/09). One routine: "Anna – Construction project email check" (created by Minda 29/09). Charter-Rules §0c: project emails only. |
 
 ## Snapshot (2026-09-22)
 - **Anna's status is recorded in the Construction KB** (AQ-6b, Hub AWT-0077). New Decisions
@@ -309,7 +309,7 @@
 - **Michelle's Site Manager expectations** (all Macdonald sites): everyone signs Macdonald RAMS + induction + site rules; no phones in work area; PAT stickers —
  added to the FC2612 checklist (v7, row 84) and the Bullring RAMS.
 - **FC2611 drawings:** DR-0013 WoS DD-Set V1 (Current), DR-0014 MJL hoarding Rev A (Superseded by Rev C). Hub AWT-0222 (row 83).
-- **FC2611 RAMS DRAFT 30.09.26** (Anna `Raw/`): site rules from the pre-start pack; open items: skips, A&E, steel design (§3), **hoarding fire rating (§3, new item 4)** (row 85).
+- **FC2611 RAMS DRAFT 30.09.26** (Anna `Raw/`): site rules from the pre-start pack; open items: skips, A&E, steel design (§3); hoarding fire rating closed 30/09 — Macdonald's responsibility, Fishbone builds to Rev C (rev b, row 92).
 - **Charter-Rules §0g** (Minda): every project email gets a reply draft, to the sender only. Replies to David 'Re: Merryhill' and 'Re: Bullring' sent by Minda 14:14 BST (rows 86–87); awaiting his answer on hoarding Rev C and the fire rating.
 
 ## Pending
@@ -320,9 +320,9 @@
  Drafts (Minda's call).
 - **FC2611 Bullring:** RAMS draft waits on the Bullring permit / site rules (Michelle preparing) and the engineer's
  steel post design (§3 — MJL Steels Rev A received 29/09 is a fabrication drawing, not an engineer's design; Rolex to confirm location); then Minda reviews and signs; register it (supersedes FC0000027 in substance). Sebastian's
- CSCS card sent to Michelle 29/09. PO for FC0000046 awaited. **Pre-start (30/09):** pass signed and sent to Michelle, David Burke and Bullring technical 15:42 BST; hoarding Rev C confirmed by David (reply sent 17:32 BST, row 91); fire rating asked at 14:14, no answer yet; check with Bullring whether dusty work needs a fire alarm isolation permit (their pre-work sheet says no deactivation);
+ CSCS card sent to Michelle 29/09. PO for FC0000046 awaited. **Pre-start (30/09):** pass signed and sent to Michelle, David Burke and Bullring technical 15:42 BST; hoarding Rev C confirmed by David (reply sent 17:32 BST, row 91); fire rating is Macdonald's responsibility (Minda, row 92); check with Bullring whether dusty work needs a fire alarm isolation permit (their pre-work sheet says no deactivation);
  Bullring induction with all operatives Mon 5 Oct (latest slot 15:30), then Minda countersigns the three induction passes and sends them to
- technical.assistant@bullring.co.uk; permits via Invida, 1 working day notice; RAMS DRAFT 30.09.26 built from the pre-start pack — Minda to review; open item 4: Bullring says hoardings must be 1-hour fire rated vs Macdonald's non-fire-rated Rev C — Macdonald / Bullring Technical to confirm in writing before hoardings go up (§3).
+ technical.assistant@bullring.co.uk; permits via Invida, 1 working day notice; RAMS DRAFT 30.09.26 rev b (pre-start pack; item 4 closed — hoarding spec is Macdonald's) — Minda to review and sign.
 - **Skills:** `project-admin` (row 71, merged in #10) and `end-of-day` (row 74, merged in #11; first run 29/09, row 75).
 - **Skill candidates** (§0f): SC-2, SC-4 adopted into `project-admin` 29/09; SC-3 (after-shift report), SC-5 (operative docs), SC-7 (read every email by content), SC-8 (.doc forms via Composio convert) open; SC-9 adopted 30/09 (project-admin §5). §0e amended 30/09: never repair a draft — delete the old one first, then create the new (row 89).
 - **Drawing Register:** originators of the FC2609 set (designer job 4599) and the WoS A2 pack's source to verify; Tissot GA revision date to read.
@@ -373,4 +373,4 @@ Reference articles: 2 · Logged queries: 1 · Open questions: 7 open / 9 resolve
 Sources: 7 external (ASRC-1–7) + 5 internal · Raw items held: 2 ·
 Documents filed to Collaboration Space: 4 · Register cells written: 24 across 6 rows ·
 Files written in the Construction KB: 5 (+1 git commit) ·
-Change-log entries: 35 · Ledger rows: 91 (plus row 2a) · Register rows added 30/09: FC0000047; updated: FC0000043 · Register rows added 29/09: FC0000044, FC0000046; updated: FC0000043, FC0000023
+Change-log entries: 35 · Ledger rows: 92 (plus row 2a) · Register rows added 30/09: FC0000047; updated: FC0000043 · Register rows added 29/09: FC0000044, FC0000046; updated: FC0000043, FC0000023

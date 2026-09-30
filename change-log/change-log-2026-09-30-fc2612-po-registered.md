@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 17:40 — Hoarding fire rating is Macdonald's
+- Minda: the hoarding's manufacture and specification are Macdonald's responsibility; Fishbone builds it. RAMS DRAFT 30.09.26 rev b closes open item 4. Ledger row 92.
+
 ## 17:35 — Reply to David sent
 - Minda sent the Rev C reply 17:32 BST, David only, without the fire-rating paragraph. PR #19 merged (5ea4b9e), main = Drive. Fire rating still open (asked at 14:14). Ledger row 91.
 

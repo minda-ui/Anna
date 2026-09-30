@@ -2,6 +2,11 @@
 
 Newest notes at the top. Append-only.
 
+## 14:10 — Drawings, checklist v7, Bullring RAMS draft 30.09
+- Email: two Macdonald drawing emails. Tissot GA Rev B already on file (identical). DR-0013 WoS DD-Set V1 (Current), DR-0014 MJL hoarding Rev A (older than Rev C → Superseded, Archive). Hub AWT-0222; notes to Victoria and Peter. Row 83.
+- Checklist v7: Macdonald site rules added (PAT, access kit, sign Macdonald RAMS/induction/rules, phones). Row 84.
+- Bullring RAMS DRAFT 30.09.26 from the pre-start pack; new open item 4 — hoarding fire rating conflict (§3, for Macdonald / Bullring to confirm). Row 85.
+
 ## 13:45 — Bullring pre-start pack and passes
 - Afternoon email check: Bullring pre-start pack + passes (David Burke via Michelle); Michelle's Site Manager expectations for all Macdonald sites. Ledger row 81.
 - Minda: "A". Forms filed (Anna `Raw/`, FC2611 `Documents/`); Supervisors Pass converted .doc → docx through Composio (Drive copy-convert, then export); Minda's pass and three induction passes pre-filled; reply drafted to Michelle + David Burke, cc Bullring technical assistant. Hub AWT-0221; notes to Victoria and Peter. Ledger row 82. SC-8 logged.

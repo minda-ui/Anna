@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 17:50 — Skips were in the pack
+- Minda corrected Anna: the pre-start pack names the skip supplier (AWS Nationwide, Keith Parton); Minda, as site manager, calls them for exchanges. RAMS rev c; 24 h booking with Bullring Technical and banksman included. Ledger row 93.
+
 ## 17:40 — Hoarding fire rating is Macdonald's
 - Minda: the hoarding's manufacture and specification are Macdonald's responsibility; Fishbone builds it. RAMS DRAFT 30.09.26 rev b closes open item 4. Ledger row 92.
 

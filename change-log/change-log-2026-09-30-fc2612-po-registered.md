@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 17:35 — Reply to David sent
+- Minda sent the Rev C reply 17:32 BST, David only, without the fire-rating paragraph. PR #19 merged (5ea4b9e), main = Drive. Fire rating still open (asked at 14:14). Ledger row 91.
+
 ## 15:55 — Email check
 - Pre-start reply sent by Minda, clean. David re-sent hoarding Rev C as the correct drawing (same file as DR-0003); reply draft to David only asks again for the fire rating. HSE instalments email (finance) flagged to Minda. Ledger row 90.
 

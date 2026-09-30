@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 13:15 — FC0000047 points confirmed
+- Minda: the PO's materials-collection line is OK; `Project-PO` is OK; Scoppio's RAMS not filed. FC0000047 and Hub AWT-0215 updated; addendum notes to Rachel and Peter. PR #14 merged (6fee277), main = Drive. Ledger row 80.
+
 ## 12:35 — Email correction to Scoppio sent
 - Draft to Tony Gale (cc Michelle) giving the correct address `info@fishboneconstruction.co.uk`; Minda sent it 11:32 UTC, checked in the thread. Ledger row 79.
 - PR #13 merged (db943d1); main byte-identical to Drive.

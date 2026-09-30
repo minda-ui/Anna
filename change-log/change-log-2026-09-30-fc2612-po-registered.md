@@ -2,6 +2,10 @@
 
 Newest notes at the top. Append-only.
 
+## 12:35 — Email correction to Scoppio sent
+- Draft to Tony Gale (cc Michelle) giving the correct address `info@fishboneconstruction.co.uk`; Minda sent it 11:32 UTC, checked in the thread. Ledger row 79.
+- PR #13 merged (db943d1); main byte-identical to Drive.
+
 ## 11:05 — Macdonald PO 513 registered (FC0000047)
 - PO 513 from David Macdonald (09:55) for FC2612 Tissot, £2,243.50 excl VAT — matches quote FC0000043. Filed in Anna `Raw/` and FC2612 `Documents/`, both byte-verified; Document Register **FC0000047** (new category `Project-PO`); FC0000043 given an UPDATE line.
 - Rule F: Hub AWT-0215; notes to Rachel and Peter. Ledger row 78.

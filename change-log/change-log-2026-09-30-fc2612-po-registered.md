@@ -2,6 +2,12 @@
 
 Newest notes at the top. Append-only.
 
+## 15:35 — Signed Bullring pass and pre-start pack
+- Minda's signed scans found in `Raw/`; copied to FC2611 `Documents/`. Pre-start reply replaced (§0e): new draft with both signed PDFs, old one deleted. Hub AWT-0221 updated; addendum notes to Victoria and Peter. Ledger row 88; SC-9.
+
+## 14:20 — Replies to David sent
+- Minda sent both at 14:14 BST, David only, as drafted. PR #17 merged (4b7cfb9), main = Drive. Awaiting David on hoarding Rev C and the fire rating. Ledger row 87.
+
 ## 14:25 — Replies to David; rule §0g
 - Two reply drafts to David Macdonald, sender only: 'Re: Merryhill' (received, matches ours) and 'Re: Bullring' (confirm hoarding Rev C; fire rating to be confirmed in writing with Bullring Technical).
 - Minda's new rule, Charter-Rules §0g: reply to everyone who writes to us, to the sender only. Charter-History entry; project-admin §5. Ledger row 86.

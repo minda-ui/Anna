@@ -2,6 +2,10 @@
 
 Newest notes at the top. Append-only.
 
+## 13:45 — Bullring pre-start pack and passes
+- Afternoon email check: Bullring pre-start pack + passes (David Burke via Michelle); Michelle's Site Manager expectations for all Macdonald sites. Ledger row 81.
+- Minda: "A". Forms filed (Anna `Raw/`, FC2611 `Documents/`); Supervisors Pass converted .doc → docx through Composio (Drive copy-convert, then export); Minda's pass and three induction passes pre-filled; reply drafted to Michelle + David Burke, cc Bullring technical assistant. Hub AWT-0221; notes to Victoria and Peter. Ledger row 82. SC-8 logged.
+
 ## 13:15 — FC0000047 points confirmed
 - Minda: the PO's materials-collection line is OK; `Project-PO` is OK; Scoppio's RAMS not filed. FC0000047 and Hub AWT-0215 updated; addendum notes to Rachel and Peter. PR #14 merged (6fee277), main = Drive. Ledger row 80.
 

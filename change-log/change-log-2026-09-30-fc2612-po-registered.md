@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 15:55 — Email check
+- Pre-start reply sent by Minda, clean. David re-sent hoarding Rev C as the correct drawing (same file as DR-0003); reply draft to David only asks again for the fire rating. HSE instalments email (finance) flagged to Minda. Ledger row 90.
+
 ## 15:45 — Both drafts in one email; §0e amended
 - The replacement pre-start draft quoted the old one (Composio quotes the thread's last message, drafts included). Old deleted first, new r-6146304719394869608 created and checked — quotes only Michelle's email.
 - Minda: never repair drafts; new one, old one deleted. §0e now: delete the old draft first, then create the new. Charter-History; project-admin §5; SC-9 adopted. Ledger row 89.

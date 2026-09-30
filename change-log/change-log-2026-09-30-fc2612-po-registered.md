@@ -2,6 +2,21 @@
 
 Newest notes at the top. Append-only.
 
+## 18:15 — Nearest A&E; RAMS rev e
+- Not in the Bullring papers. Queen Elizabeth Hospital Birmingham (24-hour adult ED, UHB website) put in RAMS rev e on Minda's word, 'confirm at induction'. No open items left in the RAMS. ASRC-8. Ledger row 95.
+
+## 17:57 — Steel posts: install only
+- Minda: Fishbone installs the steel posts; their manufacture and design are not Fishbone's. RAMS rev d closes open item 3; DR-0004 note updated. Only the nearest A&E left open. SC-10 logged. Ledger row 94.
+
+## 17:50 — Skips were in the pack
+- Minda corrected Anna: the pre-start pack names the skip supplier (AWS Nationwide, Keith Parton); Minda, as site manager, calls them for exchanges. RAMS rev c; 24 h booking with Bullring Technical and banksman included. Ledger row 93.
+
+## 17:40 — Hoarding fire rating is Macdonald's
+- Minda: the hoarding's manufacture and specification are Macdonald's responsibility; Fishbone builds it. RAMS DRAFT 30.09.26 rev b closes open item 4. Ledger row 92.
+
+## 17:35 — Reply to David sent
+- Minda sent the Rev C reply 17:32 BST, David only, without the fire-rating paragraph. PR #19 merged (5ea4b9e), main = Drive. Fire rating still open (asked at 14:14). Ledger row 91.
+
 ## 15:55 — Email check
 - Pre-start reply sent by Minda, clean. David re-sent hoarding Rev C as the correct drawing (same file as DR-0003); reply draft to David only asks again for the fire rating. HSE instalments email (finance) flagged to Minda. Ledger row 90.
 

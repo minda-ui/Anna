@@ -5,6 +5,15 @@ top. Never edit a past entry; correct it with a new one.
 
 ---
 
+**2026-09-30 — §0e: never repair a draft; delete the old one first.** Minda: "let's agree now, don't repair
+drafts, create new ones and deleted old ones". A replacement draft for the Bullring pre-start reply carried the
+old unsigned draft quoted underneath — Composio quotes the last message in the thread, drafts included. §0e now
+says: never edit a draft in place; for a reply in a thread, delete the old draft first, then create the new one,
+and check it quotes only the email being answered. `project-admin` §5 step 3 matches. Edited in place through
+Composio (§0b) and byte-verified; mirrored to git.
+
+---
+
 **2026-09-30 — §0g: reply to everyone who writes to us, sender only.** Minda: "Create draft replies to David.
 Make it as rule, we need to reply to everyone who coming to us only". New `Charter-Rules.md` §0g: every project
 email gets a reply draft, addressed to its sender only — no reply-all or cc unless the email asks for it or Minda

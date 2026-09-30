@@ -2,6 +2,13 @@
 
 Newest notes at the top. Append-only.
 
+## 15:55 — Email check
+- Pre-start reply sent by Minda, clean. David re-sent hoarding Rev C as the correct drawing (same file as DR-0003); reply draft to David only asks again for the fire rating. HSE instalments email (finance) flagged to Minda. Ledger row 90.
+
+## 15:45 — Both drafts in one email; §0e amended
+- The replacement pre-start draft quoted the old one (Composio quotes the thread's last message, drafts included). Old deleted first, new r-6146304719394869608 created and checked — quotes only Michelle's email.
+- Minda: never repair drafts; new one, old one deleted. §0e now: delete the old draft first, then create the new. Charter-History; project-admin §5; SC-9 adopted. Ledger row 89.
+
 ## 15:35 — Signed Bullring pass and pre-start pack
 - Minda's signed scans found in `Raw/`; copied to FC2611 `Documents/`. Pre-start reply replaced (§0e): new draft with both signed PDFs, old one deleted. Hub AWT-0221 updated; addendum notes to Victoria and Peter. Ledger row 88; SC-9.
 

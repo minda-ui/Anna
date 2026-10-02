@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 22:45 — Bullring: Rado removed by the brand
+- Minda confirmed. Reply draft to Michelle. RAMS rev f made (Rado by others; two teams on night one); rev e superseded. Ledger row 102.
+
 ## 22:15 — Monday plan decided
 - Minda: Merry Hill at 20:00, Bullring from 22:00. Reply draft to Michelle asks for the booking to move from 21:00 to a 20:00 arrival, and chases the unit weights. Ledger row 101.
 

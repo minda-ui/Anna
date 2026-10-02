@@ -77,6 +77,13 @@ Attachments: the bulk fetch returns no parts. Get them per message with
   company name is **Fishbone Construction Ltd**. Author as clean HTML → Google Doc, or python-docx from a
   known-good .docx. Ground every site rule in the permit / induction pack / SDS; unknowns marked, not
   invented. Asbestos, structure, fire → §3 flags.
+- **Moving units, counters, towers or other heavy items (Minda, 02/10/2026):** get the **weight of each
+  unit** from the client / principal contractor *before* the RAMS is written — ask in the first reply.
+  Put the weights in the RAMS and plan the lift from them: number of people, lifting aids (skates, dollies,
+  sack truck, lifting straps), route, set-down area, protection. More than a two-person lift → more
+  operatives or equipment, stated in the RAMS. Weight not known → mark it "to verify" and don't move the
+  unit on a guess. Electrics or lights in the unit → electrician isolates first. Learned at Merry Hill
+  FC2612: the Tissot units were heavier than two people could safely lift.
 - **Revise:** python-docx on the signed copy; change only the affected runs (assert each old text is
   present); grep the unzipped XML so the old value survives only where it says "replaces …".
   Mark `Rev n DRAFT — awaiting sign-off` in the intro line, signature cells and footer.

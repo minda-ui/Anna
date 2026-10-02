@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 22:15 — Monday plan decided
+- Minda: Merry Hill at 20:00, Bullring from 22:00. Reply draft to Michelle asks for the booking to move from 21:00 to a 20:00 arrival, and chases the unit weights. Ledger row 101.
+
 ## 18:40 — New skill `file-attachments`
 - Minda liked the Raw-first way of handling attachments and asked for it as a skill. Written as `.claude/skills/file-attachments/SKILL.md`. SC-13 Adopted. Ledger row 100.
 

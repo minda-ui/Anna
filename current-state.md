@@ -2,9 +2,9 @@
 
 | Field | Value |
 |---|---|
-| Last session | 2026-09-30 |
+| Last session | 2026-10-02 |
 | Status | **Live.** Charter split 2026-09-23 into `CLAUDE.md` (core), `Charter-Rules.md` (5,527 B) and `Charter-History.md` — AWT-0080, §4 wording tightened 2026-09-24 (AWT-0088), §1 connectors corrected 2026-09-25 (Gmail read/draft was already real), **Composio fallback layer adopted into §1 2026-09-27** — `CLAUDE.md` now **12,008 B**, `Charter-History.md` now **4,486 B**, both byte-verified. AWT-0080/AWT-0088 both **closed on the Hub** (Tasks & Requests sheet `8860839228606340`) 2026-09-24 — the Hub turned out to be reachable via Smartsheet all along. Construction KB **write, bounded** — and written to. Collaboration Space **read/write** (filing). Document Register **write, on instruction**. **Gmail read and draft-create** confirmed real and in use (never send). Repo `minda-ui/Anna`: `CLAUDE.md` mirrored 2026-09-26, first commit `125d8e1` on branch `claude/loving-gates-8bcu4a`, **not yet merged to `main`**; `origin/main` separately now carries a `.claude/settings.json` (Minda-pushed 2026-09-27) granting unprompted `composio` execute/link/remove — not yet checked out into this session's own working branch. **Composio fallback connectors linked 2026-09-27**: `anna-googledrive` (Fishbone Construction Ltd Knowledge base) and `anna-gmail` (`info@fishboneconstruction.co.uk`), both verified read-only and both still bound by the same never-send / own-remit-only rules as the native connectors. |
-| Record | Complete as of 2026-09-30. **35** change-log entries · ledger to **row 95** · 8 external sources + 5 internal · 7 open questions. Connectors now also `anna-gmail-properties` (28/09) and `anna-gmail-ops` (ops@fishboneconstruction.co.uk, 29/09). One routine: "Anna – Construction project email check" (created by Minda 29/09). Charter-Rules §0c: project emails only. |
+| Record | Complete as of 2026-10-02. **36** change-log entries · ledger to **row 97** · 8 external sources + 5 internal · 7 open questions. Connectors now also `anna-gmail-properties` (28/09) and `anna-gmail-ops` (ops@fishboneconstruction.co.uk, 29/09). One routine: "Anna – Construction project email check" (created by Minda 29/09). Charter-Rules §0c: project emails only. |
 
 ## Snapshot (2026-09-22)
 - **Anna's status is recorded in the Construction KB** (AQ-6b, Hub AWT-0077). New Decisions
@@ -312,8 +312,14 @@
 - **FC2611 RAMS DRAFT 30.09.26** (Anna `Raw/`): site rules from the pre-start pack; now **rev e**: skips via AWS Nationwide, Minda arranges exchanges (row 93); hoarding spec and steel posts are Macdonald's — Fishbone builds / installs (rows 92, 94); nearest A&E Queen Elizabeth Hospital Birmingham, confirm at induction (row 95); **no open items**.
 - **Charter-Rules §0g** (Minda): every project email gets a reply draft, to the sender only. Replies to David 'Re: Merryhill' and 'Re: Bullring' sent by Minda 14:14 BST (rows 86–87); awaiting his answer on hoarding Rev C and the fire rating.
 
+## Snapshot (2026-10-02)
+- **FC2612 Merry Hill — snags after the 1 Oct shift** (WoS / Goldsmiths via Michelle): counter drawer won't close (lock side dropped), tower/pod facing the wrong way, carpet lifting. Return visit **Monday 5 Oct**, before the Bullring start; five attending (Minda, Andrejus, Dainius, Oleg Vysochan, Sebastian); unit weights asked from WoS. Reply sent 14:56 BST (rows 96–97). Site checklist page was not used on the night.
+- **Michelle's site instructions (1–2 Oct):** protect all surfaces; no plasterboard, cable or carpet in skips; progress photos to her every morning.
+- **FC2611 Bullring:** 12-yard skip booked by Michelle for Mon 5 Oct (AWS Nationwide, £520); across-the-mall hours from 22:00.
+
 ## Pending
-- **FC2612 Merry Hill:** RAMS **FC0000044 Rev 1** (permit #694111, Control Room call) signed, filed and **Issued** — sent to Michelle
+- **FC2612 Merry Hill — return visit Mon 5 Oct:** unit weights from WoS awaited; Merry Hill RAMS Rev 2 for the visit (5-person lift, Oak for the lit tower, re-orient, carpet re-fix) — Minda to decide; Oleg Vysochan not yet on RAMS / Operative Competence Register; booking form with Michelle; after-shift photos to Michelle.
+- **FC2612 Merry Hill (1 Oct shift):** RAMS **FC0000044 Rev 1** (permit #694111, Control Room call) signed, filed and **Issued** — sent to Michelle
  only at 17:38 on 29/09 (FC0000044 Rev 1). Site checklist v7 (30/09: Macdonald site rules). PO received 30/09 — **FC0000047** (PO 513); materials-collection line and category `Project-PO` confirmed by Minda (row 80). Minda to share the site
  checklist with Sebastian (edit access for photos); photos of finished work to Elisha Spencer before 08:00 on 2 Oct;
  after the shift Anna writes the before/after report for Macdonald; old Gmail draft r7089415217151689627 still in
@@ -373,4 +379,4 @@ Reference articles: 2 · Logged queries: 1 · Open questions: 7 open / 9 resolve
 Sources: 8 external (ASRC-1–8) + 5 internal · Raw items held: 2 ·
 Documents filed to Collaboration Space: 4 · Register cells written: 24 across 6 rows ·
 Files written in the Construction KB: 5 (+1 git commit) ·
-Change-log entries: 35 · Ledger rows: 95 (plus row 2a) · Register rows added 30/09: FC0000047; updated: FC0000043 · Register rows added 29/09: FC0000044, FC0000046; updated: FC0000043, FC0000023
+Change-log entries: 35 · Ledger rows: 97 (plus row 2a) · Register rows added 30/09: FC0000047; updated: FC0000043 · Register rows added 29/09: FC0000044, FC0000046; updated: FC0000043, FC0000023

@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## Late evening — photo names
+- The attachments are now named 'photo 1–5' with no dates, in a new draft. Deleting the old draft was blocked by the permission settings; Minda will delete it. Ledger row 111.
+
 ## Late evening — photos moved
 - Made an FC2612 Pictures folder and moved the five photos into it from FC2609. The FC2609 folder is left empty. Hub AWT-0326. Ledger row 110.
 

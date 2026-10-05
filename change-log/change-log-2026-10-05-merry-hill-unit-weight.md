@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 19:55 — sends checked
+- All four replies to Michelle were sent, to her only; Minda reworded the pump-wedge reply. No drafts left. Ledger row 107.
+
 ## Evening — email check
 - FC0238 (Merry Hill) has already been issued: Rachel used the reverse charge and you sent it at 12:23 BST.
 - Redd Retail's method: adjust the feet from inside the cupboard; nothing can come off. Drawing Rev C is DR-0015.

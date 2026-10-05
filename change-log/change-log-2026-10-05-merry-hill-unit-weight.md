@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## Late evening — photos moved
+- Made an FC2612 Pictures folder and moved the five photos into it from FC2609. The FC2609 folder is left empty. Hub AWT-0326. Ledger row 110.
+
 ## Late evening — Bullring units; Merry Hill photos
 - Bullring brand units: nothing is sent back; the Rev D schedule says destroy them and keep photo evidence (row 108).
 - Five Merry Hill photos resized, and a draft to Michelle made with them attached. The photos are in the FC2609 Pictures folder although they show the Tissot units (FC2612); asked Minda (row 109).

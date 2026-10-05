@@ -4,7 +4,7 @@
 |---|---|
 | Last session | 2026-10-02 |
 | Status | **Live.** Charter split 2026-09-23 into `CLAUDE.md` (core), `Charter-Rules.md` (5,527 B) and `Charter-History.md` — AWT-0080, §4 wording tightened 2026-09-24 (AWT-0088), §1 connectors corrected 2026-09-25 (Gmail read/draft was already real), **Composio fallback layer adopted into §1 2026-09-27** — `CLAUDE.md` now **12,008 B**, `Charter-History.md` now **4,486 B**, both byte-verified. AWT-0080/AWT-0088 both **closed on the Hub** (Tasks & Requests sheet `8860839228606340`) 2026-09-24 — the Hub turned out to be reachable via Smartsheet all along. Construction KB **write, bounded** — and written to. Collaboration Space **read/write** (filing). Document Register **write, on instruction**. **Gmail read and draft-create** confirmed real and in use (never send). Repo `minda-ui/Anna`: `CLAUDE.md` mirrored 2026-09-26, first commit `125d8e1` on branch `claude/loving-gates-8bcu4a`, **not yet merged to `main`**; `origin/main` separately now carries a `.claude/settings.json` (Minda-pushed 2026-09-27) granting unprompted `composio` execute/link/remove — not yet checked out into this session's own working branch. **Composio fallback connectors linked 2026-09-27**: `anna-googledrive` (Fishbone Construction Ltd Knowledge base) and `anna-gmail` (`info@fishboneconstruction.co.uk`), both verified read-only and both still bound by the same never-send / own-remit-only rules as the native connectors. |
-| Record | Complete as of 2026-10-02. **36** change-log entries · ledger to **row 103** · 8 external sources + 5 internal · 7 open questions. Connectors now also `anna-gmail-properties` (28/09) and `anna-gmail-ops` (ops@fishboneconstruction.co.uk, 29/09). One routine: "Anna – Construction project email check" (created by Minda 29/09). Charter-Rules §0c: project emails only. |
+| Record | Complete as of 2026-10-02. **36** change-log entries · ledger to **row 105** · 8 external sources + 5 internal · 7 open questions. Connectors now also `anna-gmail-properties` (28/09) and `anna-gmail-ops` (ops@fishboneconstruction.co.uk, 29/09). One routine: "Anna – Construction project email check" (created by Minda 29/09). Charter-Rules §0c: project emails only. |
 
 ## Snapshot (2026-09-22)
 - **Anna's status is recorded in the Construction KB** (AQ-6b, Hub AWT-0077). New Decisions
@@ -317,6 +317,9 @@
 - **FC2612 return visit papers** (row 99): permit #694239 (5–9 Oct) + induction pack, WOSG booking form (**Mon 5 Oct 21:00–05:00**, 5 named) filed to FC2612 `Documents/`; Hub AWT-0269. Minda decided (row 101): **Merry Hill 20:00, then Bullring 22:00**; draft asks Michelle to move the booking to 20:00 — awaiting her answer.
 - **FC2611 Bullring:** Rado furniture removed by the brand's contractor (Ian Copley, Refined Installations) Mon 5 Oct evening — **confirmed by Minda** (row 102); reply draft to Michelle; **RAMS DRAFT 02.10.26 rev f** (Anna `Raw/`, `1fL0dBqKq3huPKWZ0jpbNv0qQtdFtfmrZ`) supersedes rev e.
 - **New skill `file-attachments`** (row 100): Raw first, work there, copy where it belongs.
+- **FC2612 invoice** (row 104): PO 513, £2,243.50 net — info to Rachel `Raw/`, Hub **AWT-0303**, awaiting her draft; Minda sends. Return visit not charged.
+- **New skill `weekly-invoices`** (row 104): Sunday night hand-off to Rachel for Monday invoices; **routine to be created by Minda** (spec in the skill §7).
+- **Victoria's site-pack hand-off** (row 105): AWT-0265/0266/0268 In Progress, AWT-0267 Done.
 - **Standing step (Minda, row 98):** get unit weights before any job that moves units — `project-admin` §4.
 - **Michelle's site instructions (1–2 Oct):** protect all surfaces; no plasterboard, cable or carpet in skips; progress photos to her every morning.
 - **FC2611 Bullring:** 12-yard skip booked by Michelle for Mon 5 Oct (AWS Nationwide, £520); across-the-mall hours from 22:00.
@@ -383,4 +386,4 @@ Reference articles: 2 · Logged queries: 1 · Open questions: 7 open / 9 resolve
 Sources: 8 external (ASRC-1–8) + 5 internal · Raw items held: 2 ·
 Documents filed to Collaboration Space: 4 · Register cells written: 24 across 6 rows ·
 Files written in the Construction KB: 5 (+1 git commit) ·
-Change-log entries: 35 · Ledger rows: 103 (plus row 2a) · Register rows added 30/09: FC0000047; updated: FC0000043 · Register rows added 29/09: FC0000044, FC0000046; updated: FC0000043, FC0000023
+Change-log entries: 35 · Ledger rows: 105 (plus row 2a) · Register rows added 30/09: FC0000047; updated: FC0000043 · Register rows added 29/09: FC0000044, FC0000046; updated: FC0000043, FC0000023

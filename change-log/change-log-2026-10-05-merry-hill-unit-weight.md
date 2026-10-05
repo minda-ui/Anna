@@ -2,6 +2,10 @@
 
 Newest notes at the top. Append-only.
 
+## Late evening — Bullring units; Merry Hill photos
+- Bullring brand units: nothing is sent back; the Rev D schedule says destroy them and keep photo evidence (row 108).
+- Five Merry Hill photos resized, and a draft to Michelle made with them attached. The photos are in the FC2609 Pictures folder although they show the Tissot units (FC2612); asked Minda (row 109).
+
 ## 19:55 — sends checked
 - All four replies to Michelle were sent, to her only; Minda reworded the pump-wedge reply. No drafts left. Ledger row 107.
 

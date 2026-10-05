@@ -2,6 +2,12 @@
 
 Newest notes at the top. Append-only.
 
+## Evening — email check
+- FC0238 (Merry Hill) has already been issued: Rachel used the reverse charge and you sent it at 12:23 BST.
+- Redd Retail's method: adjust the feet from inside the cupboard; nothing can come off. Drawing Rev C is DR-0015.
+- Nine Bullring permits filed (Hazwork 5–13 Oct; access across the mall 5–11 Oct). All show 'in progress'.
+- Four drafts to Michelle. Hub AWT-0325. Ledger row 106.
+
 ## Late morning — invoice to Rachel; weekly-invoices skill; Victoria's hand-off
 - FC2612 PO 513 invoice details went to Rachel's Raw/ as a note (Hub AWT-0303). The return visit is not charged.
 - New skill `weekly-invoices`: Sunday night, gather the info for jobs finished that week with a PO, for Monday invoices. Routine spec given to Minda.

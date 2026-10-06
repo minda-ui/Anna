@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 06/10 evening — Lathams payment
+- Minda paid £143.34 for Sales Order 3398720, which matches the pro forma. Remittance reply drafted to Steven, asking for the VAT invoice and confirming Friday collection. ST19 and 23 mm edging flagged. Ledger row 132.
+
 ## 06/10 — programme page for the crew
 - The Macdonald checks are removed, the page is republished, and it is shared by link. Ledger row 131.
 

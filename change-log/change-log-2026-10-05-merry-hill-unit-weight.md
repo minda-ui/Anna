@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 06/10 13:25 — RAMS digital signing (Eugene)
+- Minda explained why Eugene has the RAMS: he is building digital signing for RAMS. Addendum with Anna's requirements put in Eugene's Raw/; Hub AWT-0352 updated. Ledger row 124.
+
 ## 06/10 afternoon — email check
 - Comments sent to Michelle. She says the assessment is generic and she will review it with the maker's advice. Short reply drafted. Ledger row 123.
 

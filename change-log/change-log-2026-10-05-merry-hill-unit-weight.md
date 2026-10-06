@@ -2,6 +2,10 @@
 
 Newest notes at the top. Append-only.
 
+## 06/10 mid-morning — email check
+- Permit WP-1293-61524 (13–14 Oct) filed; Hub AWT-0339.
+- Window graphics 2 and 3 to come down tonight, and the hoarding adjusted to close a 70 mm gap (Minda). Draft to Ian. Not in RAMS rev f — flagged. Ledger row 117.
+
 ## 06/10 morning — email check
 - The Bullring permits are approved (Michelle). David asked why the hoarding doesn't reach the ceiling; the draft answers with Rev C and the open head. Rado is done. Tag Heuer delivery on 13 Oct flagged. Two drafts made. Ledger row 116.
 

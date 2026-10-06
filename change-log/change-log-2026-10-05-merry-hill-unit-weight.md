@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 06/10 end of day
+- Record checked; the Rule F notice for the permit renames was added (AWT-0378). SC-15 to SC-20 were adopted and the project-admin skill was updated. Ledger row 141.
+
 ## 06/10 late — Bullring drawings check
 - Two drawings missed on 30/09 are now filed and registered (DR-0016 finishes plan, DR-0017 Breitling electrical plan). Nothing superseded. Ian's Dropbox folder is blocked by the network policy. Hub AWT-0377. Ledger row 140.
 

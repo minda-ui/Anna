@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 06/10 early hours — email check
+- The photo email to Michelle has been sent. Nothing new for the projects. Ledger row 113.
+
 ## Late evening — old draft deleted
 - The old photo draft was deleted with the native Gmail tool (Composio deletes are blocked by the repo deny list). Only the new draft is left. Ledger row 112.
 

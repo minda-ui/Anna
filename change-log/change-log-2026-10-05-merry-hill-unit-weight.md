@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 06/10 — programme page for the crew
+- The Macdonald checks are removed, the page is republished, and it is shared by link. Ledger row 131.
+
 ## 06/10 — Bullring night programme
 - Phone page built: 15 Mon–Thu nights, 4 operatives, fitted to Macdonald Rev E, with a list of points to check with Macdonald. Ledger row 130.
 

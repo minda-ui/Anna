@@ -2,6 +2,12 @@
 
 Newest notes at the top. Append-only.
 
+## 06/10 morning — email check
+- The Bullring permits are approved (Michelle). David asked why the hoarding doesn't reach the ceiling; the draft answers with Rev C and the open head. Rado is done. Tag Heuer delivery on 13 Oct flagged. Two drafts made. Ledger row 116.
+
+## 06/10 04:55 — send checked
+- The Bullring progress photos went to Michelle and David with all 5 attachments. Ledger row 115.
+
 ## 06/10 — Bullring progress photos
 - Five night-1 photos resized and renamed 'photo 1–5'; draft to Michelle and David made. Ledger row 114.
 

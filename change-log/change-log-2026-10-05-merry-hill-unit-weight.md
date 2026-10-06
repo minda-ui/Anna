@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 06/10 — Bullring night programme
+- Phone page built: 15 Mon–Thu nights, 4 operatives, fitted to Macdonald Rev E, with a list of points to check with Macdonald. Ledger row 130.
+
 ## 06/10 afternoon — Macdonald programme
 - Three sends checked. Ian sent Macdonald's draft programme Rev E with his answers; filed (AWT-0369); thank-you drafted. Ledger rows 128–129.
 

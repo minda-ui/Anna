@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 06/10 evening — Lathams: collection only
+- Minda accepted the ST19 board and the 23 mm edging. Remittance draft replaced: the order is for collection on Fri 9 Oct pm, not delivery, because no one on site can accept a delivery. Ledger row 133.
+
 ## 06/10 evening — Lathams payment
 - Minda paid £143.34 for Sales Order 3398720, which matches the pro forma. Remittance reply drafted to Steven, asking for the VAT invoice and confirming Friday collection. ST19 and 23 mm edging flagged. Ledger row 132.
 

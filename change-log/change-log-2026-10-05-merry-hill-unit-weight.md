@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 06/10 11:00 — RAMS rev g
+- Bullring RAMS rev g adds the window-graphics removal and the hoarding adjustment (new risk row, step 5a, open item 6). Rev f superseded. Ledger row 119.
+
 ## 06/10 10:55 — send checked
 - The graphics reply went to Ian. Ledger row 118.
 

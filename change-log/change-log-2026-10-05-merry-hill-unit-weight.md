@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 06/10 late — steel drawing, bays
+- Steel post drawing found (DR-0004, Rev A; location still TBC). Offered to rename it, which is wrong: drawings keep their original names. Delivery bays (Core 11, bays 18–20) added to the crew page. Ledger row 139.
+
 ## 06/10 22:00 — programme note and permit names
 - The crew programme now tells them to keep the Hublot desk and 3 chairs (nights 6 and 7 Oct). The first publish went to a new private link by mistake; the crew link has been updated too. 15 Bullring permits renamed date-first. Ledger rows 137–138.
 

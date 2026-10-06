@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 06/10 10:55 — send checked
+- The graphics reply went to Ian. Ledger row 118.
+
 ## 06/10 mid-morning — email check
 - Permit WP-1293-61524 (13–14 Oct) filed; Hub AWT-0339.
 - Window graphics 2 and 3 to come down tonight, and the hoarding adjusted to close a 70 mm gap (Minda). Draft to Ian. Not in RAMS rev f — flagged. Ledger row 117.

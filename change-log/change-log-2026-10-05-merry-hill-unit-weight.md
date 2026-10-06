@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 06/10 22:00 — programme note and permit names
+- The crew programme now tells them to keep the Hublot desk and 3 chairs (nights 6 and 7 Oct). The first publish went to a new private link by mistake; the crew link has been updated too. 15 Bullring permits renamed date-first. Ledger rows 137–138.
+
 ## 06/10 21:30 — email check: Hublot removal
 - David forwarded the client's instruction: destroy all Hublot units with photo evidence; keep 3 chairs and 1 desk in the showroom. Flagged to Minda for tonight's strip-out; reply drafted. Ledger row 136.
 

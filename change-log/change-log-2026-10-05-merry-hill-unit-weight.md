@@ -2,6 +2,12 @@
 
 Newest notes at the top. Append-only.
 
+## 06/10 — Lathams order: edging added
+- The draft was replaced (old one deleted) to add 1 roll of 0.8 × 22 mm matching edging. Ledger row 127.
+
+## 06/10 — Lathams panel order
+- Draft to Steven Elliott (Lathams Gateshead): 1 × H1307 ST9 Brown Warmia Walnut, 18 mm, collection Fri 9 Oct pm. Ledger row 126.
+
 ## 06/10 13:35 — Bullring programme
 - Draft to Ian asking for the brand installers' dates, so the programme can be built. Ledger row 125.
 

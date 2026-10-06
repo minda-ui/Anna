@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 06/10 late — Bullring drawings check
+- Two drawings missed on 30/09 are now filed and registered (DR-0016 finishes plan, DR-0017 Breitling electrical plan). Nothing superseded. Ian's Dropbox folder is blocked by the network policy. Hub AWT-0377. Ledger row 140.
+
 ## 06/10 late — steel drawing, bays
 - Steel post drawing found (DR-0004, Rev A; location still TBC). Offered to rename it, which is wrong: drawings keep their original names. Delivery bays (Core 11, bays 18–20) added to the crew page. Ledger row 139.
 

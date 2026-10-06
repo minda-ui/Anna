@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 06/10 21:21 — Lathams remittance sent
+- Checked: sent to Steven only, payment confirmation attached, collection only. Ledger row 134.
+
 ## 06/10 evening — Lathams: collection only
 - Minda accepted the ST19 board and the 23 mm edging. Remittance draft replaced: the order is for collection on Fri 9 Oct pm, not delivery, because no one on site can accept a delivery. Ledger row 133.
 

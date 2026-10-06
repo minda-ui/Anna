@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 06/10 11:10 — Tissot RAMS chase; permit
+- The Tissot RAMS from Macdonald hasn't arrived; chase draft to Michelle made. Permit WP-1293-61526 (14–15 Oct) filed; Hub AWT-0351. Ledger row 120.
+
 ## 06/10 11:00 — RAMS rev g
 - Bullring RAMS rev g adds the window-graphics removal and the hoarding adjustment (new risk row, step 5a, open item 6). Rev f superseded. Ledger row 119.
 

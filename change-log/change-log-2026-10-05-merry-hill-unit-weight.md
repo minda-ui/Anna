@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 06/10 midday — Macdonald draft manual handling assessment
+- Michelle's first draft for the Tissot unit has been read and filed. Comments drafted for Minda (the 'can be dismantled' claim is wrong; add Craig's method; glass; electrics; towers). Four more Bullring permits filed (to 18/19 Oct). Hub AWT-0353. Ledger row 122.
+
 ## 06/10 11:20 — RAMS to Eugene
 - Minda approved RAMS rev g. A copy and a covering note are now in Eugene's Raw/; Hub AWT-0352. Ledger row 121.
 

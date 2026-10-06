@@ -33,6 +33,9 @@ Habits, every time:
    the Composio MCP failed → `composio login`, give Minda the link, then `composio login --poll`.
 2. `python3 -c "import docx"` — missing → `pip install -q python-docx`.
 3. `git fetch`; note any open PR and whether `main` matches Drive.
+4. **Network:** a host blocked by the proxy (403) stays blocked for this whole session, even after Minda
+   adds it to the environment's allowed domains; the change applies from the next session. Say so, and
+   offer the manual route: she downloads the file into Anna `Raw/` (06/10: Dropbox, SC-20).
 
 ## 1. Project email check (§0c)
 
@@ -59,7 +62,13 @@ Attachments: the bulk fetch returns no parts. Get them per message with
 
 ## 3. Drawings (§0d)
 
+0. **List every attachment** of every project email that carries a PDF or DWG, even one with no subject
+   or text, and check each against the project `Drawings/` and the register, not only the ones the email
+   mentions. Once a week per live project, run a full drawings check against the email (06/10: two FC2611
+   drawings sent 30/09 had never been filed, SC-19).
 1. Download each drawing (§1 attachments). Keep the **original file name** (revision stays visible).
+   Never rename a drawing, nor offer to; if Minda can't find one, give its folder path, link and DR id
+   (06/10, SC-18).
 2. Upload to Anna `Raw/` (`18PkuxAxchaS0rEkgdexw2zOvzoidcJFA`) and to the project `Drawings/`; verify both.
    Already in `Raw/` → native copy into `Drawings/`.
 3. **Drawing Register** (sheet `8400729582733188`, Fishbone Construction Ltd workspace): one row per
@@ -107,6 +116,11 @@ notes and photos in the page's own database, keyed by each item's id.
    `capabilities`.
 4. Only Minda can share it (Share menu); tell her who needs edit access (operatives adding photos).
 
+**Shared pages with a fixed link** (e.g. the FC2611 crew programme,
+`https://claude.ai/artifact/LejvgVSR2XGWcaWYiEEaVT`): always publish with `url` set to that link. After a
+context reset the local file path is no longer tied to the page, so a publish without `url` makes a new
+private page and the crew never see the change (06/10, SC-17). Keep each fixed link in `current-state.md`.
+
 ## 5. Email drafts (never send — §5, §0e)
 
 0. **Every project email gets a reply draft (§0g)**, even one with only a file — to the **sender only**
@@ -115,7 +129,8 @@ notes and photos in the page's own database, keyed by each item's id.
    it, `body` plain text, attachment via `--file` (the file name is what the recipient sees). Several files:
    `"attachment": ["/abs/a.pdf", "/abs/b.pdf"]` in the `-d @file.json` payload (under 25 MB in total).
 2. Verify with `GMAIL_GET_DRAFT`: To, Cc, Subject, threadId, attachment filename and size.
-3. **Replacing a draft (§0e): never repair one.** Delete the old draft first with the **native** Gmail
+3. **Replacing a draft (§0e): never repair one.** Check the old draft with `get_draft` (it must be Anna's own
+   unsent draft in that inbox — SC-16), then delete it with the **native** Gmail
    `delete_draft` (Composio `GMAIL_DELETE_*` is denied in `.claude/settings.json`), then create the new one —
    Composio quotes the thread's last message, drafts included. Check the new draft quotes only the email
    being answered (native `get_draft`). Report both ids.
@@ -135,8 +150,9 @@ notes and photos in the page's own database, keyed by each item's id.
 
 ## 7. Rule F (§0a) — every change to a shared space
 
-1. **Register:** Hub Tasks & Requests (sheet `8860839228606340`) — next `AWT-nnnn` (search `AWT-02`,
-  sort desc); check the `⚠ Duplicate Task ID?` cell is blank after adding. Request = what changed and why;
+1. **Register:** Hub Tasks & Requests (sheet `8860839228606340`) — next `AWT-nnnn` from a filtered read
+  (`get_sheet_summary`, Task ID `GREATER_THAN` the last one you know; never `find_in_sheet`, which can miss
+  rows — 05/10 AWT-0270 duplicate, SC-15); check the `⚠ Duplicate Task ID?` cell is blank after adding. Request = what changed and why;
   Response = ids, sizes, what's still open; Status Done.
 2. **Broadcast:** a short `.md` note uploaded to each affected assistant's `Raw/`, verified:
    - Document Register changes → **Rachel** (`1NQydm_gONNSaVnRlYtPjhHmcTg5ZPl9-`) and **Peter**

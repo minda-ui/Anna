@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 06/10 13:35 — Bullring programme
+- Draft to Ian asking for the brand installers' dates, so the programme can be built. Ledger row 125.
+
 ## 06/10 13:25 — RAMS digital signing (Eugene)
 - Minda explained why Eugene has the RAMS: he is building digital signing for RAMS. Addendum with Anna's requirements put in Eugene's Raw/; Hub AWT-0352 updated. Ledger row 124.
 

@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 06/10 — Bullring progress photos
+- Five night-1 photos resized and renamed 'photo 1–5'; draft to Michelle and David made. Ledger row 114.
+
 ## 06/10 early hours — email check
 - The photo email to Michelle has been sent. Nothing new for the projects. Ledger row 113.
 

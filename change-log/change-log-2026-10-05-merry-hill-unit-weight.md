@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 06/10 afternoon — Macdonald programme
+- Three sends checked. Ian sent Macdonald's draft programme Rev E with his answers; filed (AWT-0369); thank-you drafted. Ledger rows 128–129.
+
 ## 06/10 — Lathams order: edging added
 - The draft was replaced (old one deleted) to add 1 roll of 0.8 × 22 mm matching edging. Ledger row 127.
 

@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 06/10 11:20 — RAMS to Eugene
+- Minda approved RAMS rev g. A copy and a covering note are now in Eugene's Raw/; Hub AWT-0352. Ledger row 121.
+
 ## 06/10 11:10 — Tissot RAMS chase; permit
 - The Tissot RAMS from Macdonald hasn't arrived; chase draft to Michelle made. Permit WP-1293-61526 (14–15 Oct) filed; Hub AWT-0351. Ledger row 120.
 

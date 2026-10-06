@@ -2,6 +2,15 @@
 
 Newest notes at the top. Append-only.
 
+## 06/10 late — Bullring drawings check
+- Two drawings missed on 30/09 are now filed and registered (DR-0016 finishes plan, DR-0017 Breitling electrical plan). Nothing superseded. Ian's Dropbox folder is blocked by the network policy. Hub AWT-0377. Ledger row 140.
+
+## 06/10 late — steel drawing, bays
+- Steel post drawing found (DR-0004, Rev A; location still TBC). Offered to rename it, which is wrong: drawings keep their original names. Delivery bays (Core 11, bays 18–20) added to the crew page. Ledger row 139.
+
+## 06/10 22:00 — programme note and permit names
+- The crew programme now tells them to keep the Hublot desk and 3 chairs (nights 6 and 7 Oct). The first publish went to a new private link by mistake; the crew link has been updated too. 15 Bullring permits renamed date-first. Ledger rows 137–138.
+
 ## 06/10 21:30 — email check: Hublot removal
 - David forwarded the client's instruction: destroy all Hublot units with photo evidence; keep 3 chairs and 1 desk in the showroom. Flagged to Minda for tonight's strip-out; reply drafted. Ledger row 136.
 

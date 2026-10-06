@@ -2,6 +2,12 @@
 
 Newest notes at the top. Append-only.
 
+## 06/10 21:30 — email check: Hublot removal
+- David forwarded the client's instruction: destroy all Hublot units with photo evidence; keep 3 chairs and 1 desk in the showroom. Flagged to Minda for tonight's strip-out; reply drafted. Ledger row 136.
+
+## 06/10 evening — financial documents to Rachel
+- Minda's rule: all financial documents go to Rachel's Raw/. The Lathams pro forma and payment confirmation (moved from Anna Raw/) are there now, with a note; Hub AWT-0376. Rule added to the file-attachments skill. Ledger row 135.
+
 ## 06/10 21:21 — Lathams remittance sent
 - Checked: sent to Steven only, payment confirmation attached, collection only. Ledger row 134.
 

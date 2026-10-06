@@ -46,7 +46,7 @@ Native Drive `copy_file` from `Raw/` (same bytes, nothing retyped), with the sam
 | Project documents (permits, packs, forms, POs, RAMS, passes) | `C Projects / <FC no> - … / Documents/` |
 | Drawings | `C Projects / <FC no> - … / Drawings/` (older revision → `Drawings/Archive/`) |
 | Personal documents (CSCS, ID, right to work) | `FC Operative Competence` (minda@ only) — **never** Collaboration Space or git |
-| Financial documents | Financial Archive only (§5b) — not Collaboration Space |
+| Financial documents (invoices, pro formas, payment confirmations, receipts) | **Rachel's `Raw/`** (`1NQydm_gONNSaVnRlYtPjhHmcTg5ZPl9-`) with a covering note and a Hub row for Rachel; she files them in the Financial Archive (§5b). Minda, 06/10/2026: "All financial documents you need to place to Rachel's Raw folder." Move a financial file out of Anna `Raw/` rather than leave a copy there. Never the Collaboration Space or git |
 
 Check the copy's size matches. Rename a superseded file "(superseded by …)" — never delete.
 

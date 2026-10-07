@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 07/10 night — PR #46 merged
+- Minda merged minda-ui/Anna#46 (SC-27 with the dimension checks, record to row 164). Branch restarted from `main`. Ledger row 165.
+
 ## 07/10 night — SC-27 amended
 - SC-27 now also requires dimension checks (runs, vertical stacks, repeated dimensions, units and scale, TBCs). Applied to DR-0004: all dimensions add up; two TBCs flagged. Pushed to PR #46. Ledger row 164.
 

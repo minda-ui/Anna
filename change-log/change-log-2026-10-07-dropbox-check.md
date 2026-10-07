@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 07/10 night — PR #45 merged
+- Minda merged minda-ui/Anna#45 (six skill lessons, dashboard template, `Templates/` in `CLAUDE.md` §6, record to row 158). Branch restarted from `main`. Ledger row 159.
+
 ## 07/10 night — Templates in the charter
 - `CLAUDE.md` §6 now lists `Templates/` (Project Dashboard template). `Charter-History.md` entry added. Ledger row 158.
 

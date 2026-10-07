@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 07/10 late — skip size, drawer video
+- Minda: the Bullring skip is the 12-yard. No drawer video is needed for Michelle: the drawer issue is not Macdonald liability; no reply drafted for that request. Ledger row 146.
+
 ## 07/10 late — Bullring skip
 - Skip (AWS Nationwide) arrived in Core 11, bay 19 (Minda). Size not confirmed (12-yard booked; quote text says 8yd). Exchanges: Minda books, 24 h notice to technical.assistant@bullring.co.uk. Ledger row 145.
 

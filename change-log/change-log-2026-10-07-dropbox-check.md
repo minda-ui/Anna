@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 07/10 night — SC-21 to SC-26 adopted
+- Minda adopted all six. `project-admin` updated (§0, §1, §4a, §5, §7); rows marked Adopted. PR opened for Minda to merge. Ledger row 156.
+
 ## 07/10 night — Skip status on the crew page
 - Added a read-only Skip status section to the Bullring Night Programme (crew link, version 5, no capabilities). No button: it would need the Gmail connector and make the page private, which would lock the crew out. Minda: leave it without a button. Anna updates the exchange date from emails and republishes with the same `url`. SC-26. Ledger row 155.
 

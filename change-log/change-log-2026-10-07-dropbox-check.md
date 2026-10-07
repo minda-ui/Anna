@@ -2,6 +2,24 @@
 
 Newest notes at the top. Append-only.
 
+## 07/10 night — SC-27 amended
+- SC-27 now also requires dimension checks (runs, vertical stacks, repeated dimensions, units and scale, TBCs). Applied to DR-0004: all dimensions add up; two TBCs flagged. Pushed to PR #46. Ledger row 164.
+
+## 07/10 night — SC-27 adopted
+- Minda adopted SC-27: `project-admin` §3 step 0a, open the drawing before describing it. PR opened for Minda to merge. Ledger row 163.
+
+## 07/10 night — steel post drawing
+- I said the steel drawing (DR-0004, MJL-001 Rev A) did not show the post positions, without opening it, and drafted a request. Minda corrected me: it does. Opened it: three posts shown in the wardrobe opening; two dimensions marked TBC (head gap, baseplate to FFL). Replaced the draft, then Minda decided no email is needed and the draft was deleted. No change to the register. SC-27 added. Ledger row 162.
+
+## 07/10 night — stray drafts gone
+- Minda discarded the two stray MW drafts; checked they are gone and that the sent message is the correct one (in Jennifer's thread, quoting her email). Ledger row 161.
+
+## 07/10 night — stray page deleted
+- Deleted the stray private copy of the programme page on Minda's instruction, after checking it was the old version and not the crew link. Ledger row 160.
+
+## 07/10 night — PR #45 merged
+- Minda merged minda-ui/Anna#45 (six skill lessons, dashboard template, `Templates/` in `CLAUDE.md` §6, record to row 158). Branch restarted from `main`. Ledger row 159.
+
 ## 07/10 night — Templates in the charter
 - `CLAUDE.md` §6 now lists `Templates/` (Project Dashboard template). `Charter-History.md` entry added. Ledger row 158.
 

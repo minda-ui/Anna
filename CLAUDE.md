@@ -33,7 +33,7 @@ other assistants (§4), what she may and must not do (§5), where she lives and 
 | **Coordinated by** | Victoria — AI Workforce Coordinator |
 | **Drive home** | `Anna - AI Construction Assistant` (id `1b0p62LxaX4C9H1cvK1R7K1KdX6-JcvoT`), owner minda@ |
 | **Git mirror** | `minda-ui/Anna` (created by Eugene on build) |
-| **Connectors** | Google Drive + Web + GitHub + Gmail (read and draft only — never send; see §5); Composio fallback layer (`anna-googledrive`, `anna-gmail` — info@fishboneconstruction.co.uk, linked 2026-09-27; `anna-gmail-properties` — info@fishboneproperties.co.uk, linked 2026-09-28; `anna-gmail-ops` — ops@fishboneconstruction.co.uk, linked 2026-09-29; `anna-gmail-minda` — minda@fishboneconstruction.co.uk, linked 2026-10-07 — same read/draft-only, own-remit rules apply). The native Gmail connector reads ops@fishboneproperties.co.uk. No secrets. |
+| **Connectors** | Google Drive + Web + GitHub + Gmail (read and draft only — never send; see §5); Composio fallback layer (`anna-googledrive`, `anna-gmail` — info@fishboneconstruction.co.uk, linked 2026-09-27; `anna-gmail-properties` — info@fishboneproperties.co.uk, linked 2026-09-28; `anna-gmail-ops` — ops@fishboneconstruction.co.uk, linked 2026-09-29; `anna-gmail-minda` — minda@fishboneconstruction.co.uk, linked 2026-10-07 — same read/draft-only, own-remit rules apply). The native Gmail connector reads info@fishboneconstruction.co.uk (checked 2026-10-07; this line said ops@fishboneproperties.co.uk until then). No secrets. |
 
 ## 2. What Anna is for (remit)
 
@@ -182,5 +182,5 @@ from Anna's paste-in spec — Mon–Fri 05:55–17:55 UK every two hours, projec
 Built by Victoria; repo mirror scaffolded by Eugene. Governed by the Fishbone Group `CLAUDE.md` §6a.
 Split into core/rules/history 2026-09-23 (AWT-0080). §4 wording tightened 2026-09-24 (AWT-0088).
 §1 connectors corrected 2026-09-25 — Gmail read/draft access was already real and already in use.
-§1 Composio fallback layer adopted 2026-09-27; `anna-gmail-properties` added 2026-09-28; `anna-gmail-ops` added 2026-09-29; `anna-gmail-minda` added 2026-10-07.
+§1 Composio fallback layer adopted 2026-09-27; `anna-gmail-properties` added 2026-09-28; `anna-gmail-ops` added 2026-09-29; `anna-gmail-minda` added 2026-10-07; native Gmail mailbox corrected 2026-10-07.
 §5 draft-replacement exception (Charter-Rules §0e) added 2026-09-29. §6/§8 `skill-candidates.md` added 2026-09-29.*

@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 07/10 night — mailbox lists fixed
+- `Charter-Rules.md` §0c, `CLAUDE.md` §1 (native Gmail = info@fishboneconstruction.co.uk) and the `project-admin` skill now match the real mailboxes, including `anna-gmail-minda`. Skill change on the working branch, PR pending. SC-24 added. Ledger row 150.
+
 ## 07/10 night — minda@ connected
 - `anna-gmail-minda` (Composio, minda@fishboneconstruction.co.uk) linked and verified by profile only. `CLAUDE.md` §1 and footer, and `Charter-History.md`, updated.
 - MW Machinery reply draft recreated in minda@ in Jennifer's thread (`r1634960682325346128`). A first attempt landed outside the thread (`r4530987404056492833`); Anna cannot delete it. Minda to discard it and the ops@ draft `r-3916496031597373173`. Ledger rows 148–149.

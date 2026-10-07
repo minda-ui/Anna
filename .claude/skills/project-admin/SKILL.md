@@ -16,7 +16,8 @@ FC2612). Plain-brief (Rule C) in every message.
   case) → signed URL → `curl --retry 3` to disk. Native Drive tools for search, metadata, rename, move,
   folder create and **native copy** (same bytes, no transcription).
 - **Gmail** → native tools read `info@fishboneconstruction.co.uk`; Composio accounts `anna-gmail` (info@),
-  `anna-gmail-ops` (ops@fishboneconstruction), `anna-gmail-properties` (info@fishboneproperties).
+  `anna-gmail-ops` (ops@fishboneconstruction), `anna-gmail-properties` (info@fishboneproperties),
+  `anna-gmail-minda` (minda@fishboneconstruction; read/draft only, project emails only).
 - **Smartsheet** → load `get_resource_guide(["smartsheet-intelligence"])` first; `get_columns` before any
   filter or write.
 
@@ -40,8 +41,9 @@ Habits, every time:
 ## 1. Project email check (§0c)
 
 1. Native `search_threads` on info@: `after:<epoch of last check> -in:draft`.
-2. Composio `GMAIL_FETCH_EMAILS` on `anna-gmail-ops` and `anna-gmail-properties`
-   (`query: "after:YYYY/MM/DD -in:draft"`) — read the stored file (habit 1). ops@ usually mirrors info@.
+2. Composio `GMAIL_FETCH_EMAILS` on `anna-gmail-ops`, `anna-gmail-properties` and `anna-gmail-minda`
+   (`query: "after:YYYY/MM/DD -in:draft"`) — read the stored file (habit 1). ops@ usually mirrors info@;
+   minda@ gets mail addressed to Minda directly (e.g. MW Machinery quote, 07/10), which may not reach info@.
 3. Project emails only: job, site, client, contractor, supplier, quote, RAMS, permit, programme, cost.
    Unsure → one line (sender, subject) and ask. Everything else: leave, don't summarise.
 4. Read each project thread in full (`get_thread`, `PLAIN_TEXT`) — search previews miss later messages.

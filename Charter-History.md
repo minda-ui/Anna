@@ -5,6 +5,12 @@ top. Never edit a past entry; correct it with a new one.
 
 ---
 
+**2026-10-07 — Mailbox lists brought level (Minda: "do all three").** `Charter-Rules.md` §0c now names all five mailboxes
+(`anna-gmail`, `anna-gmail-ops`, `anna-gmail-properties`, `anna-gmail-minda`, native Gmail); `CLAUDE.md` §1 now says the
+native Gmail connector reads info@fishboneconstruction.co.uk (it said ops@fishboneproperties.co.uk; wrong since at least
+29/09, ledger row 62, confirmed 07/10); the `project-admin` skill's Gmail line and email-check step 2 include
+`anna-gmail-minda`. No permission change.
+
 **2026-10-07 — §1: `anna-gmail-minda` connector added.** Minda: "Let's connect you to minda@fishboneconstruction.co.uk",
 then "add minda connection to CLAUDE.md". Composio Gmail account linked by Minda through the OAuth link; verified with one
 `GMAIL_GET_PROFILE` call (minda@fishboneconstruction.co.uk, 22,569 messages), no mail read. `CLAUDE.md` §1 Connectors row

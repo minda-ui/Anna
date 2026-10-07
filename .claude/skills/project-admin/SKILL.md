@@ -54,7 +54,10 @@ Habits, every time:
    (`query: "after:YYYY/MM/DD -in:draft"`) — read the stored file (habit 1). ops@ usually mirrors info@;
    minda@ gets mail addressed to Minda directly (e.g. MW Machinery quote, 07/10), which may not reach info@.
 3. Project emails only: job, site, client, contractor, supplier, quote, RAMS, permit, programme, cost.
-   Unsure → one line (sender, subject) and ask. Everything else: leave, don't summarise.
+   **Project mail comes from anyone** — suppliers, subcontractors, centres, our own invoices — not only Macdonald
+   (Minda, 30/09, SC-7). Read every email's content across info@, ops@, properties@ and minda@, and judge by what it is
+   about, never by sender. Unsure → one line (sender, subject) and ask. Everything clearly not a project: leave it, and
+   list it as sender and subject only, one line each, no summary (§0c).
 4. Read each project thread in full (`get_thread`, `PLAIN_TEXT`) — search previews miss later messages.
    Read one message by its id or exact subject and print only that message. **Never loop over a sender**:
    someone who writes about a project and about other things (07/10, Irina: properties, conveyancing,
@@ -117,6 +120,13 @@ byte-verify, native copy to `Documents/` with the date-first name, Rule F (§7).
   company name is **Fishbone Construction Ltd**. Author as clean HTML → Google Doc, or python-docx from a
   known-good .docx. Ground every site rule in the permit / induction pack / SDS; unknowns marked, not
   invented. Asbestos, structure, fire → §3 flags.
+- **Open items (SC-11):** before listing any open item (skips, nearest A&E, permit, site rules), search **every site
+  paper received** (pre-start pack, induction pack, permits, forms, the project emails) and name the papers searched.
+  06/10: the skip details were already in the Bullring pre-start pack when the RAMS listed them as open.
+- **Items supplied by the principal contractor** (hoardings, steel posts, …): their design, specification,
+  manufacture and structural or fire adequacy are the supplier's; Fishbone installs to the drawings and fixing
+  details supplied and asks when a detail is missing. Do not list them as Fishbone's open items (`Charter-Rules.md`
+  §0h, SC-10).
 - **Moving units, counters, towers or other heavy items (Minda, 02/10/2026):** get the **weight of each
   unit** from the client / principal contractor *before* the RAMS is written — ask in the first reply.
   Put the weights in the RAMS and plan the lift from them: number of people, lifting aids (skates, dollies,
@@ -159,6 +169,16 @@ values (stage, exchange date, updated) are the page's `skip` object; set `exchan
 Macdonald confirm by email.
 **New job page:** start from the template `templates/project-dashboard/` (copy of the FC2611 page with placeholders;
 Drive: `Templates/`, id `16lK2li7UvgRzL1_yW5qj1M79rdpjWaYr`). Its `README.md` has the steps.
+
+## 4b. Client forms that arrive as old Word `.doc` (SC-8)
+
+LibreOffice cannot open them in this container. Convert through Drive, then fill with python-docx:
+1. Anna `Raw/` first (`file-attachments`). Composio `GOOGLEDRIVE_COPY_FILE_ADVANCED` with the target mimeType Google
+   Doc, then `GOOGLEDRIVE_DOWNLOAD_FILE` with the docx `mime_type`.
+2. python-docx: fill the label cells by walking the `w:tc` elements (merged cells repeat, so de-duplicate); skip the
+   title cell; `assert` that every field was found before saving.
+3. Save as a new file next to the original (never overwrite it); read it back; Minda reviews and signs; file it per
+   `file-attachments` §4.
 
 ## 5. Email drafts (never send — §5, §0e)
 

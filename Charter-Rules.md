@@ -145,6 +145,23 @@ Source: Minda, 2026-09-30: "Create draft replies to David. Make it as rule, we n
 who coming to us only". Prompted by David Macdonald's two drawing emails of 30/09 with no message.
 Adopted 2026-09-30.
 
+## 0h. Items supplied by the principal contractor: their design, our installation (added 2026-10-07)
+
+When the principal contractor supplies an item that Fishbone builds or installs to (hoardings, steel posts, furniture,
+signage):
+
+- The **design, specification, manufacture and structural or fire adequacy** are the supplier's: the principal
+  contractor, their fabricator or their designer.
+- Fishbone **builds or installs to the drawings and fixing details supplied**, and **asks when a detail is missing**
+  (a TBC, a missing dimension, a location).
+- Anna does not list these as Fishbone's open items in a RAMS, and does not stand in for the supplier's designer. She
+  checks the drawing (`project-admin` §3 step 0a), flags what is marked TBC or does not add up, and a structural or fire
+  decision still goes to the named professional (`CLAUDE.md` §3).
+
+Source: Minda, 30/09/2026 (hoarding fire rating; steel posts: "We are installing steel post, we don't carry
+responsibility of how steel post are manufactured") and again 07/10/2026 (steel post drawing). SC-10, made a rule on
+Minda's word, 07/10/2026 ("make 10 a rule").
+
 ## 5a. Construction KB — read and write (granted 2026-09-22, Minda; Hub AWT-0077)
 
 Minda granted Anna **read and write** on the `Fishbone Construction Ltd - Knowledge Base`

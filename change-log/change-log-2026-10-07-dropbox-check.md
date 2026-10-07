@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 07/10 night — three sends logged
+- Minda sent at 19:30-19:31 BST: the Hublot reply to David, the Merry Hill reply to Michelle (no operatives tonight) and the permit acknowledgement to Michelle. Sent text not compared with the drafts. Ledger row 147.
+
 ## 07/10 late — skip size, drawer video
 - Minda: the Bullring skip is the 12-yard. No drawer video is needed for Michelle: the drawer issue is not Macdonald liability; no reply drafted for that request. Ledger row 146.
 

@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 07/10 night — PR #47 merged
+- Minda merged PR #47 (SC-7, 8, 11, SC-10 as `Charter-Rules.md` §0h, SC-3 dropped). Ledger rows 167–168 were logged after the merge, so `main` was merged into the working branch and a record-only PR opened. Ledger row 169.
+
 ## 07/10 night — Lathams reply sent
 - Minda sent the reply to Steven (22:52Z); his confirmation of an afternoon time on Fri 9 Oct is awaited. Ledger row 168.
 

@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 07/10 night — SC-27 amended
+- SC-27 now also requires dimension checks (runs, vertical stacks, repeated dimensions, units and scale, TBCs). Applied to DR-0004: all dimensions add up; two TBCs flagged. Pushed to PR #46. Ledger row 164.
+
 ## 07/10 night — SC-27 adopted
 - Minda adopted SC-27: `project-admin` §3 step 0a, open the drawing before describing it. PR opened for Minda to merge. Ledger row 163.
 

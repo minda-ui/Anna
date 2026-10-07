@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 07/10 night — PR #44 merged
+- Minda merged minda-ui/Anna#44 (skill change, charter fixes, 07/10 record, Dropbox rule). `main` = Drive for the control files. Working branch restarted from `main`. Ledger row 151.
+
 ## 07/10 night — mailbox lists fixed
 - `Charter-Rules.md` §0c, `CLAUDE.md` §1 (native Gmail = info@fishboneconstruction.co.uk) and the `project-admin` skill now match the real mailboxes, including `anna-gmail-minda`. Skill change on the working branch, PR pending. SC-24 added. Ledger row 150.
 

@@ -2,6 +2,12 @@
 
 Newest notes at the top. Append-only.
 
+## 07/10 evening — email check, Merry Hill, permit WP-1293-62007
+- Email check (info@ in full, ops@ subjects). FC2612: Michelle forwarded WoS about the counter drawer (still not closing, left side opens too far) and asked for operatives tonight. Minda was on site today: a manufacturing issue, not our work, there since the store opened, the store manager is in touch with the manufacturer. Reply draft to Michelle only: no operatives tonight. Her request for a video of the drawer is open.
+- FC2611: access permit WP-1293-62007 (11-18 Oct, 22:00-05:00) saved as a PDF made from the JLL notification (the email had no PDF), Raw first (byte-verified), native copy to Documents, acknowledgement draft to Michelle. Hub AWT-0406, notes to Victoria and Peter.
+- Lathams: collection booked Fri 9 Oct 10:00-10:30. Five emails left unread pending Minda's word on whether they are projects. Tonight's permits shown to Minda (WP-1293-61516, WP-1293-61303).
+- SC-23 added. Ledger row 144.
+
 ## 07/10 evening — Drive copies updated
 - Composio was signed out after the session restart (silent output). Login: Minda signed in as minda@ at the link; the earlier `composio login` run and a settings allow-rule edit were refused by the auto-mode classifier.
 - Replaced in place by `--file` upload and byte-verified (`cmp`, no U+FFFD): ledger (118,966 B), current-state, skill-candidates; this change-log file added to Drive. Live copies were identical to git before the edits. One live copy of each.

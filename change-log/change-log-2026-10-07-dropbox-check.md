@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 07/10 night — Lathams reply sent
+- Minda sent the reply to Steven (22:52Z); his confirmation of an afternoon time on Fri 9 Oct is awaited. Ledger row 168.
+
 ## 07/10 night — Lathams collection time
 - Minda cannot collect order 3398720 in the morning (booked Fri 9 Oct 10:00): draft to Steven asking for after 13:30 the same day, `r-3278692821758586250` in info@, not sent. Ledger row 167.
 

@@ -2,6 +2,10 @@
 
 Newest notes at the top. Append-only.
 
+## 07/10 night — minda@ connected
+- `anna-gmail-minda` (Composio, minda@fishboneconstruction.co.uk) linked and verified by profile only. `CLAUDE.md` §1 and footer, and `Charter-History.md`, updated.
+- MW Machinery reply draft recreated in minda@ in Jennifer's thread (`r1634960682325346128`). A first attempt landed outside the thread (`r4530987404056492833`); Anna cannot delete it. Minda to discard it and the ops@ draft `r-3916496031597373173`. Ledger rows 148–149.
+
 ## 07/10 night — MW Machinery draft
 - Minda: buy the AES 10000 main motor only (11kW, £1,697.40 + VAT, from stock, carriage £20.00 + VAT), ask for a pro forma and a card payment option. Reply draft to Jennifer Webster only, in ops@ Drafts (`r-3916496031597373173`), not sent. Pro forma will go to Rachel's `Raw/`. Ledger row 148.
 

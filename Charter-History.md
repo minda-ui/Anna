@@ -5,6 +5,12 @@ top. Never edit a past entry; correct it with a new one.
 
 ---
 
+**2026-10-07 — §1: `anna-gmail-minda` connector added.** Minda: "Let's connect you to minda@fishboneconstruction.co.uk",
+then "add minda connection to CLAUDE.md". Composio Gmail account linked by Minda through the OAuth link; verified with one
+`GMAIL_GET_PROFILE` call (minda@fishboneconstruction.co.uk, 22,569 messages), no mail read. `CLAUDE.md` §1 Connectors row
+and footer updated. Same limits as the other mailboxes: read and draft only, never send, project emails only (§0c), no
+deletes except Anna's own unsent drafts (§0e). Only `CLAUDE.md` §1 changed; `Charter-Rules.md` untouched.
+
 **2026-09-30 — §0e: never repair a draft; delete the old one first.** Minda: "let's agree now, don't repair
 drafts, create new ones and deleted old ones". A replacement draft for the Bullring pre-start reply carried the
 old unsigned draft quoted underneath — Composio quotes the last message in the thread, drafts included. §0e now

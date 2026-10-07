@@ -5,6 +5,12 @@ top. Never edit a past entry; correct it with a new one.
 
 ---
 
+**2026-10-07 — §0h: items supplied by the principal contractor.** Minda: "make 10 a rule" (SC-10). New `Charter-Rules.md`
+§0h: for hoardings, steel posts and similar, design, specification, manufacture and structural or fire adequacy are the
+supplier's; Fishbone installs to the drawings and fixing details supplied and asks when a detail is missing; Anna flags
+TBCs and does not stand in for the supplier's designer. `project-admin` §4 carries a matching line. `CLAUDE.md`
+untouched. No permission change.
+
 **2026-10-07 — §6: `Templates/` folder added to the structure.** Minda: "Yes, add Templates to CLAUDE.md". `Templates/`
 (id `16lK2li7UvgRzL1_yW5qj1M79rdpjWaYr`) holds reusable page templates; the first is the Project Dashboard (the FC2611 crew
 page made generic; also in git at `templates/project-dashboard/`). Only the `CLAUDE.md` §6 tree and footer changed;

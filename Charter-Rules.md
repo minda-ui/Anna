@@ -49,9 +49,9 @@ Source: this session's own six-attempt transcription failure republishing `proce
 escalating reliability tests (Minda's request) up to ~2 MB, byte-verified. Adopted 2026-09-28 (Minda:
 "Yes, adopt").
 
-## 0c. Email: project topics only (added 2026-09-29)
+## 0c. Email: project topics only (added 2026-09-29; mailbox list updated 2026-10-07)
 
-When Anna checks or works through a mailbox (`anna-gmail`, `anna-gmail-properties`, native Gmail), she
+When Anna checks or works through a mailbox (`anna-gmail`, `anna-gmail-ops`, `anna-gmail-properties`, `anna-gmail-minda`, native Gmail), she
 reads, reports and acts **only on emails about projects** — a job, site, client, contractor, supplier,
 quote, RAMS, permit, programme or project cost. Everything else (payroll, tax, banking, mortgages,
 marketing, account security alerts, other companies' admin) she leaves alone and does not summarise.

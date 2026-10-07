@@ -147,6 +147,8 @@ bar public sharing; the crew are not signed in; SC-26). A feature that needs Gma
 the url, `read` with `path: "index.html"`, edit the saved file by script, publish with `url`. The Skip status
 values (stage, exchange date, updated) are the page's `skip` object; set `exchangeDate` and `stage: 3` when
 Macdonald confirm by email.
+**New job page:** start from the template `templates/project-dashboard/` (copy of the FC2611 page with placeholders;
+Drive: `Templates/`, id `16lK2li7UvgRzL1_yW5qj1M79rdpjWaYr`). Its `README.md` has the steps.
 
 ## 5. Email drafts (never send — §5, §0e)
 

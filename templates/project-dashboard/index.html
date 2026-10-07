@@ -1,0 +1,169 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Project Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: a night-shift roster on one narrow column — summary strip, checks, then one card per working night, grouped by week. */
+:root{
+  --bg:#f3f4f2; --surface:#ffffff; --ink:#1b2127; --muted:#5d6670; --line:#d9ddd8;
+  --hivis:#c77800; --hivis-soft:#fff1d6; --rcpo:#2f6f6a; --rcpo-soft:#dcefeb;
+  --attend:#5a4fa0; --attend-soft:#e8e5f6; --warn:#b3261e; --warn-soft:#fbe4e1; --done:#3d7a3a;
+  --f-display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#12161b; --surface:#1b2129; --ink:#e8eaec; --muted:#9aa4ae; --line:#2c3440;
+  --hivis:#ffb23f; --hivis-soft:#3a2b10; --rcpo:#6cc3b9; --rcpo-soft:#173330;
+  --attend:#a99cf0; --attend-soft:#2a2547; --warn:#ff8a7d; --warn-soft:#3d1c1a; --done:#7fc77a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#12161b; --surface:#1b2129; --ink:#e8eaec; --muted:#9aa4ae; --line:#2c3440;
+  --hivis:#ffb23f; --hivis-soft:#3a2b10; --rcpo:#6cc3b9; --rcpo-soft:#173330;
+  --attend:#a99cf0; --attend-soft:#2a2547; --warn:#ff8a7d; --warn-soft:#3d1c1a; --done:#7fc77a; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 var(--f-body);padding-inline:16px;padding-block:20px 48px}
+.wrap{max-width:640px;margin:0 auto;display:flex;flex-direction:column;gap:22px}
+h1,h2{font-family:var(--f-display);font-weight:700;letter-spacing:.01em;text-wrap:balance;margin:0;line-height:1.05}
+h1{font-size:2.3rem}
+h2{font-size:1.45rem;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.eyebrow{font:500 .72rem/1.2 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--hivis)}
+.lede{color:var(--muted);margin:6px 0 0;max-width:62ch}
+.facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.fact{background:var(--surface);padding:10px 10px 12px;min-width:0}
+.fact b{display:block;font:700 1.55rem/1 var(--f-display);font-variant-numeric:tabular-nums}
+.fact span{font-size:.78rem;color:var(--muted)}
+@media (max-width:420px){.facts{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.key{display:flex;flex-wrap:wrap;gap:8px;font-size:.8rem;color:var(--muted)}
+.tag{display:inline-flex;align-items:center;gap:5px;padding:2px 8px;border-radius:999px;font:500 .72rem/1.5 var(--f-mono);letter-spacing:.02em;white-space:nowrap}
+.t-br{background:var(--hivis-soft);color:var(--hivis)}
+.t-rc{background:var(--rcpo-soft);color:var(--rcpo)}
+.t-at{background:var(--attend-soft);color:var(--attend)}
+.t-ms{background:var(--warn-soft);color:var(--warn)}
+.t-kp{background:var(--warn);color:var(--surface);font-weight:700}
+.access{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--rcpo);border-radius:10px;padding:12px 16px}
+.access h2{font-size:1.2rem}
+.access p{margin:6px 0 0}
+.checks{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--warn);border-radius:10px;padding:14px 16px}
+.checks h2{font-size:1.2rem}
+.checks ol{margin:8px 0 0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.week{display:flex;flex-direction:column;gap:10px}
+.strip{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}
+.day{border:1px solid var(--line);border-radius:6px;padding:4px 0;text-align:center;font:500 .72rem/1.25 var(--f-mono);color:var(--muted);background:var(--surface);font-variant-numeric:tabular-nums}
+.day.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.day.off{opacity:.55}
+.day small{display:block;font-size:.62rem}
+.night{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:8px}
+.night.now{border-color:var(--hivis);box-shadow:0 0 0 2px var(--hivis-soft)}
+.night.past{opacity:.72}
+.nhead{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.nhead .when{font:700 1.15rem/1.1 var(--f-display)}
+.nhead .num{font:500 .72rem/1 var(--f-mono);color:var(--muted);letter-spacing:.08em;text-transform:uppercase}
+.state{font:500 .7rem/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;padding:3px 7px;border-radius:4px}
+.s-done{color:var(--done);border:1px solid var(--done)}
+.s-now{color:var(--bg);background:var(--hivis)}
+ul.tasks{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+ul.tasks li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:8px;align-items:start}
+ul.tasks li .tag{margin-top:2px}
+.onsite{font-size:.8rem;color:var(--muted);border-top:1px dashed var(--line);padding-top:7px}
+.offnote{font-size:.82rem;color:var(--muted);padding:8px 12px;border:1px dashed var(--line);border-radius:8px}
+.offnote b{color:var(--warn);font-weight:600}
+.src{font-size:.78rem;color:var(--muted);border-top:1px solid var(--line);padding-top:12px}
+@media (prefers-reduced-motion: no-preference){.night.now{transition:box-shadow .2s}}
+.skip{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--hivis);border-radius:10px;padding:12px 16px}
+.skip h2{font-size:1.2rem}
+.skip dl{margin:8px 0 0;display:grid;grid-template-columns:auto minmax(0,1fr);gap:6px 14px}
+.skip dt{font:500 .72rem/1.7 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.skip dd{margin:0}
+.steps{list-style:none;margin:10px 0 0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px}
+.steps li{border:1px solid var(--line);border-radius:6px;padding:6px 4px;text-align:center;font:500 .7rem/1.25 var(--f-mono);color:var(--muted);letter-spacing:.02em}
+.steps li.did{color:var(--done);border-color:var(--done)}
+.steps li.cur{background:var(--hivis);color:var(--bg);border-color:var(--hivis);font-weight:700}
+.skip .nodate{color:var(--muted)}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">[FC no] · [Client and site] · [Job]</div>
+    <h1>Project Dashboard</h1>
+    <p class="lede">[Our plan: number of operatives, days or nights, hours. Hand-back date.]</p>
+  </header>
+
+  <section class="facts" aria-label="Summary">
+    <div class="fact"><b>00</b><span>[working nights]</span></div>
+    <div class="fact"><b>0</b><span>[operatives a night]</span></div>
+    <div class="fact"><b>00</b><span>[operative-nights]</span></div>
+    <div class="fact"><b>00 Mon</b><span>[hand back]</span></div>
+  </section>
+
+  <section class="access" aria-label="Deliveries and access">
+    <h2>Deliveries</h2>
+    <p><b>[Where deliveries go: core, bays, gate.]</b> [Height limits, booking rules, what to leave clear, lifts.]</p>
+  </section>
+
+  <section class="skip" aria-label="Skip status">
+    <h2>Skip status</h2>
+    <ol class="steps" id="skipSteps" aria-label="Skip progress"></ol>
+    <dl id="skipFacts"></dl>
+  </section>
+
+  <div class="key" aria-label="Key">
+    <span class="tag t-br">Scope A</span>
+    <span class="tag t-rc">Scope B</span>
+    <span class="tag t-at">Attend others</span>
+    <span class="tag t-ms">Milestone</span>
+  </div>
+
+  <div id="weeks"></div>
+
+  <p class="src">[Standing line: RAMS and site rules to follow, what is by others. Questions to ...]</p>
+</div>
+
+<script>
+/* TEMPLATE: replace every [bracketed] text and the sample data below. See README.md in this folder. */
+const DOW=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+const tag={br:'<span class="tag t-br">Scope A</span>',rc:'<span class="tag t-rc">Scope B</span>',at:'<span class="tag t-at">Attend</span>',ms:'<span class="tag t-ms">Milestone</span>',kp:'<span class="tag t-kp">Keep</span>'};
+/* One object per week; "start" is the Monday (YYYY-MM-DD). One object per night: d = date, t = [[tag key, text], ...], on = who else is on site (optional). */
+const weeks=[
+ {title:"Week 1",start:"2000-01-03",off:"[Days with no shift, e.g. Fri 7 – Sun 9: no shift.]",nights:[
+  {d:"2000-01-03",t:[["br","[Task for Scope A]"],["ms","[Milestone]"]],on:"[Others on site]"},
+  {d:"2000-01-04",t:[["rc","[Task for Scope B]"],["at","[Attend another trade]"],["kp","[Item to keep or protect]"]]}]}
+];
+const MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+function fmt(iso){const d=new Date(iso+"T12:00:00");return DOW[d.getDay()]+" "+d.getDate()+" "+MON[d.getMonth()]}
+function todayISO(){try{return new Intl.DateTimeFormat("en-CA",{timeZone:"Europe/London"}).format(new Date())}catch(e){return new Date().toISOString().slice(0,10)}}
+const today=todayISO();
+let n=0, html="";
+for(const w of weeks){
+  const s=new Date(w.start+"T12:00:00");
+  let strip='<div class="strip" aria-hidden="true">';
+  const nightSet=new Set(w.nights.map(x=>x.d));
+  for(let i=0;i<7;i++){const d=new Date(s);d.setDate(s.getDate()+i);const iso=d.toISOString().slice(0,10);const on=nightSet.has(iso);
+    strip+=`<div class="day ${on?'on':'off'}">${DOW[d.getDay()].slice(0,2)}<small>${d.getDate()}</small></div>`}
+  strip+='</div>';
+  let cards="";
+  for(const x of w.nights){n++;
+    const st=x.d<today?"past":(x.d===today?"now":"");
+    const badge=st==="past"?'<span class="state s-done">Done</span>':(st==="now"?'<span class="state s-now">Tonight</span>':"");
+    cards+=`<article class="night ${st}"><div class="nhead"><span class="when">${fmt(x.d)} · 20:00–07:00</span><span class="num">Night ${n} ${badge}</span></div><ul class="tasks">${x.t.map(([k,v])=>`<li>${tag[k]}<span>${v}</span></li>`).join("")}</ul>${x.on?`<div class="onsite">Also on site: ${x.on}</div>`:""}</article>`}
+  html+=`<section class="week"><h2>${w.title}<span class="eyebrow">${fmt(w.nights[0].d)} – ${fmt(w.nights[w.nights.length-1].d)}</span></h2>${strip}${cards}<div class="offnote">${w.off}</div></section>`;
+}
+document.getElementById("weeks").innerHTML=html;
+
+const skip={size:"[12-yard]",firm:"[Skip firm]",where:"[Core, bay]",onSite:"[date]",stage:1,asked:"[date]",exchangeDate:"",updated:"[date]"};
+(function(){
+  const stages=["On site","Exchange requested","Date confirmed"];
+  const ol=document.getElementById("skipSteps");
+  stages.forEach((t,i)=>{const li=document.createElement("li");li.textContent=t;li.className=(i+1<skip.stage)?"did":((i+1===skip.stage)?"cur":"");ol.appendChild(li)});
+  const rows=[
+    ["Skip",skip.size+", "+skip.firm+", "+skip.where+". On site since "+skip.onSite+"."],
+    ["Exchange","Requested "+skip.asked+": [who is booking it]."],
+    ["Exchange date",skip.exchangeDate||"Not confirmed yet. It shows here when it is confirmed by email.",!skip.exchangeDate],
+    ["Rules","[Skip rules, e.g. what must not go in]."],
+    ["Updated",skip.updated]
+  ];
+  const dl=document.getElementById("skipFacts");
+  for(const [k,v,nd] of rows){const dt=document.createElement("dt");dt.textContent=k;const dd=document.createElement("dd");dd.textContent=v;if(nd)dd.className="nodate";dl.append(dt,dd)}
+})();
+</script>
+
+</body></html>

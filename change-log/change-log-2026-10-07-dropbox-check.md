@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 07/10 night — Project Dashboard and template
+- The crew page is now 'Project Dashboard' (v6). Saved as a template: `templates/project-dashboard/` in git and `Templates/` in Anna's Drive home (new folder), both byte-verified. Template fixes the hard-coded 'Oct'. Skill pointer added in PR #45. `CLAUDE.md` §6 tree not changed (Minda to decide). Ledger row 157.
+
 ## 07/10 night — SC-21 to SC-26 adopted
 - Minda adopted all six. `project-admin` updated (§0, §1, §4a, §5, §7); rows marked Adopted. PR opened for Minda to merge. Ledger row 156.
 

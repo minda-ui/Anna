@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 07/10 night — SC-27 adopted
+- Minda adopted SC-27: `project-admin` §3 step 0a, open the drawing before describing it. PR opened for Minda to merge. Ledger row 163.
+
 ## 07/10 night — steel post drawing
 - I said the steel drawing (DR-0004, MJL-001 Rev A) did not show the post positions, without opening it, and drafted a request. Minda corrected me: it does. Opened it: three posts shown in the wardrobe opening; two dimensions marked TBC (head gap, baseplate to FFL). Replaced the draft, then Minda decided no email is needed and the draft was deleted. No change to the register. SC-27 added. Ledger row 162.
 

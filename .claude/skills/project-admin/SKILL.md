@@ -87,6 +87,11 @@ byte-verify, native copy to `Documents/` with the date-first name, Rule F (§7).
    or text, and check each against the project `Drawings/` and the register, not only the ones the email
    mentions. Once a week per live project, run a full drawings check against the email (06/10: two FC2611
    drawings sent 30/09 had never been filed, SC-19).
+0a. **Open the drawing before you describe it** (SC-27). Never say what a drawing shows, or ask for something
+   "missing" from it, from the register, the record or the email text. Download the registered file, render the
+   PDF page (`pdftoppm -r 40 -png`, then zoom into details at `-r 110`), and read the title block, the notes and
+   every TBC. Say what it shows and what it does not. If the record and the drawing disagree, the drawing wins and
+   the record is corrected (07/10: DR-0004 does show the steel post positions; the record said it did not).
 1. Download each drawing (§1 attachments). Keep the **original file name** (revision stays visible).
    Never rename a drawing, nor offer to; if Minda can't find one, give its folder path, link and DR id
    (06/10, SC-18).

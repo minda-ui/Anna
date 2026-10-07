@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 07/10 late — skip exchange draft
+- Draft to Michelle only asking her to book an exchange of the 12-yard skip (Core 11, bay 19), in the skip thread, no date (Minda gave none): `r-3337724160843074017` in info@, not sent. Ledger row 153.
+
 ## 07/10 late — Ferndale chaser sent
 - Irina's request: a chaser to Building Control on 26/01250/PRESUB (2 Ferndale Avenue). Draft made in info@ in the existing thread with the date corrected to 23 September and Alfie Miller's receipt acknowledgement added. Minda sent it 20:03 BST. Building Control's reply awaited; Irina not yet told. Minda ruled three unread emails not for Anna. Slip: sender-filtered read printed two unrelated threads; SC-25. Ledger row 152.
 

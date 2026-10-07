@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 07/10 night — stray page deleted
+- Deleted the stray private copy of the programme page on Minda's instruction, after checking it was the old version and not the crew link. Ledger row 160.
+
 ## 07/10 night — PR #45 merged
 - Minda merged minda-ui/Anna#45 (six skill lessons, dashboard template, `Templates/` in `CLAUDE.md` §6, record to row 158). Branch restarted from `main`. Ledger row 159.
 

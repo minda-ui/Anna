@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 07/10 late — Ferndale chaser sent
+- Irina's request: a chaser to Building Control on 26/01250/PRESUB (2 Ferndale Avenue). Draft made in info@ in the existing thread with the date corrected to 23 September and Alfie Miller's receipt acknowledgement added. Minda sent it 20:03 BST. Building Control's reply awaited; Irina not yet told. Minda ruled three unread emails not for Anna. Slip: sender-filtered read printed two unrelated threads; SC-25. Ledger row 152.
+
 ## 07/10 night — PR #44 merged
 - Minda merged minda-ui/Anna#44 (skill change, charter fixes, 07/10 record, Dropbox rule). `main` = Drive for the control files. Working branch restarted from `main`. Ledger row 151.
 

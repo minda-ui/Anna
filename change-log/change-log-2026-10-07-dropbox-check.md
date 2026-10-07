@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 07/10 night — MW Machinery draft
+- Minda: buy the AES 10000 main motor only (11kW, £1,697.40 + VAT, from stock, carriage £20.00 + VAT), ask for a pro forma and a card payment option. Reply draft to Jennifer Webster only, in ops@ Drafts (`r-3916496031597373173`), not sent. Pro forma will go to Rachel's `Raw/`. Ledger row 148.
+
 ## 07/10 night — three sends logged
 - Minda sent at 19:30-19:31 BST: the Hublot reply to David, the Merry Hill reply to Michelle (no operatives tonight) and the permit acknowledgement to Michelle. Sent text not compared with the drafts. Ledger row 147.
 

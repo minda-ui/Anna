@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 07/10 night — Irina note, email check, three sends
+- Minda sent: the note to Irina (20:09Z), the skip exchange request to Michelle (20:03Z) and the MW Machinery reply from minda@ (18:44Z). Email check: only Building Control's automatic acknowledgement (19:03Z) is new; the real reply on 26/01250/PRESUB is awaited. Waiting for MW's pro forma. Ledger row 154.
+
 ## 07/10 late — skip exchange draft
 - Draft to Michelle only asking her to book an exchange of the 12-yard skip (Core 11, bay 19), in the skip thread, no date (Minda gave none): `r-3337724160843074017` in info@, not sent. Ledger row 153.
 

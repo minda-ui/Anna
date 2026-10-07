@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 07/10 night — stray drafts gone
+- Minda discarded the two stray MW drafts; checked they are gone and that the sent message is the correct one (in Jennifer's thread, quoting her email). Ledger row 161.
+
 ## 07/10 night — stray page deleted
 - Deleted the stray private copy of the programme page on Minda's instruction, after checking it was the old version and not the crew link. Ledger row 160.
 

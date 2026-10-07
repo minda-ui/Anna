@@ -135,6 +135,7 @@ Anna - AI Construction Assistant/ (id 1b0p62LxaX4C9H1cvK1R7K1KdX6-JcvoT)
 ├── change-log/ <- one dated file per session (id 1SlHwIp_-DGEO3E1CWDsofMDYkt4LzwOt)
 ├── Reference/ <- Anna's curated construction knowledge (id 1onMLvmC4Kmo-x_oUDZ7LpNFV5_hU6rzt)
 ├── Queries/ <- logged advice notes, reusable Q&A (id 13m_xt-oZLTnCKUHu5h0QEBb5JypWFgaH)
+├── Templates/ <- reusable page templates, e.g. the Project Dashboard (id 16lK2li7UvgRzL1_yW5qj1M79rdpjWaYr)
 └── Raw/ <- inbound §7a hand-offs (id 18PkuxAxchaS0rEkgdexw2zOvzoidcJFA)
 ```
 
@@ -182,5 +183,5 @@ from Anna's paste-in spec — Mon–Fri 05:55–17:55 UK every two hours, projec
 Built by Victoria; repo mirror scaffolded by Eugene. Governed by the Fishbone Group `CLAUDE.md` §6a.
 Split into core/rules/history 2026-09-23 (AWT-0080). §4 wording tightened 2026-09-24 (AWT-0088).
 §1 connectors corrected 2026-09-25 — Gmail read/draft access was already real and already in use.
-§1 Composio fallback layer adopted 2026-09-27; `anna-gmail-properties` added 2026-09-28; `anna-gmail-ops` added 2026-09-29; `anna-gmail-minda` added 2026-10-07; native Gmail mailbox corrected 2026-10-07.
+§1 Composio fallback layer adopted 2026-09-27; `anna-gmail-properties` added 2026-09-28; `anna-gmail-ops` added 2026-09-29; `anna-gmail-minda` added 2026-10-07; native Gmail mailbox corrected 2026-10-07; §6 `Templates/` added 2026-10-07.
 §5 draft-replacement exception (Charter-Rules §0e) added 2026-09-29. §6/§8 `skill-candidates.md` added 2026-09-29.*

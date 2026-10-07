@@ -30,13 +30,22 @@ Habits, every time:
    s.count(old)==1`), attach with `--file`. No hand-typed base64 or long `textContent`.
 
 **Start of session** (before the first job — 29/09 began with Composio down):
-1. `composio whoami` shows minda@; one read, e.g. `GMAIL_GET_PROFILE` on `anna-gmail`. Not signed in or
-   the Composio MCP failed → `composio login`, give Minda the link, then `composio login --poll`.
+1. `composio whoami` shows minda@; one read, e.g. `GMAIL_GET_PROFILE` on `anna-gmail`. **Silent output
+   (nothing printed, no error) from `whoami` or any `composio execute` means signed out** — a session restart
+   drops the login (07/10, SC-22). Not signed in or the Composio MCP failed → `composio login`, give Minda
+   the link, then `composio login --poll`. Never `composio login --agent` while Minda is there. The
+   classifier refuses Anna adding a login rule to settings: Minda signs in herself or approves the run.
 2. `python3 -c "import docx"` — missing → `pip install -q python-docx`.
 3. `git fetch`; note any open PR and whether `main` matches Drive.
-4. **Network:** a host blocked by the proxy (403) stays blocked for this whole session, even after Minda
-   adds it to the environment's allowed domains; the change applies from the next session. Say so, and
-   offer the manual route: she downloads the file into Anna `Raw/` (06/10: Dropbox, SC-20).
+4. **Network:** a host blocked by the proxy (403) may open **mid-session** once Minda adds it to the
+   environment's allowed domains (07/10: Dropbox opened within the hour, SC-21). Test the host again with one
+   `curl -sS -o /dev/null -w "%{http_code}"` (302 or 200 = open). Still 403 → say the change may need a new
+   session, and offer the manual route: she downloads the file into Anna `Raw/`.
+   **Dropbox shared folder:** `curl -L -o <scratchpad>/folder.zip "<link>&dl=1"`. The classifier refuses this
+   until a `Bash(curl * https://www.dropbox.com/scl/fo/*)` rule is in `.claude/settings.local.json`: ask Minda
+   (07/10 she asked Anna to write it and the edit was accepted; a `composio login` rule was refused as
+   Self-Modification). Then list the zip, and compare names and sizes with the project
+   `Drawings/` and `Raw/` before filing anything.
 
 ## 1. Project email check (§0c)
 
@@ -47,6 +56,9 @@ Habits, every time:
 3. Project emails only: job, site, client, contractor, supplier, quote, RAMS, permit, programme, cost.
    Unsure → one line (sender, subject) and ask. Everything else: leave, don't summarise.
 4. Read each project thread in full (`get_thread`, `PLAIN_TEXT`) — search previews miss later messages.
+   Read one message by its id or exact subject and print only that message. **Never loop over a sender**:
+   someone who writes about a project and about other things (07/10, Irina: properties, conveyancing,
+   tenancies) would print unrelated mail, which breaks §0c (SC-25).
 5. Report per project: what arrived, what it changes for us, what needs Minda. Flag anything that makes
    an issued document wrong (e.g. a new permit number vs an issued RAMS).
 
@@ -54,6 +66,13 @@ Attachments: the bulk fetch returns no parts. Get them per message with
 `GMAIL_FETCH_MESSAGE_BY_MESSAGE_ID` (`format: full`), walk `payload.parts` for `filename` +
 `body.attachmentId`, then `GMAIL_GET_ATTACHMENT` → `data.file.s3url` → curl. Check size = email size and
 `%PDF-` header.
+
+**A permit with no PDF** (a forwarded JLL/S2 notification — Michelle's emails carry only the notice): make the
+PDF from the email text (SC-23). Build a one-page HTML with the permit reference, name, status, type,
+contractor, valid from/to, sender and date; print it with
+`chromium --headless --no-sandbox --no-pdf-header-footer --print-to-pdf=<out>.pdf file://<in>.html`
+(browser: `/opt/pw-browsers/chromium-*/chrome-linux/chrome`). Then follow `file-attachments`: Anna `Raw/` first,
+byte-verify, native copy to `Documents/` with the date-first name, Rule F (§7).
 
 ## 2. New project folder
 
@@ -122,12 +141,25 @@ notes and photos in the page's own database, keyed by each item's id.
 `https://claude.ai/artifact/LejvgVSR2XGWcaWYiEEaVT`): always publish with `url` set to that link. After a
 context reset the local file path is no longer tied to the page, so a publish without `url` makes a new
 private page and the crew never see the change (06/10, SC-17). Keep each fixed link in `current-state.md`.
+**The crew page is public: declare no capabilities** (db, mcp, user, artifact all need a signed-in viewer or
+bar public sharing; the crew are not signed in; SC-26). A feature that needs Gmail or shared state (e.g. a
+"Book exchange" button) goes on a separate private page, never on the crew page. To update: `Artifact read`
+the url, `read` with `path: "index.html"`, edit the saved file by script, publish with `url`. The Skip status
+values (stage, exchange date, updated) are the page's `skip` object; set `exchangeDate` and `stage: 3` when
+Macdonald confirm by email.
+**New job page:** start from the template `templates/project-dashboard/` (copy of the FC2611 page with placeholders;
+Drive: `Templates/`, id `16lK2li7UvgRzL1_yW5qj1M79rdpjWaYr`). Its `README.md` has the steps.
 
 ## 5. Email drafts (never send — §5, §0e)
 
 0. **Every project email gets a reply draft (§0g)**, even one with only a file — to the **sender only**
    (no reply-all or cc unless the email asks for it or Minda does). Say what arrived and what needs them.
-1. `GMAIL_CREATE_EMAIL_DRAFT` on `anna-gmail`: `thread_id`, `recipient_email`, `cc` only if Minda wants
+0a. **A thread id belongs to one mailbox** (SC-24). Make the draft in the mailbox that holds the message
+   being answered: find it there first (`GMAIL_FETCH_EMAILS` on that account, or the native tools for info@) and use
+   *that* mailbox's `thread_id`. A thread id from another mailbox makes a stray new-thread draft with no
+   quoted email (07/10, minda@ with an ops@ id). Accounts: native = info@; `anna-gmail`, `anna-gmail-ops`,
+   `anna-gmail-properties`, `anna-gmail-minda`.
+1. `GMAIL_CREATE_EMAIL_DRAFT` (on the account from 0a): `thread_id`, `recipient_email`, `cc` only if Minda wants
    it, `body` plain text, attachment via `--file` (the file name is what the recipient sees). Several files:
    `"attachment": ["/abs/a.pdf", "/abs/b.pdf"]` in the `-d @file.json` payload (under 25 MB in total).
 2. Verify with `GMAIL_GET_DRAFT`: To, Cc, Subject, threadId, attachment filename and size.
@@ -135,7 +167,8 @@ private page and the crew never see the change (06/10, SC-17). Keep each fixed l
    unsent draft in that inbox — SC-16), then delete it with the **native** Gmail
    `delete_draft` (Composio `GMAIL_DELETE_*` is denied in `.claude/settings.json`), then create the new one —
    Composio quotes the thread's last message, drafts included. Check the new draft quotes only the email
-   being answered (native `get_draft`). Report both ids.
+   being answered (native `get_draft`). Report both ids. Anna can delete only in info@ (native): in any other
+   mailbox a stray or replaced draft stays, so name its id and ask Minda to discard it.
 4. Minda sends. Then check the thread (`get_thread`): sent time, recipients, size ≈ attachment present.
 
 ## 6. Registers
@@ -160,7 +193,8 @@ private page and the crew never see the change (06/10, SC-17). Keep each fixed l
    - Document Register changes → **Rachel** (`1NQydm_gONNSaVnRlYtPjhHmcTg5ZPl9-`) and **Peter**
      (`1Te5072de6aHuDb6aFQrrpAIRwQ5IVWtp`).
    - New sheets, folders, registers → **Victoria** (`1rzRlNRLdg-qZnXU4MTHCnn3H2b1Z5L6G`) and **Peter**.
-   Follow-ups: update the same Hub row and send a short addendum note.
+   Follow-ups: update the same Hub row and send a short addendum note. The ids above are the `Raw/`
+   **folders**; ledger rows 138 and 141 quote note files, not folders (SC-23).
 
 ## 8. Anna's record and git
 

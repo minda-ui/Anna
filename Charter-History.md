@@ -5,6 +5,11 @@ top. Never edit a past entry; correct it with a new one.
 
 ---
 
+**2026-10-07 — §6: `Templates/` folder added to the structure.** Minda: "Yes, add Templates to CLAUDE.md". `Templates/`
+(id `16lK2li7UvgRzL1_yW5qj1M79rdpjWaYr`) holds reusable page templates; the first is the Project Dashboard (the FC2611 crew
+page made generic; also in git at `templates/project-dashboard/`). Only the `CLAUDE.md` §6 tree and footer changed;
+`Charter-Rules.md` untouched. No permission change.
+
 **2026-10-07 — Mailbox lists brought level (Minda: "do all three").** `Charter-Rules.md` §0c now names all five mailboxes
 (`anna-gmail`, `anna-gmail-ops`, `anna-gmail-properties`, `anna-gmail-minda`, native Gmail); `CLAUDE.md` §1 now says the
 native Gmail connector reads info@fishboneconstruction.co.uk (it said ops@fishboneproperties.co.uk; wrong since at least

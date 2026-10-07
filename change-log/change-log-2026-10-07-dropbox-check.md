@@ -2,6 +2,30 @@
 
 Newest notes at the top. Append-only.
 
+## 07/10 night — Templates in the charter
+- `CLAUDE.md` §6 now lists `Templates/` (Project Dashboard template). `Charter-History.md` entry added. Ledger row 158.
+
+## 07/10 night — Project Dashboard and template
+- The crew page is now 'Project Dashboard' (v6). Saved as a template: `templates/project-dashboard/` in git and `Templates/` in Anna's Drive home (new folder), both byte-verified. Template fixes the hard-coded 'Oct'. Skill pointer added in PR #45. `CLAUDE.md` §6 tree not changed (Minda to decide). Ledger row 157.
+
+## 07/10 night — SC-21 to SC-26 adopted
+- Minda adopted all six. `project-admin` updated (§0, §1, §4a, §5, §7); rows marked Adopted. PR opened for Minda to merge. Ledger row 156.
+
+## 07/10 night — Skip status on the crew page
+- Added a read-only Skip status section to the Bullring Night Programme (crew link, version 5, no capabilities). No button: it would need the Gmail connector and make the page private, which would lock the crew out. Minda: leave it without a button. Anna updates the exchange date from emails and republishes with the same `url`. SC-26. Ledger row 155.
+
+## 07/10 night — Irina note, email check, three sends
+- Minda sent: the note to Irina (20:09Z), the skip exchange request to Michelle (20:03Z) and the MW Machinery reply from minda@ (18:44Z). Email check: only Building Control's automatic acknowledgement (19:03Z) is new; the real reply on 26/01250/PRESUB is awaited. Waiting for MW's pro forma. Ledger row 154.
+
+## 07/10 late — skip exchange draft
+- Draft to Michelle only asking her to book an exchange of the 12-yard skip (Core 11, bay 19), in the skip thread, no date (Minda gave none): `r-3337724160843074017` in info@, not sent. Ledger row 153.
+
+## 07/10 late — Ferndale chaser sent
+- Irina's request: a chaser to Building Control on 26/01250/PRESUB (2 Ferndale Avenue). Draft made in info@ in the existing thread with the date corrected to 23 September and Alfie Miller's receipt acknowledgement added. Minda sent it 20:03 BST. Building Control's reply awaited; Irina not yet told. Minda ruled three unread emails not for Anna. Slip: sender-filtered read printed two unrelated threads; SC-25. Ledger row 152.
+
+## 07/10 night — PR #44 merged
+- Minda merged minda-ui/Anna#44 (skill change, charter fixes, 07/10 record, Dropbox rule). `main` = Drive for the control files. Working branch restarted from `main`. Ledger row 151.
+
 ## 07/10 night — mailbox lists fixed
 - `Charter-Rules.md` §0c, `CLAUDE.md` §1 (native Gmail = info@fishboneconstruction.co.uk) and the `project-admin` skill now match the real mailboxes, including `anna-gmail-minda`. Skill change on the working branch, PR pending. SC-24 added. Ledger row 150.
 

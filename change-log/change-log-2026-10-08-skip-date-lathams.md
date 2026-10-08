@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 08/10 — Michelle's emails, weekend works, tiling
+- No guard 9–11 Oct; work resumes 12 Oct. Michelle wants Minda at Merry Hill with Redd, asks about the front door at Mappin & Webb Birmingham 410, and asks which weekend Fishbone works. Draft to Michelle (weekend moved to 17–18 Oct; asks when steel posts and Breitling tiles arrive) in info@, not sent. Calendar updated (Ongar Way, Bullring weekend). Tiling answered from the record (no tiler named; Scoppio panels). Ledger rows 188–190.
+
 ## 08/10 — Merry Hill drawer, PR text, Ongar Way
 - Phil Gibbard says the new drawer fault was caused by the move; Minda says it is a design fault (one lock, both drawers). Reply draft to Michelle, cc David Macdonald, in info@, not sent (rows 186–187). Calendar updated: 28 Ongar Way is Construction's work (row 184). Shareable doc on how we work with PRs written for another team (row 185).
 

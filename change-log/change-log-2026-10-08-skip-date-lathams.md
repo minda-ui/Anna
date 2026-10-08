@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 08/10 — Email check and drafts check
+- MW sent the collection details (J&C O'Meara Ltd, Burscough L40 8AF, open 8 to 5, ready from 8am, give MW's name, note 7976); Friday plan holds. 'Fishbone ITC' (Rachel and Alexey, finance) read only to classify; meeting with Minda Friday afternoon noted. Ledger row 180. Drafts checked in all four mailboxes: none; the old MW draft was discarded. Row 181.
+
 ## 08/10 — PR #50 merged, branch slip
 - PR #50 merged (rows 176–178, Google Maps line). A branch reset before `main` was checked closed #50 as empty; recovered from the reflog, reopened, merged. SC-28 added (open). Ledger row 179.
 

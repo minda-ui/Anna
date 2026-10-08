@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 08/10 — Email check, MW reply
+- Checked all four mailboxes from 09:10Z. MW (Jennifer Webster) replied: the motor is at the manufacturer in Burscough, L40 8AF, collection allowed, or delivery Monday; she asks how to proceed. Waiting for Minda's choice, no draft. AWS and Lathams items already known. Ledger row 174.
+
 ## 08/10 — Rachel told MW is paid
 - Addendum note in Rachel's `Raw/` (paid by card, we collect, carriage may be credited, nothing agreed) and Hub AWT-0425 updated. Ledger row 173.
 

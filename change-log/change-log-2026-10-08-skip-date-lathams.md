@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 08/10 — Work calendar and Ongar Way
+- Irina's 06/10 request for mould work at 28 Ongar Way, 17-18 Oct, found; nothing from John. Ledger row 182. New private artifact 'Fishbone Work Calendar' published and seeded with 8 bookings; source in git `templates/work-calendar/`. Ledger row 183.
+
 ## 08/10 — Email check and drafts check
 - MW sent the collection details (J&C O'Meara Ltd, Burscough L40 8AF, open 8 to 5, ready from 8am, give MW's name, note 7976); Friday plan holds. 'Fishbone ITC' (Rachel and Alexey, finance) read only to classify; meeting with Minda Friday afternoon noted. Ledger row 180. Drafts checked in all four mailboxes: none; the old MW draft was discarded. Row 181.
 

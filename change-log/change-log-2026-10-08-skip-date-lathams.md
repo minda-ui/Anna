@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 08/10 — MW payment and collection
+- Minda paid MW invoice 24642 by card. Draft in minda@ to Jennifer (`r-6308009094320218682`): payment made, we will collect the motor, asks when it is ready; not sent. Rachel's AWT-0425 not yet updated to paid. Ledger row 172.
+
 ## 08/10 — minda@ check, MW invoice
 - Checked minda@, ops@ and properties for the gap overnight (the morning check had read info@ only). Found MW Machinery's invoice 24642 (£2,060.88 incl VAT, matches the quote) in minda@. Handed to Rachel's `Raw/` with a note, Hub AWT-0425; not paid, link not opened. Council case 1012042 (tree) left alone per Minda. Ledger row 171.
 

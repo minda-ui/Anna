@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 08/10 — Rachel told MW is paid
+- Addendum note in Rachel's `Raw/` (paid by card, we collect, carriage may be credited, nothing agreed) and Hub AWT-0425 updated. Ledger row 173.
+
 ## 08/10 — MW payment and collection
 - Minda paid MW invoice 24642 by card. Draft in minda@ to Jennifer (`r-6308009094320218682`): payment made, we will collect the motor, asks when it is ready; not sent. Rachel's AWT-0425 not yet updated to paid. Ledger row 172.
 

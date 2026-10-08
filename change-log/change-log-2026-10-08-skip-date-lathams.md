@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 08/10 — Dashboard v9
+- Summary now 18 nights and 66 operative-nights; the 16–18 Oct weekend is night shifts (Nights 13–15, 2 operatives). RAMS rev g needs updating for the new weekend. Ledger row 202.
+
 ## 08/10 — Project Dashboard v8
 - Weekend works 16–18 Oct added to the crew page (2 operatives, Breitling flooring for Fishbone); hours not given, none shown. Ledger row 201.
 

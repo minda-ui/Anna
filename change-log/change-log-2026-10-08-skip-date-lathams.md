@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 08/10 — Draft to MW: we collect tomorrow
+- Reply draft in minda@ to Jennifer (`r-3670897496363383514`): we will collect the motor from the manufacturer in Burscough on Fri 9 Oct; asks for contact, hours and release reference. Not sent. Flagged: clash with Lathams after 13:30; carriage credit not asked. Ledger row 175.
+
 ## 08/10 — Email check, MW reply
 - Checked all four mailboxes from 09:10Z. MW (Jennifer Webster) replied: the motor is at the manufacturer in Burscough, L40 8AF, collection allowed, or delivery Monday; she asks how to proceed. Waiting for Minda's choice, no draft. AWS and Lathams items already known. Ledger row 174.
 

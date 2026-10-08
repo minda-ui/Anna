@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 08/10 — Instruction before Redd's visit
+- Minda will not commit to Redd's Mon 12 Oct 07:00 slot until Macdonald instructs in writing. Draft to Michelle and David Macdonald, cc Ian, in info@, asks for a PO or written instruction, scope, who is charged, and a new permit and booking form. Not sent. Ledger row 200.
+
 ## 08/10 — Redd slot, TAG Heuer tanks, guard email sent
 - Redd Retail's only slot is Mon 12 Oct about 07:00 (Minda not yet answered). Antone remove two TAG Heuer tanks 'Monday 13th' (date does not match); Minda confirmed space and help with the passageway at 16:23. Reply-all on the guard thread sent 15:20; Michelle will give the tile delivery date tomorrow. No drafts left. Ledger rows 196–199.
 

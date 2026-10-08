@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 08/10 — Bullring weekend, design change, guard draft
+- Ian asked for the spine wall length and end thickness; windowbed tiling changed (new 800 x 800 mm tiles, Scoppio drawing due 9 Oct), no tile delivery date. Minda sent Michelle the weekend reply (16–18 Oct, this weekend off) at 15:12. Michelle told Millbridge 17–18 only; reply-all draft on the guard thread in info@, not sent. Redd Retail sent quote V2. Ledger rows 192–195.
+
 ## 08/10 — Drafts check, weekend email sent
 - No drafts in any mailbox. Minda sent the weekend-works reply to Michelle at 14:36 (her own wording on the Breitling sentence). Michelle replied 14:40: will come back on the steel posts and tile delivery, no dates yet. Ledger row 191.
 

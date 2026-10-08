@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 08/10 — MW draft replaced
+- Minda travels Birmingham to Newcastle on Fri 9 Oct via Burscough, so the new draft says 'tomorrow morning' (`r2189714794513414537`, minda@). Delete of the old draft `r-3670897496363383514` was refused; Minda to discard it. Lathams is in Gateshead, so no clash with the after 13:30 collection (corrects row 175). Ledger row 176.
+
 ## 08/10 — Draft to MW: we collect tomorrow
 - Reply draft in minda@ to Jennifer (`r-3670897496363383514`): we will collect the motor from the manufacturer in Burscough on Fri 9 Oct; asks for contact, hours and release reference. Not sent. Flagged: clash with Lathams after 13:30; carriage credit not asked. Ledger row 175.
 

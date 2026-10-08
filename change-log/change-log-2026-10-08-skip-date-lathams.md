@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 08/10 — Drafts check, weekend email sent
+- No drafts in any mailbox. Minda sent the weekend-works reply to Michelle at 14:36 (her own wording on the Breitling sentence). Michelle replied 14:40: will come back on the steel posts and tile delivery, no dates yet. Ledger row 191.
+
 ## 08/10 — Michelle's emails, weekend works, tiling
 - No guard 9–11 Oct; work resumes 12 Oct. Michelle wants Minda at Merry Hill with Redd, asks about the front door at Mappin & Webb Birmingham 410, and asks which weekend Fishbone works. Draft to Michelle (weekend moved to 17–18 Oct; asks when steel posts and Breitling tiles arrive) in info@, not sent. Calendar updated (Ongar Way, Bullring weekend). Tiling answered from the record (no tiler named; Scoppio panels). Ledger rows 188–190.
 

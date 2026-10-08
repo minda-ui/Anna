@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 08/10 — Project Dashboard v8
+- Weekend works 16–18 Oct added to the crew page (2 operatives, Breitling flooring for Fishbone); hours not given, none shown. Ledger row 201.
+
 ## 08/10 — Instruction before Redd's visit
 - Minda will not commit to Redd's Mon 12 Oct 07:00 slot until Macdonald instructs in writing. Draft to Michelle and David Macdonald, cc Ian, in info@, asks for a PO or written instruction, scope, who is charged, and a new permit and booking form. Not sent. Ledger row 200.
 

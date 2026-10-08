@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 08/10 — Merry Hill drawer, PR text, Ongar Way
+- Phil Gibbard says the new drawer fault was caused by the move; Minda says it is a design fault (one lock, both drawers). Reply draft to Michelle, cc David Macdonald, in info@, not sent (rows 186–187). Calendar updated: 28 Ongar Way is Construction's work (row 184). Shareable doc on how we work with PRs written for another team (row 185).
+
 ## 08/10 — Work calendar and Ongar Way
 - Irina's 06/10 request for mould work at 28 Ongar Way, 17-18 Oct, found; nothing from John. Ledger row 182. New private artifact 'Fishbone Work Calendar' published and seeded with 8 bookings; source in git `templates/work-calendar/`. Ledger row 183.
 

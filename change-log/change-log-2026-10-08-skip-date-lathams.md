@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 08/10 — Redd slot, TAG Heuer tanks, guard email sent
+- Redd Retail's only slot is Mon 12 Oct about 07:00 (Minda not yet answered). Antone remove two TAG Heuer tanks 'Monday 13th' (date does not match); Minda confirmed space and help with the passageway at 16:23. Reply-all on the guard thread sent 15:20; Michelle will give the tile delivery date tomorrow. No drafts left. Ledger rows 196–199.
+
 ## 08/10 — Bullring weekend, design change, guard draft
 - Ian asked for the spine wall length and end thickness; windowbed tiling changed (new 800 x 800 mm tiles, Scoppio drawing due 9 Oct), no tile delivery date. Minda sent Michelle the weekend reply (16–18 Oct, this weekend off) at 15:12. Michelle told Millbridge 17–18 only; reply-all draft on the guard thread in info@, not sent. Redd Retail sent quote V2. Ledger rows 192–195.
 

@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 08/10 — PR #50 merged, branch slip
+- PR #50 merged (rows 176–178, Google Maps line). A branch reset before `main` was checked closed #50 as empty; recovered from the reflog, reopened, merged. SC-28 added (open). Ledger row 179.
+
 ## 08/10 — Friday route and Google Maps
 - Google Maps linked as `anna-googlemaps` (Composio); added to `CLAUDE.md` §1 and `Charter-History.md`. Route for Fri 9 Oct on Minda's 07:00 start: Burscough 09:13, office 13:20, Lathams about 14:08. Legs 2h13, 3h07, 18 min (typical traffic). Ledger row 178.
 

@@ -2,6 +2,12 @@
 
 Newest notes at the top. Append-only.
 
+## 08/10 — Friday route and Google Maps
+- Google Maps linked as `anna-googlemaps` (Composio); added to `CLAUDE.md` §1 and `Charter-History.md`. Route for Fri 9 Oct on Minda's 07:00 start: Burscough 09:13, office 13:20, Lathams about 14:08. Legs 2h13, 3h07, 18 min (typical traffic). Ledger row 178.
+
+## 08/10 — Email check, Merry Hill
+- Macdonald asked the client whether to proceed with Redd Retail's drawer quote or treat it as a warranty defect. No Fishbone action. Minda sent the 'tomorrow morning' MW draft at 09:45Z. Ledger row 177.
+
 ## 08/10 — MW draft replaced
 - Minda travels Birmingham to Newcastle on Fri 9 Oct via Burscough, so the new draft says 'tomorrow morning' (`r2189714794513414537`, minda@). Delete of the old draft `r-3670897496363383514` was refused; Minda to discard it. Lathams is in Gateshead, so no clash with the after 13:30 collection (corrects row 175). Ledger row 176.
 

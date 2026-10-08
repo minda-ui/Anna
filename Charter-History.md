@@ -5,6 +5,8 @@ top. Never edit a past entry; correct it with a new one.
 
 ---
 
+**2026-10-08 — §1: Google Maps connected (`anna-googlemaps`).** Minda: "Let's connect Google Maps to you", then "log it". Composio account `anna-googlemaps` (linked by Minda 08/10) gives route distances and drive times (`GOOGLE_MAPS_GET_ROUTE`); it cannot take a departure time, so times are typical-traffic, not for a set hour. Only the `CLAUDE.md` §1 connectors row and footer changed; `Charter-Rules.md` untouched. Read-only use; no permission change.
+
 **2026-10-07 — §0h: items supplied by the principal contractor.** Minda: "make 10 a rule" (SC-10). New `Charter-Rules.md`
 §0h: for hoardings, steel posts and similar, design, specification, manufacture and structural or fire adequacy are the
 supplier's; Fishbone installs to the drawings and fixing details supplied and asks when a detail is missing; Anna flags

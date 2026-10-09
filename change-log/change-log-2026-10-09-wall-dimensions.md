@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 09/10 late — Decisions A–D on estate-wide project management
+- Minda decided: home '3. Project Delivery'; her numbering (FC2611, FP2401-01, AM2601, Eugene-001); programme first; one sheet for all jobs except programme and budget. Rachel confirmed QuickBooks can hold the numbers, number first in the project name (AWT-0502); Eugene builds (AWT-0501). A second parallel session had overwritten the Drive record; it merged first, so its merge stands. Ledger rows 226–227.
+
 ## 09/10 — PO request sent
 - Minda sent the FC2611 PO request at 21:42Z from ops@ (Ian Newcombe, cc David Macdonald and Andrew), unchanged from the draft. Awaiting the PO; chase about 14 Oct. Ledger row 225.
 

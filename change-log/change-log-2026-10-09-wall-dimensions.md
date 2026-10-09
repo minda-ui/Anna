@@ -3,16 +3,34 @@
 Newest notes at the top. Append-only.
 
 ## 09/10 — PO request sent
-- Minda sent the FC2611 PO request at 21:42Z from ops@ (Ian Newcombe, cc David Macdonald and Andrew), unchanged from the draft. Awaiting the PO; chase about 14 Oct. Ledger row 215.
+- Minda sent the FC2611 PO request at 21:42Z from ops@ (Ian Newcombe, cc David Macdonald and Andrew), unchanged from the draft. Awaiting the PO; chase about 14 Oct. Ledger row 225.
 
 ## 09/10 — FC2611 PO check, request drafted
-- No PO for the Bullring (quote FC0000046, GBP 40,470.00 excl VAT; accepted 25/09, 'PO to follow'). All four mailboxes and Documents searched: none. Reply draft in ops@ to Ian Newcombe (cc David Macdonald, Andrew) asks for it; not sent. Weekend change since the 25/09 quote flagged. Ledger row 214.
+- No PO for the Bullring (quote FC0000046, GBP 40,470.00 excl VAT; accepted 25/09, 'PO to follow'). All four mailboxes and Documents searched: none. Reply draft in ops@ to Ian Newcombe (cc David Macdonald, Andrew) asks for it; not sent. Weekend change since the 25/09 quote flagged. Ledger row 224.
 
-## 09/10 — Work-item planning routine (SC-34)
-- Minda taught the routine for planning each work item (scope, drawings, materials, sequence, checks) using Breitling flooring, and corrected the roles: Macdonald is the client and supplies drawings, design and materials; Fishbone is on site, labour only. Added as `project-admin` §3a; SC-34 Adopted. Ledger row 213.
+## 09/10 — Work-item planning routine (SC-37)
+- Minda taught the routine for planning each work item (scope, drawings, materials, sequence, checks) using Breitling flooring, and corrected the roles: Macdonald is the client and supplies drawings, design and materials; Fishbone is on site, labour only. Added as `project-admin` §3a; SC-37 Adopted. Ledger row 223.
+
+## 09/10 late — Estate-wide project management proposal
+- Proposal for AWT-0497 written after studying the FP2401 sheets: home, numbering, one register for all companies, and the next sheets (programme by CPM, materials, operatives, risks, progress by Last Planner, documents, communication, costs). For Minda to approve; Eugene builds. Ledger row 222.
+
+## 09/10 late — FC2603
+- Minda: FC2603 stays with Rolex Guernsey. Rachel asked to give 131 Goathland Avenue another QuickBooks number (AWT-0500). Ledger row 221.
+
+## 09/10 late — Raw check, register merge
+- SC02 completes the Breitling set: DR-0002 and DR-0017 superseded and archived, DWG registered DR-0019; Anna's duplicate copies archived (DR-0020). Project Register: Rachel's corrections, FC2601–07 added, Company column for estate-wide use. A parallel session had overwritten the Drive record; merged (its row is now 217). Ledger rows 218–220.
 
 ## 09/10 — Tile setup drawing filed
-- Tony Gale's revised Breitling pack (SC02, 09.10.2026) arrived as iCloud links; Minda dropped the PDF and DWG in Raw. PDF read: window bed 800 x 800 x 9 mm ceramic, grout TBC, A-401 trim detail missing. Filed to FC2611 Drawings, Drawing Register DR-0018, Hub AWT-0495, notes to Victoria and Peter. DR-0002 kept Current pending which sheets are replaced. Ledger row 212.
+- Tony Gale's revised Breitling pack (SC02, 09.10.2026) arrived as iCloud links; Minda dropped the PDF and DWG in Raw. PDF read: window bed 800 x 800 x 9 mm ceramic, grout TBC, A-401 trim detail missing. Filed to FC2611 Drawings, Drawing Register DR-0018, Hub AWT-0495 (ledger row 217), notes to Victoria and Peter.
+
+## 09/10 evening — Lifecycle skill; FC2609 closed
+- New skill `project-lifecycle`: stages from enquiry to closed, a checklist each, register updates, who does what. FC2609 marked Closed and paid on Minda's word. Ledger rows 215–216.
+
+## 09/10 evening — Project Register money columns
+- Minda: add them, Rachel's area. Six money columns added for Rachel to fill; Anna writes no amounts. Note to Rachel (copy Peter), Hub AWT-0494. Ledger row 214.
+
+## 09/10 evening — Project Register; how assistants work together
+- New Smartsheet Project Register (one row per FC job, lead assistant, no amounts); five rows. Proposal to Victoria on project collaboration, with copies to Peter, Rachel and Eugene (Hub AWT-0492, AWT-0493). Row numbers first cited wrong because the routine wrote rows 210–211 meanwhile; corrected. Ledger rows 212–213.
 
 ## 09/10 — Tiles reply sent
 - Minda sent the reply-all at 19:00Z (message `1a12209ab934766b`); recipients as drafted. Awaiting Michelle and Ian M's arrival time. Ledger row 211.

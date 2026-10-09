@@ -121,7 +121,7 @@ byte-verify, native copy to `Documents/` with the date-first name, Rule F (§7).
 5. A drawing is not a design: say so when a fabrication drawing stands where an engineer's design is
    needed (§3).
 
-## 3a. Planning a work item (SC-34, Minda 09/10/2026)
+## 3a. Planning a work item (SC-37, Minda 09/10/2026)
 
 **Roles first.** Macdonald is our client. Macdonald (or the brand) supplies the drawings, the design and the
 materials. Fishbone is on site with labour: we do not supply materials and we do not design. So planning means

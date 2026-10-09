@@ -5,6 +5,8 @@ top. Never edit a past entry; correct it with a new one.
 
 ---
 
+**2026-10-09 — §0g: reply-all when the email or Minda asks (SC-29).** Minda adopted SC-29 on 09/10: the sender-only default stays; a reply goes to everyone on the thread (To and Cc, minus Anna's own address) when the email asks for "reply all" or Minda says so ("respect the thread"). The draft is a reply to the thread's latest message, and the note to Minda says who is on it, who was left out, and when the client or other third parties are on the thread. Only `Charter-Rules.md` §0g changed (and the matching line in `project-admin` §5); `CLAUDE.md` untouched. No permission change.
+
 **2026-10-08 — §1: Google Maps connected (`anna-googlemaps`).** Minda: "Let's connect Google Maps to you", then "log it". Composio account `anna-googlemaps` (linked by Minda 08/10) gives route distances and drive times (`GOOGLE_MAPS_GET_ROUTE`); it cannot take a departure time, so times are typical-traffic, not for a set hour. Only the `CLAUDE.md` §1 connectors row and footer changed; `Charter-Rules.md` untouched. Read-only use; no permission change.
 
 **2026-10-07 — §0h: items supplied by the principal contractor.** Minda: "make 10 a rule" (SC-10). New `Charter-Rules.md`

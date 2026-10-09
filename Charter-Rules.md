@@ -135,8 +135,11 @@ Every project email that comes to us gets a reply draft, even one with no messag
 or file, so the sender knows it arrived.
 
 - **To the sender only.** The reply goes to the person who sent it to us: no reply-all, no cc — unless
-  the email itself asks us to send to someone else (e.g. "send them back to me and David Burke"), or
-  Minda asks for someone to be copied.
+  the email itself asks us to send to someone else (e.g. "send them back to me and David Burke" or "reply all"),
+  or Minda asks for someone to be copied or for the reply to go to everyone ("respect the thread"). A reply-all
+  goes to the thread's To and Cc, minus our own address, as a reply to the thread's latest message; the draft
+  note tells Minda who is on it and who was left out, and says when the client or other third parties are on the
+  thread (SC-29, 2026-10-09).
 - **Short.** What arrived, and anything that needs the sender: a question, a conflict, a missing item.
 - **Draft only.** Minda sends (`CLAUDE.md` §5). Replacing a draft follows §0e.
 - Unsure whether an email needs a reply → one line to Minda instead of a draft.

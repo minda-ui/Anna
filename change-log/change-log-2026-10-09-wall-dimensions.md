@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 09/10 evening — Project Register money columns
+- Minda: add them, Rachel's area. Six money columns added for Rachel to fill; Anna writes no amounts. Note to Rachel (copy Peter), Hub AWT-0494. Ledger row 214.
+
 ## 09/10 evening — Project Register; how assistants work together
 - New Smartsheet Project Register (one row per FC job, lead assistant, no amounts); five rows. Proposal to Victoria on project collaboration, with copies to Peter, Rachel and Eugene (Hub AWT-0492, AWT-0493). Row numbers first cited wrong because the routine wrote rows 210–211 meanwhile; corrected. Ledger rows 212–213.
 

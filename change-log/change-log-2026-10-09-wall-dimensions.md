@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 09/10 — Morning mail, attachments, wall thickness
+- Michelle stood Minda down from Merry Hill on Mon 12 Oct; tiles pencilled for Tuesday evening 13 Oct. Antone arrive 20:00 Tuesday 13 Oct (RAMS Rev A), Minda to induct. Lathams edging delayed, to be sent direct. Attachments read, not filed. Wall thickness at the ends is 143 mm (140.5 mm plus 2–3 mm corner beads); row 204's 153 mm corrected. Ledger rows 206–208.
+
 ## 09/10 — End-of-day check
 - Record complete to row 204; branch ahead of `main`, record-only PR offered. Skill candidates SC-29 to SC-33 added for Minda's decision. Ledger row 205.
 

@@ -2,6 +2,15 @@
 
 Newest notes at the top. Append-only.
 
+## 09/10 — PO request sent
+- Minda sent the FC2611 PO request at 21:42Z from ops@ (Ian Newcombe, cc David Macdonald and Andrew), unchanged from the draft. Awaiting the PO; chase about 14 Oct. Ledger row 225.
+
+## 09/10 — FC2611 PO check, request drafted
+- No PO for the Bullring (quote FC0000046, GBP 40,470.00 excl VAT; accepted 25/09, 'PO to follow'). All four mailboxes and Documents searched: none. Reply draft in ops@ to Ian Newcombe (cc David Macdonald, Andrew) asks for it; not sent. Weekend change since the 25/09 quote flagged. Ledger row 224.
+
+## 09/10 — Work-item planning routine (SC-37)
+- Minda taught the routine for planning each work item (scope, drawings, materials, sequence, checks) using Breitling flooring, and corrected the roles: Macdonald is the client and supplies drawings, design and materials; Fishbone is on site, labour only. Added as `project-admin` §3a; SC-37 Adopted. Ledger row 223.
+
 ## 09/10 late — Estate-wide project management proposal
 - Proposal for AWT-0497 written after studying the FP2401 sheets: home, numbering, one register for all companies, and the next sheets (programme by CPM, materials, operatives, risks, progress by Last Planner, documents, communication, costs). For Minda to approve; Eugene builds. Ledger row 222.
 

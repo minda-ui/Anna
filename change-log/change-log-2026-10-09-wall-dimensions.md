@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 09/10 late — Estate-wide project management proposal
+- Proposal for AWT-0497 written after studying the FP2401 sheets: home, numbering, one register for all companies, and the next sheets (programme by CPM, materials, operatives, risks, progress by Last Planner, documents, communication, costs). For Minda to approve; Eugene builds. Ledger row 222.
+
 ## 09/10 late — FC2603
 - Minda: FC2603 stays with Rolex Guernsey. Rachel asked to give 131 Goathland Avenue another QuickBooks number (AWT-0500). Ledger row 221.
 

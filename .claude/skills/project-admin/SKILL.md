@@ -121,6 +121,34 @@ byte-verify, native copy to `Documents/` with the date-first name, Rule F (§7).
 5. A drawing is not a design: say so when a fabrication drawing stands where an engineer's design is
    needed (§3).
 
+## 3a. Planning a work item (SC-34, Minda 09/10/2026)
+
+**Roles first.** Macdonald is our client. Macdonald (or the brand) supplies the drawings, the design and the
+materials. Fishbone is on site with labour: we do not supply materials and we do not design. So planning means
+**ask, check, sequence** — never specify, order or alter a design.
+
+For each item on the programme (flooring, wall linings, …):
+1. **Scope.** What Fishbone does, from the quote and PO. Compare it with the latest drawing; if the drawing changed a
+   finish or an area, ask Macdonald whether scope, price or time changes (Minda decides).
+2. **Drawings.** Ask Macdonald for the latest revision. Read it (§3 step 0a), list what is missing (details, TBC
+   items, notes) and ask Macdonald for each. Set out from the real site dimensions, not the drawing alone.
+3. **Materials.** Ask Macdonald for the specification, the quantity he delivers, the delivery date and place, and
+   anything the drawing leaves open (grout, adhesive, trim, fixings). On delivery, count it against the drawing
+   area and flag a shortfall or an odd item; we do not order.
+4. **Sequence.** What must be finished before we start (other trades, slab, floor boxes); what must wait after
+   (cure times from the manufacturer's data sheet, which Macdonald supplies; other trades; furniture); the fixed
+   dates from Macdonald's programme. Put the bookings on the Work Calendar (§4c).
+5. **Checks before we start.** Drawing complete, material on site and counted, RAMS current for the dates,
+   bookings on the calendar, and every open question listed with who we asked and when.
+
+Result: a one-page **work package** per item (scope, drawing references, materials and dates, sequence, questions
+out and answers, who and when), saved in Anna `Raw/` and the project `Documents/`. Questions to Macdonald go as
+drafts for Minda (§5), on the existing thread (§0g).
+
+Worked example, Breitling flooring (09/10): FL02 window bed 800 x 800 x 9 mm and FL08 oak-imitation planks (A-103,
+SC02); asks to Macdonald: A-401 trim detail, grout colour, plank specification, adhesive and primer, delivery
+date and time (Tuesday 13 Oct evening), who supplies the stainless trim.
+
 ## 4. RAMS
 
 - **New:** from the master template (Google Doc `1g6-i-0mJlfL58njo2GutnzzueicwENAaiKOJtmLsGPo`);

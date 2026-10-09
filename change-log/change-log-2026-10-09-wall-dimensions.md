@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 09/10 — Work-item planning routine (SC-34)
+- Minda taught the routine for planning each work item (scope, drawings, materials, sequence, checks) using Breitling flooring, and corrected the roles: Macdonald is the client and supplies drawings, design and materials; Fishbone is on site, labour only. Added as `project-admin` §3a; SC-34 Adopted. Ledger row 213.
+
 ## 09/10 — Tile setup drawing filed
 - Tony Gale's revised Breitling pack (SC02, 09.10.2026) arrived as iCloud links; Minda dropped the PDF and DWG in Raw. PDF read: window bed 800 x 800 x 9 mm ceramic, grout TBC, A-401 trim detail missing. Filed to FC2611 Drawings, Drawing Register DR-0018, Hub AWT-0495, notes to Victoria and Peter. DR-0002 kept Current pending which sheets are replaced. Ledger row 212.
 

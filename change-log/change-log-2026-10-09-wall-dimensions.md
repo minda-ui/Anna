@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 09/10 evening — Lifecycle skill; FC2609 closed
+- New skill `project-lifecycle`: stages from enquiry to closed, a checklist each, register updates, who does what. FC2609 marked Closed and paid on Minda's word. Ledger rows 215–216.
+
 ## 09/10 evening — Project Register money columns
 - Minda: add them, Rachel's area. Six money columns added for Rachel to fill; Anna writes no amounts. Note to Rachel (copy Peter), Hub AWT-0494. Ledger row 214.
 

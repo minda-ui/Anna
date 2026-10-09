@@ -2,6 +2,12 @@
 
 Newest notes at the top. Append-only.
 
+## 09/10 late — Raw check, register merge
+- SC02 completes the Breitling set: DR-0002 and DR-0017 superseded and archived, DWG registered DR-0019; Anna's duplicate copies archived (DR-0020). Project Register: Rachel's corrections, FC2601–07 added, Company column for estate-wide use. A parallel session had overwritten the Drive record; merged (its row is now 217). Ledger rows 218–220.
+
+## 09/10 — Tile setup drawing filed
+- Tony Gale's revised Breitling pack (SC02, 09.10.2026) arrived as iCloud links; Minda dropped the PDF and DWG in Raw. PDF read: window bed 800 x 800 x 9 mm ceramic, grout TBC, A-401 trim detail missing. Filed to FC2611 Drawings, Drawing Register DR-0018, Hub AWT-0495 (ledger row 217), notes to Victoria and Peter.
+
 ## 09/10 evening — Lifecycle skill; FC2609 closed
 - New skill `project-lifecycle`: stages from enquiry to closed, a checklist each, register updates, who does what. FC2609 marked Closed and paid on Minda's word. Ledger rows 215–216.
 

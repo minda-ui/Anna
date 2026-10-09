@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 09/10 — Tile setup drawing filed
+- Tony Gale's revised Breitling pack (SC02, 09.10.2026) arrived as iCloud links; Minda dropped the PDF and DWG in Raw. PDF read: window bed 800 x 800 x 9 mm ceramic, grout TBC, A-401 trim detail missing. Filed to FC2611 Drawings, Drawing Register DR-0018, Hub AWT-0495, notes to Victoria and Peter. DR-0002 kept Current pending which sheets are replaced. Ledger row 212.
+
 ## 09/10 — Tiles reply sent
 - Minda sent the reply-all at 19:00Z (message `1a12209ab934766b`); recipients as drafted. Awaiting Michelle and Ian M's arrival time. Ledger row 211.
 

@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 09/10 — FC2611 PO check, request drafted
+- No PO for the Bullring (quote FC0000046, GBP 40,470.00 excl VAT; accepted 25/09, 'PO to follow'). All four mailboxes and Documents searched: none. Reply draft in ops@ to Ian Newcombe (cc David Macdonald, Andrew) asks for it; not sent. Weekend change since the 25/09 quote flagged. Ledger row 214.
+
 ## 09/10 — Work-item planning routine (SC-34)
 - Minda taught the routine for planning each work item (scope, drawings, materials, sequence, checks) using Breitling flooring, and corrected the roles: Macdonald is the client and supplies drawings, design and materials; Fishbone is on site, labour only. Added as `project-admin` §3a; SC-34 Adopted. Ledger row 213.
 

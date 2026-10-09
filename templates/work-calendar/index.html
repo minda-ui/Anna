@@ -1,0 +1,336 @@
+<title>Fishbone Work Calendar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@600;700&display=swap">
+<style>
+/* Layout: site-board header, month grid on the left, selected day and coming up on the right; stacks on a phone. */
+:root{
+  --bg:#EDEFF0; --surface:#FAFBFB; --ink:#1B2328; --muted:#56626A; --line:#CBD2D6;
+  --accent:#B83A0B; --accent-ink:#FFFFFF; --today:#FCE9DC; --warn:#8A5A00; --warn-bg:#FFF2D1; --cancel:#8A949A;
+  --c-bullring:#1F5FA8; --c-merry:#0F766E; --c-prop:#7A3E86; --c-office:#56626A; --c-purch:#8A6A0A; --c-other:#6B6F73;
+  --font-display:'Barlow Condensed','Arial Narrow',Arial,sans-serif; --font-body:'Barlow',system-ui,-apple-system,'Segoe UI',Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#13181B; --surface:#1B2226; --ink:#E8ECEE; --muted:#9AA6AD; --line:#323C42;
+  --accent:#FB923C; --accent-ink:#1B1006; --today:#3A2616; --warn:#F2C25B; --warn-bg:#3A2F12; --cancel:#7E8A91;
+  --c-bullring:#6AA6EA; --c-merry:#4FC3B6; --c-prop:#C894D4; --c-office:#9AA6AD; --c-purch:#E0B84A; --c-other:#A5ABB0; color-scheme:dark; } }
+:root[data-theme="dark"]{
+  --bg:#13181B; --surface:#1B2226; --ink:#E8ECEE; --muted:#9AA6AD; --line:#323C42;
+  --accent:#FB923C; --accent-ink:#1B1006; --today:#3A2616; --warn:#F2C25B; --warn-bg:#3A2F12; --cancel:#7E8A91;
+  --c-bullring:#6AA6EA; --c-merry:#4FC3B6; --c-prop:#C894D4; --c-office:#9AA6AD; --c-purch:#E0B84A; --c-other:#A5ABB0; color-scheme:dark; }
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:15px;line-height:1.4;padding-inline:16px;padding-block:16px 40px}
+*{box-sizing:border-box}
+.wrap{max-width:1180px;margin-inline:auto;display:flex;flex-direction:column;gap:16px}
+header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:8px 16px;border-bottom:3px solid var(--accent);padding-bottom:10px}
+h1{font-family:var(--font-display);font-weight:700;font-size:2rem;letter-spacing:.02em;text-transform:uppercase;margin:0;line-height:1;text-wrap:balance}
+.sub{color:var(--muted);font-size:.9rem}
+.bar{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center}
+.nav{display:flex;gap:6px;align-items:center}
+.month{font-family:var(--font-display);font-weight:700;font-size:1.5rem;min-width:9.5ch;text-align:center;text-transform:uppercase;letter-spacing:.03em}
+button,select,input,textarea{font:inherit;color:inherit}
+.btn{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:7px 12px;cursor:pointer;min-height:36px}
+.btn:hover{border-color:var(--muted)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:600}
+.btn.danger{color:var(--warn)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:4px 10px;cursor:pointer;font-size:.85rem;min-height:30px}
+.chip i{width:10px;height:10px;border-radius:2px;background:var(--c)}
+.chip[aria-pressed="false"]{opacity:.45}
+.main{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:16px;align-items:start}
+@media (max-width:860px){.main{grid-template-columns:minmax(0,1fr)}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:8px}
+.grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr))}
+.dow{padding:6px 4px;text-align:center;font-family:var(--font-display);font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:.85rem;color:var(--muted);border-bottom:1px solid var(--line)}
+.cell{min-height:92px;border:0;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:transparent;padding:4px;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:3px;min-width:0}
+.cell:nth-child(7n){border-right:0}
+.cell.out{opacity:.45}
+.cell.today{background:var(--today)}
+.cell.sel{box-shadow:inset 0 0 0 2px var(--accent)}
+.num{font-variant-numeric:tabular-nums;font-weight:600;font-size:.85rem;align-self:flex-start}
+.cell.today .num{background:var(--accent);color:var(--accent-ink);border-radius:999px;padding:0 6px}
+.pill{display:block;width:100%;border-left:3px solid var(--c);background:color-mix(in srgb,var(--c) 16%,var(--surface));padding:1px 4px;font-size:.75rem;line-height:1.25;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border-radius:2px}
+.pill.x{text-decoration:line-through;color:var(--cancel)}
+.more{font-size:.72rem;color:var(--muted)}
+.dots{display:none;gap:3px;flex-wrap:wrap}
+.dots i{width:7px;height:7px;border-radius:50%;background:var(--c)}
+@media (max-width:640px){.cell{min-height:58px;padding:3px}.pill,.more{display:none}.dots{display:flex}}
+.p-FC2611{--c:var(--c-bullring)}.p-FC2612{--c:var(--c-merry)}.p-FP{--c:var(--c-prop)}.p-OFFICE{--c:var(--c-office)}.p-PURCH{--c:var(--c-purch)}.p-OTHER{--c:var(--c-other)}
+.side{display:flex;flex-direction:column;gap:16px;min-width:0}
+.panel{padding:12px 14px;display:flex;flex-direction:column;gap:10px}
+h2{font-family:var(--font-display);font-weight:700;font-size:1.2rem;text-transform:uppercase;letter-spacing:.04em;margin:0}
+.item{border-left:4px solid var(--c);padding:6px 0 6px 10px;display:flex;flex-direction:column;gap:2px;min-width:0}
+.item .t{font-weight:600;overflow-wrap:anywhere}
+.item.cancelled .t{text-decoration:line-through;color:var(--cancel)}
+.meta{color:var(--muted);font-size:.85rem;overflow-wrap:anywhere}
+.tag{display:inline-block;font-size:.72rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;border-radius:3px;padding:1px 6px;margin-right:6px;background:color-mix(in srgb,var(--c) 18%,var(--surface));color:var(--ink)}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;border-radius:3px;padding:1px 6px;background:var(--warn-bg);color:var(--warn);margin-left:4px}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.empty{color:var(--muted);font-size:.9rem}
+.up{display:grid;grid-template-columns:5.5rem minmax(0,1fr);gap:10px;align-items:start}
+.up .d{font-family:var(--font-display);font-weight:600;text-transform:uppercase;letter-spacing:.03em;font-variant-numeric:tabular-nums}
+form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+form .full{grid-column:1/-1}
+label{display:flex;flex-direction:column;gap:3px;font-size:.8rem;color:var(--muted);font-weight:500}
+input,select,textarea{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:7px 9px;min-height:36px;width:100%;color:var(--ink)}
+textarea{min-height:64px;resize:vertical}
+#msg{color:var(--warn);font-size:.9rem;min-height:1.2em}
+footer{color:var(--muted);font-size:.8rem}
+@media (max-width:520px){form{grid-template-columns:minmax(0,1fr)}h1{font-size:1.6rem}}
+@media (prefers-reduced-motion:no-preference){.btn,.chip{transition:border-color .12s}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Fishbone Work Calendar</h1>
+      <div class="sub">Fishbone Construction Ltd. Every booking in one place, so works can be planned.</div>
+    </div>
+    <div class="bar">
+      <button class="btn" id="todayBtn" type="button">Today</button>
+      <button class="btn primary" id="addBtn" type="button">Add booking</button>
+    </div>
+  </header>
+
+  <div class="bar" style="justify-content:space-between">
+    <div class="nav">
+      <button class="btn" id="prev" type="button" aria-label="Previous month">&#8249;</button>
+      <div class="month" id="monthLabel" aria-live="polite"></div>
+      <button class="btn" id="next" type="button" aria-label="Next month">&#8250;</button>
+    </div>
+    <div class="chips" id="chips" role="group" aria-label="Show projects"></div>
+  </div>
+
+  <div class="main">
+    <div class="card" style="overflow:hidden">
+      <div class="grid" id="dows"></div>
+      <div class="grid" id="grid"></div>
+    </div>
+    <div class="side">
+      <section class="card panel" id="editorCard" hidden>
+        <h2 id="editorTitle">Add booking</h2>
+        <form id="form" autocomplete="off">
+          <label class="full" for="f-title">What<input id="f-title" required maxlength="140" placeholder="e.g. Collect panel from Lathams"></label>
+          <label for="f-project">Project<select id="f-project"></select></label>
+          <label for="f-kind">Type<select id="f-kind"></select></label>
+          <label for="f-start">From<input id="f-start" type="date" required></label>
+          <label for="f-end">To (same day if empty)<input id="f-end" type="date"></label>
+          <label for="f-stime">Start time<input id="f-stime" type="time"></label>
+          <label for="f-etime">End time<input id="f-etime" type="time"></label>
+          <label for="f-place">Where<input id="f-place" maxlength="160" placeholder="Site, address or postcode"></label>
+          <label for="f-who">Who<input id="f-who" maxlength="120" placeholder="Names or crew"></label>
+          <label for="f-status">Status<select id="f-status"><option>Confirmed</option><option>To confirm</option><option>Cancelled</option></select></label>
+          <label class="full" for="f-notes">Notes<textarea id="f-notes" maxlength="1000" placeholder="Reference numbers, contacts, what to bring"></textarea></label>
+          <div class="full row">
+            <button class="btn primary" id="saveBtn" type="submit">Save booking</button>
+            <button class="btn" id="closeBtn" type="button">Close</button>
+          </div>
+          <div class="full" id="msg" role="status"></div>
+        </form>
+      </section>
+
+      <section class="card panel" aria-labelledby="dayTitle">
+        <h2 id="dayTitle">Day</h2>
+        <div id="day"></div>
+      </section>
+
+      <section class="card panel" aria-labelledby="upTitle">
+        <h2 id="upTitle">Coming up</h2>
+        <div id="upcoming"></div>
+      </section>
+    </div>
+  </div>
+  <footer>Cancelled bookings stay on the calendar, crossed out, so there is a record. Times are UK local time.</footer>
+</div>
+
+<script>
+(function(){
+var PROJECTS=[
+  {code:'FC2611',name:'FC2611 Bullring',cls:'p-FC2611'},
+  {code:'FC2612',name:'FC2612 Merry Hill / Ferndale',cls:'p-FC2612'},
+  {code:'FP',name:'Properties works',cls:'p-FP'},
+  {code:'OFFICE',name:'Office and meetings',cls:'p-OFFICE'},
+  {code:'PURCH',name:'Purchasing',cls:'p-PURCH'},
+  {code:'OTHER',name:'Other',cls:'p-OTHER'}
+];
+var KINDS=['Site work','Delivery','Collection','Meeting','Permit / access','Inspection','Other'];
+var MONTHS=['January','February','March','April','May','June','July','August','September','October','November','December'];
+var DOW=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+var $=function(id){return document.getElementById(id)};
+var esc=function(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})};
+var pad=function(n){return String(n).padStart(2,'0')};
+var ymd=function(d){return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate())};
+var parse=function(s){var p=s.split('-').map(Number);return new Date(p[0],p[1]-1,p[2])};
+var label=function(s){var d=parse(s);return DOW[(d.getDay()+6)%7]+' '+d.getDate()+' '+MONTHS[d.getMonth()].slice(0,3)};
+var projOf=function(code){return PROJECTS.filter(function(p){return p.code===code})[0]||PROJECTS[PROJECTS.length-1]};
+
+var col=null, canWrite=null, bookings=[], loaded=false, editingId=null, saving=false;
+var todayStr=ymd(new Date());
+var view=new Date(); view.setDate(1);
+var selected=todayStr;
+var filter={}; PROJECTS.forEach(function(p){filter[p.code]=true});
+
+function endOf(b){return b.end||b.start}
+function covers(b,d){return b.start<=d && endOf(b)>=d}
+function visible(b){return filter[b.project]!==false}
+function byTime(a,b){return (a.startTime||'').localeCompare(b.startTime||'')||(a.title||'').localeCompare(b.title||'')}
+function itemsOn(d){return bookings.filter(function(b){return visible(b)&&covers(b,d)}).sort(byTime)}
+function clashSet(items){
+  var s={};
+  var t=items.filter(function(b){return b.startTime&&b.endTime&&b.status!=='Cancelled'});
+  for(var i=0;i<t.length;i++)for(var j=i+1;j<t.length;j++){
+    if(t[i].startTime<t[j].endTime&&t[j].startTime<t[i].endTime){s[t[i].id]=1;s[t[j].id]=1}
+  }
+  return s;
+}
+function timeText(b){
+  if(b.startTime&&b.endTime)return b.startTime+' to '+b.endTime;
+  if(b.startTime)return 'from '+b.startTime;
+  return 'all day';
+}
+function dateText(b){
+  return endOf(b)!==b.start?label(b.start)+' to '+label(endOf(b)):label(b.start);
+}
+
+function renderChips(){
+  $('chips').innerHTML=PROJECTS.map(function(p){
+    return '<button type="button" class="chip '+p.cls+'" data-code="'+p.code+'" aria-pressed="'+(filter[p.code]!==false)+'"><i></i>'+esc(p.name)+'</button>';
+  }).join('');
+}
+function renderGrid(){
+  var y=view.getFullYear(), m=view.getMonth();
+  $('monthLabel').textContent=MONTHS[m]+' '+y;
+  var first=new Date(y,m,1), offset=(first.getDay()+6)%7, days=new Date(y,m+1,0).getDate();
+  var weeks=Math.ceil((offset+days)/7);
+  var html='';
+  for(var i=0;i<weeks*7;i++){
+    var d=new Date(y,m,1-offset+i), ds=ymd(d), items=itemsOn(ds);
+    var cls='cell'+(d.getMonth()!==m?' out':'')+(ds===todayStr?' today':'')+(ds===selected?' sel':'');
+    var pills=items.slice(0,3).map(function(b){
+      return '<span class="pill '+projOf(b.project).cls+(b.status==='Cancelled'?' x':'')+'">'+esc((b.startTime?b.startTime+' ':'')+b.title)+'</span>';
+    }).join('');
+    var more=items.length>3?'<span class="more">+'+(items.length-3)+' more</span>':'';
+    var dots=items.slice(0,6).map(function(b){return '<i class="'+projOf(b.project).cls+'"></i>'}).join('');
+    html+='<button type="button" class="'+cls+'" data-d="'+ds+'" aria-label="'+esc(label(ds)+', '+items.length+' bookings')+'"><span class="num">'+d.getDate()+'</span>'+pills+more+'<span class="dots">'+dots+'</span></button>';
+  }
+  $('grid').innerHTML=html;
+}
+function itemHtml(b,withDate,clash){
+  var p=projOf(b.project);
+  var meta=[];
+  if(withDate)meta.push(dateText(b));
+  meta.push(timeText(b));
+  if(b.place)meta.push(b.place);
+  if(b.who)meta.push(b.who);
+  var edit=canWrite===false?'':'<div class="row"><button class="btn" type="button" data-edit="'+esc(b.id)+'">Edit</button></div>';
+  return '<div class="item '+p.cls+(b.status==='Cancelled'?' cancelled':'')+'">'
+    +'<div class="t"><span class="tag">'+esc(p.code==='FP'?'Properties':p.code==='OFFICE'?'Office':p.code==='PURCH'?'Purchasing':p.code==='OTHER'?'Other':p.code)+'</span>'+esc(b.title)
+    +(b.status&&b.status!=='Confirmed'?'<span class="badge">'+esc(b.status)+'</span>':'')
+    +(clash?'<span class="badge">Times overlap</span>':'')+'</div>'
+    +'<div class="meta">'+esc(meta.join(' · '))+(b.kind?' · '+esc(b.kind):'')+'</div>'
+    +(b.notes?'<div class="meta">'+esc(b.notes)+'</div>':'')
+    +edit+'</div>';
+}
+function renderDay(){
+  $('dayTitle').textContent=label(selected)+(selected===todayStr?' (today)':'');
+  var items=itemsOn(selected), clash=clashSet(items);
+  if(!loaded){$('day').innerHTML='<div class="empty">Loading bookings…</div>';return}
+  if(!items.length){$('day').innerHTML='<div class="empty">Nothing booked for this day.'+(canWrite===false?'':' Use Add booking to put something in.')+'</div>';return}
+  $('day').innerHTML='<div style="display:flex;flex-direction:column;gap:8px">'+items.map(function(b){return itemHtml(b,false,clash[b.id])}).join('')+'</div>';
+}
+function renderUpcoming(){
+  if(!loaded){$('upcoming').innerHTML='<div class="empty">Loading bookings…</div>';return}
+  var end=new Date(); end.setDate(end.getDate()+28); var endStr=ymd(end);
+  var list=bookings.filter(function(b){return visible(b)&&endOf(b)>=todayStr&&b.start<=endStr&&b.status!=='Cancelled'})
+    .sort(function(a,b){var ak=a.start<todayStr?todayStr:a.start,bk=b.start<todayStr?todayStr:b.start;return ak.localeCompare(bk)||byTime(a,b)});
+  if(!list.length){
+    $('upcoming').innerHTML='<div class="empty">'+(bookings.length?'No bookings in the next four weeks.':'No bookings yet. Add the first one with Add booking.')+'</div>';
+    return;
+  }
+  $('upcoming').innerHTML='<div style="display:flex;flex-direction:column;gap:8px">'+list.map(function(b){
+    var d=b.start<todayStr?todayStr:b.start;
+    return '<div class="up"><div class="d">'+esc(label(d))+'</div><div>'+itemHtml(b,b.start!==endOf(b),false)+'</div></div>';
+  }).join('')+'</div>';
+}
+function render(){renderChips();renderGrid();renderDay();renderUpcoming();
+  $('addBtn').hidden=(canWrite===false);
+}
+
+function fill(sel,opts){sel.innerHTML=opts.map(function(o){return '<option value="'+esc(o.v)+'">'+esc(o.t)+'</option>'}).join('')}
+fill($('f-project'),PROJECTS.map(function(p){return {v:p.code,t:p.name}}));
+fill($('f-kind'),KINDS.map(function(k){return {v:k,t:k}}));
+
+function openEditor(id){
+  var b=null; editingId=id||null;
+  if(id)b=bookings.filter(function(x){return x.id===id})[0]||null;
+  $('editorTitle').textContent=b?'Edit booking':'Add booking';
+  $('f-title').value=b?b.title:'';
+  $('f-project').value=b?b.project:'FC2611';
+  $('f-kind').value=b&&b.kind?b.kind:'Site work';
+  $('f-start').value=b?b.start:selected;
+  $('f-end').value=b&&b.end&&b.end!==b.start?b.end:'';
+  $('f-stime').value=b?b.startTime||'':'';
+  $('f-etime').value=b?b.endTime||'':'';
+  $('f-place').value=b?b.place||'':'';
+  $('f-who').value=b?b.who||'':'';
+  $('f-status').value=b&&b.status?b.status:'Confirmed';
+  $('f-notes').value=b?b.notes||'':'';
+  $('msg').textContent='';
+  $('editorCard').hidden=false;
+  $('f-title').focus();
+  $('editorCard').scrollIntoView({block:'nearest'});
+}
+function closeEditor(){$('editorCard').hidden=true;editingId=null}
+
+$('addBtn').addEventListener('click',function(){openEditor(null)});
+$('closeBtn').addEventListener('click',closeEditor);
+$('todayBtn').addEventListener('click',function(){view=new Date();view.setDate(1);selected=todayStr;render()});
+$('prev').addEventListener('click',function(){view=new Date(view.getFullYear(),view.getMonth()-1,1);render()});
+$('next').addEventListener('click',function(){view=new Date(view.getFullYear(),view.getMonth()+1,1);render()});
+$('chips').addEventListener('click',function(e){
+  var b=e.target.closest('[data-code]'); if(!b)return;
+  filter[b.dataset.code]=(filter[b.dataset.code]===false); render();
+});
+$('grid').addEventListener('click',function(e){
+  var b=e.target.closest('[data-d]'); if(!b)return;
+  selected=b.dataset.d; var d=parse(selected);
+  if(d.getMonth()!==view.getMonth()||d.getFullYear()!==view.getFullYear())view=new Date(d.getFullYear(),d.getMonth(),1);
+  render();
+});
+document.addEventListener('click',function(e){
+  var b=e.target.closest('[data-edit]'); if(b)openEditor(b.dataset.edit);
+});
+(function(){var h=''; DOW.forEach(function(d){h+='<div class="dow">'+d+'</div>'}); $('dows').innerHTML=h})();
+
+$('form').addEventListener('submit',function(e){
+  e.preventDefault();
+  if(saving)return;
+  if(!col){$('msg').textContent='Saving is not available in this view. Open the calendar while signed in.';return}
+  var start=$('f-start').value, end=$('f-end').value, st=$('f-stime').value, et=$('f-etime').value;
+  var title=$('f-title').value.trim();
+  if(!title||!start){$('msg').textContent='Add what it is and the first date.';return}
+  if(end&&end<start){$('msg').textContent='The last date is before the first date.';return}
+  if(st&&et&&(!end||end===start)&&et<=st){$('msg').textContent='The end time is before the start time.';return}
+  var data={title:title,project:$('f-project').value,kind:$('f-kind').value,start:start,end:end||start,startTime:st,endTime:et,
+    place:$('f-place').value.trim(),who:$('f-who').value.trim(),status:$('f-status').value,notes:$('f-notes').value.trim(),updatedAt:new Date().toISOString()};
+  saving=true; $('saveBtn').disabled=true; $('msg').textContent='Saving…';
+  var p=editingId?col.doc(editingId).set(data):col.add(data);
+  p.then(function(){selected=start;var d=parse(start);view=new Date(d.getFullYear(),d.getMonth(),1);closeEditor();render()})
+   .catch(function(err){$('msg').textContent=(err&&err.code==='invalid_argument')?'You can see the calendar but not change it. Ask Minda for edit access.':'Could not save. Try again in a moment.'})
+   .then(function(){saving=false;$('saveBtn').disabled=false});
+});
+
+render();
+
+(async function init(){
+  var db=null,user=null;
+  try{ if(window.claude&&window.claude.use){ db=await window.claude.use('db'); user=await window.claude.use('user'); } }catch(e){}
+  if(user){ try{ canWrite=user.can('data.write'); }catch(e){} }
+  if(!db){ loaded=true; $('day').innerHTML='<div class="empty">Sign in to see the bookings.</div>'; $('upcoming').innerHTML='<div class="empty">Sign in to see the bookings.</div>'; $('addBtn').hidden=true; return; }
+  col=db.collection('bookings');
+  col.orderBy('start').onSnapshot(function(snap){
+    bookings=snap.docs.map(function(d){var o=d.data()||{};o.id=d.id;return o});
+    loaded=true; render();
+  },function(){ loaded=true; render(); });
+})();
+})();
+</script>

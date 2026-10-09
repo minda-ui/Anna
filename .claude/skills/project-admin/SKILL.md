@@ -49,6 +49,13 @@ Habits, every time:
 
 ## 1. Project email check (§0c)
 
+**Helpers (SC-31):** `python3 -I .claude/skills/project-admin/scripts/mail_since.py <UTC time, e.g. 2026-10-09T15:00>`
+lists new mail and the drafts in all four mailboxes (time | sender | subject | message id); `python3 -I
+.claude/skills/project-admin/scripts/read_msg.py <account> <message id> …` reads exact messages (quoted history cut,
+attachment names and **full** attachment ids; a shortened id fails). They only list and read. Judge each message by
+what it is about (step 3), read project ones one by one by id, and use the steps below for anything the helpers
+cannot do (threads, attachments).
+
 1. Native `search_threads` on info@: `after:<epoch of last check> -in:draft`.
 2. Composio `GMAIL_FETCH_EMAILS` on `anna-gmail-ops`, `anna-gmail-properties` and `anna-gmail-minda`
    (`query: "after:YYYY/MM/DD -in:draft"`) — read the stored file (habit 1). ops@ usually mirrors info@;
@@ -167,6 +174,10 @@ bar public sharing; the crew are not signed in; SC-26). A feature that needs Gma
 the url, `read` with `path: "index.html"`, edit the saved file by script, publish with `url`. The Skip status
 values (stage, exchange date, updated) are the page's `skip` object; set `exchangeDate` and `stage: 3` when
 Macdonald confirm by email.
+**Before publishing the crew page (SC-32):** save the script text and run `node --check` on it; keep the night numbering
+in sequence and the summary strip in step with the cards (v9, 09/10: 18 nights, 66 operative-nights, weekend
+nights as extra cards, with their own operatives count); no new capabilities. Publish with `url`, then give Minda
+the link and the version number.
 **New job page:** start from the template `templates/project-dashboard/` (copy of the FC2611 page with placeholders;
 Drive: `Templates/`, id `16lK2li7UvgRzL1_yW5qj1M79rdpjWaYr`). Its `README.md` has the steps.
 
@@ -180,15 +191,38 @@ LibreOffice cannot open them in this container. Convert through Drive, then fill
 3. Save as a new file next to the original (never overwrite it); read it back; Minda reviews and signs; file it per
    `file-attachments` §4.
 
+## 4c. Work Calendar (Artifact, private; SC-32)
+
+`Fishbone Work Calendar`, `https://claude.ai/artifact/1AidxMt7bMB7KYfFJxBTA1` (Minda's request, 08/10). Source in git:
+`templates/work-calendar/index.html`. Capabilities `db` and `user`; **private**, Minda shares it from the Share menu
+(Contributor to add bookings). Bookings are documents in the `bookings` collection: `title, project (FC2611, FC2612, FP,
+OFFICE, PURCH, OTHER), kind, start, end, startTime, endTime, place, who, status (Confirmed, To confirm, Cancelled), notes,
+updatedAt`.
+1. Add or change bookings with `ArtifactData` (`batch` for several). An existing document needs `if_version` from a
+   read; the result of every write shows the new version.
+2. **Never delete a booking** — set `status: "Cancelled"` (it stays, crossed out; charter: archive, don't delete).
+3. Put in only what the record or Minda says; mark unconfirmed items `To confirm` and say why in `notes`. Keep
+   internal planning (who is where) out of the crew page and out of emails.
+4. To change the page itself: edit the source file, publish with `url` (capabilities carry forward; don't pass them),
+   and read a few documents back as a view-level user after any rules change.
+5. Record each change in the ledger (rows 183, 184, 190 are the pattern).
+
 ## 5. Email drafts (never send — §5, §0e)
 
-0. **Every project email gets a reply draft (§0g)**, even one with only a file — to the **sender only**
-   (no reply-all or cc unless the email asks for it or Minda does). Say what arrived and what needs them.
+0. **Every project email gets a reply draft (§0g)**, even one with only a file — to the **sender only** by default.
+   **Reply-all** (the thread's To and Cc, minus our own address) when the email asks for it or Minda says so
+   ("respect the thread", "to all"): reply to the thread's latest message, and tell Minda who is on it and who was
+   left out, and when the client or other third parties are on the thread (SC-29). Say what arrived and what needs them.
 0a. **A thread id belongs to one mailbox** (SC-24). Make the draft in the mailbox that holds the message
    being answered: find it there first (`GMAIL_FETCH_EMAILS` on that account, or the native tools for info@) and use
    *that* mailbox's `thread_id`. A thread id from another mailbox makes a stray new-thread draft with no
    quoted email (07/10, minda@ with an ops@ id). Accounts: native = info@; `anna-gmail`, `anna-gmail-ops`,
    `anna-gmail-properties`, `anna-gmail-minda`.
+0b. **Check before drafting (SC-30).** Add up any sum Minda gives (wall layers: 12.5 + 18 + 92 + 18 + 12.5 is 153, not
+   156). Give every date its weekday ("Monday 13th" was a Tuesday). Check each claim against the source email or
+   the record; a claim with no source is worded "we understand" or left out, and flagged to Minda in one line
+   ("tiles at the beginning of next week" was in no email). Never put a figure in a draft that Minda has not given
+   or the record does not show.
 1. `GMAIL_CREATE_EMAIL_DRAFT` (on the account from 0a): `thread_id`, `recipient_email`, `cc` only if Minda wants
    it, `body` plain text, attachment via `--file` (the file name is what the recipient sees). Several files:
    `"attachment": ["/abs/a.pdf", "/abs/b.pdf"]` in the `-d @file.json` payload (under 25 MB in total).
@@ -200,6 +234,10 @@ LibreOffice cannot open them in this container. Convert through Drive, then fill
    being answered (native `get_draft`). Report both ids. Anna can delete only in info@ (native): in any other
    mailbox a stray or replaced draft stays, so name its id and ask Minda to discard it.
 4. Minda sends. Then check the thread (`get_thread`): sent time, recipients, size ≈ attachment present.
+5. **Compare what was sent with the draft (SC-30).** Read the sent message (`get_message`, `PLAIN_TEXT`). Minda often
+   edits a draft in Gmail before sending (09/10: the wall thickness went out as 143 mm where the draft said 153). If a
+   number, date or name differs, say so in one line to Minda, ask which is right, and fix the record — the ledger
+   row describes what was **sent**, not what was drafted.
 
 ## 6. Registers
 
@@ -239,7 +277,12 @@ LibreOffice cannot open them in this container. Convert through Drive, then fill
    `skill-candidates.md` (Anna home) as it happens; at the end of the day propose new skill / update a
    skill (add, correct or remove a step) / rule / drop, and write only what Minda approves. A skill always
    shows the current way — when a step changes, rewrite it; git keeps the old wording.
-4. Git (`minda-ui/Anna`, branch as assigned): if the last PR is merged, `git checkout -B <branch>
-   origin/main`; copy the **verified** downloads over the repo files (check names — no `v_` prefixes);
-   commit with the attribution lines; push; open a PR; after Minda merges, `git show origin/main:<file> |
-   cmp -` against Drive.
+4. Git (`minda-ui/Anna`, branch as assigned). When Minda says a PR is merged (SC-28):
+   1. `git fetch origin main`; check the PR's merge commit is in `git log origin/main` and that
+      `git diff --stat origin/main..HEAD` shows nothing you still need.
+   2. Diff empty → `git checkout -B <branch> origin/main`. Not empty → merge `main` into the branch (no history
+      rewrite) and open a new record-only PR for the rest.
+   3. **Never force-push a branch that has an open PR** (08/10: a reset closed PR #50 as empty; the commits came
+      back from the reflog).
+   4. Copy the **verified** downloads over the repo files (check names — no `v_` prefixes); commit with the
+      attribution lines; push; open a PR; after Minda merges, `git show origin/main:<file> | cmp -` against Drive.

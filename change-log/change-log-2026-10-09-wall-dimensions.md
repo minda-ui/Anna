@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 09/10 late — FC2603
+- Minda: FC2603 stays with Rolex Guernsey. Rachel asked to give 131 Goathland Avenue another QuickBooks number (AWT-0500). Ledger row 221.
+
 ## 09/10 late — Raw check, register merge
 - SC02 completes the Breitling set: DR-0002 and DR-0017 superseded and archived, DWG registered DR-0019; Anna's duplicate copies archived (DR-0020). Project Register: Rachel's corrections, FC2601–07 added, Company column for estate-wide use. A parallel session had overwritten the Drive record; merged (its row is now 217). Ledger rows 218–220.
 

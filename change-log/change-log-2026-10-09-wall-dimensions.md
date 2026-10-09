@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 09/10 — PO request sent
+- Minda sent the FC2611 PO request at 21:42Z from ops@ (Ian Newcombe, cc David Macdonald and Andrew), unchanged from the draft. Awaiting the PO; chase about 14 Oct. Ledger row 215.
+
 ## 09/10 — FC2611 PO check, request drafted
 - No PO for the Bullring (quote FC0000046, GBP 40,470.00 excl VAT; accepted 25/09, 'PO to follow'). All four mailboxes and Documents searched: none. Reply draft in ops@ to Ian Newcombe (cc David Macdonald, Andrew) asks for it; not sent. Weekend change since the 25/09 quote flagged. Ledger row 214.
 

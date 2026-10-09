@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 09/10 — Tiles reply sent
+- Minda sent the reply-all at 19:00Z (message `1a12209ab934766b`); recipients as drafted. Awaiting Michelle and Ian M's arrival time. Ledger row 211.
+
 ## 09/10 — Tiles on Tuesday: reply draft, calendar
 - Minda accepted Tuesday evening 13 Oct for the Breitling tiles. Reply-all draft to Michelle's 'Tiles' email (not sent): asks Ian M's arrival time and offers 19.00 because Antone arrive at 20.00. Friday-evening paragraph dropped at Minda's request. Calendar: tiles delivery (To confirm) and Antone fixtures (Confirmed) on 13 Oct. Ledger row 210.
 

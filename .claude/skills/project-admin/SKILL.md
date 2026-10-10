@@ -151,7 +151,7 @@ date and time (Tuesday 13 Oct evening), who supplies the stainless trim.
 
 ## 4. RAMS
 
-- **New:** from the master template (Google Doc `1g6-i-0mJlfL58njo2GutnzzueicwENAaiKOJtmLsGPo`);
+- **New:** from the master template **v2** (`.docx`, Drive `1S_4lh2JVik5R6PTjg1CmX2V0VKppOlV8`, 10/10/2026: header table has a **Director sign-off** row and a **revision / re-brief** row, procedure PM-6.1). The older Google Doc master (`1g6-i-0mJlfL58njo2GutnzzueicwENAaiKOJtmLsGPo`) has no sign-off block: do not use it for a new RAMS. **PM-6.1 (Minda, 10/10): the Director signs every RAMS before work starts, and signs a new revision whenever hours, scope or conditions change; do not issue a RAMS to site or the client unsigned.** Edit the header rows with python-docx on a copy (never raw XML);
   company name is **Fishbone Construction Ltd**. Author as clean HTML → Google Doc, or python-docx from a
   known-good .docx. Ground every site rule in the permit / induction pack / SDS; unknowns marked, not
   invented. Asbestos, structure, fire → §3 flags.

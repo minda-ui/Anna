@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 10/10 afternoon — Procedure v1.0 approved; RAMS template v2; CDM cross-check
+- Minda approved the level-1 procedure v1.0 and PM-6.1 (Director signs every RAMS). Anna built the RAMS template v2 with the Director sign-off block, updated `project-admin` §4, and cross-checked PM-6.11 to 6.14 against the CDM Regulations text for the competent person (not a competent person's check). Ledger rows 234-235.
+
 ## 10/10 midday — Raw and Hub check; FC2613, procedure section 6, close-out test drafts
 - Minda's decisions via Victoria (template approved, Sarah's charter and powers, FC2613). Anna: FC2613 row in the Project Register; section 6 note and CDM wording for the level-1 procedure (marked for a competent person); FC2609 and FC2608 close-out drafts saved in Documents/, FC2608 folder created; FC2608 found to be a three-week job. Hub AWT-0517 updated. Ledger rows 232-233, SC-39 Open.
 

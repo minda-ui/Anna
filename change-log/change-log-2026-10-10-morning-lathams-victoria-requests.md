@@ -2,6 +2,9 @@
 
 Newest notes at the top. Append-only.
 
+## 10/10 — Top of the loop confirmed
+- Minda confirmed she is the top of the system and approves procedures and changes; the Compliance Officer reports to her. Hub AWT-0512 and an addendum note to Victoria updated. Ledger row 231.
+
 ## 10/10 — Requests to Victoria
 - Minda asked for the close-out report to be adapted for Fishbone (run over old jobs, lessons learnt saved) and for a three-level project management procedure with a Compliance Officer agent. Note in Victoria's Raw, Hub AWT-0511 and AWT-0512; proposals only. Ledger row 230.
 
